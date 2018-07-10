@@ -365,10 +365,8 @@ function radar_visualization(config) {
 
     // blip link
     if (config.print_layout && d.active && d.hasOwnProperty("link")) {
-      console.log(5 + 6);
       blip = blip.append("a")
         .attr("xlink:href", d.link);
-        console.log(5 + 5);
     }
 
     // blip shape
