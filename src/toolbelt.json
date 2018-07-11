@@ -309,7 +309,7 @@
         {
             "quadrant": 1,
             "ring": 3,
-            "label": "Homebrew installer tech (ESS + PRQ)",
+            "label": "Homebrew installer tech",
             "active": true,
             "link": "http://www.google.com",
             "moved": 0

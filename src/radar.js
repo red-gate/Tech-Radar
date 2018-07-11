@@ -261,7 +261,9 @@ function radar_visualization(config) {
       .attr("transform", translate(title_offset.x, title_offset.y))
       .text(config.title)
       .style("font-family", "Arial, Helvetica")
-      .style("font-size", "34");
+      .style("font-weight", "700")
+      .style("text-decoration", "underline")
+      .style("font-size", "40");
 
     // footer
     radar.append("text")
@@ -280,6 +282,7 @@ function radar_visualization(config) {
         ))
         .text(config.quadrants[quadrant].name)
         .style("font-family", "Arial, Helvetica")
+        .style("font-weight", "700")
         .style("font-size", "18");
       for (var ring = 0; ring < 4; ring++) {
         legend.append("text")
@@ -287,6 +290,7 @@ function radar_visualization(config) {
           .text(config.rings[ring].name)
           .style("font-family", "Arial, Helvetica")
           .style("font-size", "12")
+          .style("text-decoration", "underline")
           .style("font-weight", "bold");
         legend.selectAll(".legend" + quadrant + ring)
           .data(segmented[quadrant][ring])
