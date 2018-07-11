@@ -7,7 +7,7 @@
       "grid": "#000",
       "inactive": "#ddd"
     },
-    "title": "Name of team",
+    "title": "Spiders",
     "quadrants": [
       { "name": "Languages" },
       { "name": "Libraries" },

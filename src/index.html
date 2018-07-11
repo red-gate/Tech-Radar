@@ -2,7 +2,7 @@
 
 <head>
   <meta http-equiv="Content-type" content="text/html; charset=utf-8">
-  <title>Toolbelt</title>
+  <title>Tech Radar</title>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://d3js.org/d3.v4.min.js"></script>
   <script src="radar.js"></script>
@@ -17,13 +17,13 @@
   <button onClick="set('toolbelt.json')">Toolbelt</button>
   <button onClick="set('HighRollers.json')">HighRollers</button>
   <button onClick="set('Prompt.json')">Prompt</button>
-  <button onClick="set('DataMarketing.json')">DataMarketing</button>
+  <button onClick="set('DataMasking.json')">DataMasking</button>
   <button onClick="set('Hammerheads.json')">Hammerheads</button>
   <button onClick="set('ICloneables.json')">ICloneables</button>
   <button onClick="set('Spiders.json')">Spiders</button>
   <button onClick="set('SQLCrackers.json')">SQLCrackers</button>
   <button onClick="set('TeamUP.json')">TeamUP</button>
-  <button onClick="reset()">Reset</button>
+  <button onClick="reset()">Clear</button>
 
   <script>
     function reset() {
@@ -71,10 +71,10 @@
           });
 
         });
-      } else if (choose == 'DataMarketing.json') {
+      } else if (choose == 'DataMasking.json') {
         $(document).ready(function () {
 
-          $.getJSON("DataMarketing.json", function (json) {
+          $.getJSON("DataMasking.json", function (json) {
 
             console.log(JSON.stringify(json));
 
