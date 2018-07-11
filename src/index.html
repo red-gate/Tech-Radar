@@ -6,14 +6,11 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://d3js.org/d3.v4.min.js"></script>
   <script src="radar.js"></script>
-
   <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-
   <svg id="radar"></svg>
-
   <button onClick="set('toolbelt.json')">Toolbelt</button>
   <button onClick="set('HighRollers.json')">HighRollers</button>
   <button onClick="set('Prompt.json')">Prompt</button>
@@ -26,133 +23,24 @@
   <button onClick="set('clear.json')">Clear</button>
 
   <script>
+    $(document).ready(function () {
+      set('clear.json');
+    });
+
     function reset() {
       var Element = document.getElementById("radar");
       while (Element.hasChildNodes()) {
         Element.removeChild(Element.lastChild);
       }
-
     }
 
     function set(choose) {
       reset()
-
-      if (choose == 'toolbelt.json') {
-
-        $(document).ready(function () {
-
-          $.getJSON("toolbelt.json", function (json) {
-
-            console.log(JSON.stringify(json));
-
-            radar_visualization(json);
-          });
-
-        });
-      } else if (choose == 'HighRollers.json') {
-        $(document).ready(function () {
-
-          $.getJSON("HighRollers.json", function (json) {
-
-            console.log(JSON.stringify(json));
-
-            radar_visualization(json);
-          });
-
-        });
-      } else if (choose == 'Prompt.json') {
-        $(document).ready(function () {
-
-          $.getJSON("Prompt.json", function (json) {
-
-            console.log(JSON.stringify(json));
-
-            radar_visualization(json);
-          });
-
-        });
-      } else if (choose == 'DataMasking.json') {
-        $(document).ready(function () {
-
-          $.getJSON("DataMasking.json", function (json) {
-
-            console.log(JSON.stringify(json));
-
-            radar_visualization(json);
-          });
-
-        });
-      } else if (choose == 'Hammerheads.json') {
-        $(document).ready(function () {
-
-          $.getJSON("Hammerheads.json", function (json) {
-
-            console.log(JSON.stringify(json));
-
-            radar_visualization(json);
-          });
-
-        });
-      } else if (choose == 'ICloneables.json') {
-        $(document).ready(function () {
-
-          $.getJSON("ICloneables.json", function (json) {
-
-            console.log(JSON.stringify(json));
-
-            radar_visualization(json);
-          });
-
-        });
-      } else if (choose == 'Spiders.json') {
-        $(document).ready(function () {
-
-          $.getJSON("Spiders.json", function (json) {
-
-            console.log(JSON.stringify(json));
-
-            radar_visualization(json);
-          });
-
-        });
-      } else if (choose == 'SQLCrackers.json') {
-        $(document).ready(function () {
-
-          $.getJSON("SQLCrackers.json", function (json) {
-
-            console.log(JSON.stringify(json));
-
-            radar_visualization(json);
-          });
-
-        });
-      } else if (choose == 'TeamUP.json') {
-        $(document).ready(function () {
-
-          $.getJSON("TeamUP.json", function (json) {
-
-            console.log(JSON.stringify(json));
-
-            radar_visualization(json);
-          });
-
-        });
-      } else if (choose == 'clear.json') {
-        $(document).ready(function () {
-
-          $.getJSON("clear.json", function (json) {
-
-            console.log(JSON.stringify(json));
-
-            radar_visualization(json);
-          });
-
-        });
-      }
+      $.getJSON(choose, function (json) {
+        radar_visualization(json);
+      });
     }
   </script>
-
-
 </body>
 
 </html>

@@ -122,19 +122,19 @@ function radar_visualization(config) {
       y: rings[3].radius * quadrants[quadrant].factor_y
     };
     return {
-      clipx: function (d) {
+      clipx: function(d) {
         var c = bounded_box(d, cartesian_min, cartesian_max);
         var p = bounded_ring(polar(c), polar_min.r + 15, polar_max.r - 15);
         d.x = cartesian(p).x; // adjust data too!
         return d.x;
       },
-      clipy: function (d) {
+      clipy: function(d) {
         var c = bounded_box(d, cartesian_min, cartesian_max);
         var p = bounded_ring(polar(c), polar_min.r + 15, polar_max.r - 15);
         d.y = cartesian(p).y; // adjust data too!
         return d.y;
       },
-      random: function () {
+      random: function() {
         return cartesian({
           t: random_between(polar_min.t, polar_max.t),
           r: normal_between(polar_min.r, polar_max.r)
@@ -162,18 +162,18 @@ function radar_visualization(config) {
       segmented[quadrant][ring] = [];
     }
   }
-  for (var i = 0; i < config.entries.length; i++) {
+  for (var i=0; i<config.entries.length; i++) {
     var entry = config.entries[i];
     segmented[entry.quadrant][entry.ring].push(entry);
   }
 
   // assign unique sequential id to each entry
   var id = 1;
-  for (var quadrant of [2, 3, 1, 0]) {
+  for (var quadrant of [2,3,1,0]) {
     for (var ring = 0; ring < 4; ring++) {
       var entries = segmented[quadrant][ring];
-      entries.sort(function (a, b) { return a.label.localeCompare(b.label); })
-      for (var i = 0; i < entries.length; i++) {
+      entries.sort(function(a,b) { return a.label.localeCompare(b.label); })
+      for (var i=0; i<entries.length; i++) {
         entries[i].id = "" + id++;
       }
     }
@@ -241,11 +241,11 @@ function radar_visualization(config) {
     }
   }
 
-  function legend_transform(quadrant, ring, index = null) {
+  function legend_transform(quadrant, ring, index=null) {
     var dx = ring < 2 ? 0 : 120;
     var dy = (index == null ? -16 : index * 12);
     if (ring % 2 == 1) {
-      dy = dy + 36 + segmented[quadrant][ring - 1].length * 12;
+      dy = dy + 36 + segmented[quadrant][ring-1].length * 12;
     }
     return translate(
       legend_offset[quadrant].x + dx,
@@ -260,11 +260,7 @@ function radar_visualization(config) {
     radar.append("text")
       .attr("transform", translate(title_offset.x, title_offset.y))
       .text(config.title)
-      .style("font-family", "Arial, Helvetica")
-      .style("font-weight", "700")
-      .style("text-decoration", "underline")
-      .style("font-size", "40");
-
+      .attr("class", "Title")
     // footer
     radar.append("text")
       .attr("transform", translate(footer_offset.x, footer_offset.y))
@@ -281,26 +277,20 @@ function radar_visualization(config) {
           legend_offset[quadrant].y - 45
         ))
         .text(config.quadrants[quadrant].name)
-        .style("font-family", "Arial, Helvetica")
-        .style("font-weight", "700")
-        .style("font-size", "18");
+        .attr("class","QName")
       for (var ring = 0; ring < 4; ring++) {
         legend.append("text")
           .attr("transform", legend_transform(quadrant, ring))
           .text(config.rings[ring].name)
-          .style("font-family", "Arial, Helvetica")
-          .style("font-size", "12")
-          .style("text-decoration", "underline")
-          .style("font-weight", "bold");
+          .attr("class", "RName")
         legend.selectAll(".legend" + quadrant + ring)
           .data(segmented[quadrant][ring])
           .enter()
-          .append("text")
-          .attr("class", "legend" + quadrant + ring)
-          .attr("transform", function (d, i) { return legend_transform(quadrant, ring, i); })
-          .text(function (d, i) { return d.id + ". " + d.label; })
-          .style("font-family", "Arial, Helvetica")
-          .style("font-size", "11");
+            .append("text")
+              .attr("class", "legend" + quadrant + ring)
+              .attr("transform", function(d, i) { return legend_transform(quadrant, ring, i); })
+              .text(function(d, i) { return d.id + ". " + d.label; })
+              .attr("class", "LText")
       }
     }
   }
@@ -349,7 +339,7 @@ function radar_visualization(config) {
 
   function hideBubble(d) {
     var bubble = d3.select("#bubble")
-      .attr("transform", translate(0, 0))
+      .attr("transform", translate(0,0))
       .style("opacity", 0);
   }
 
@@ -357,13 +347,13 @@ function radar_visualization(config) {
   var blips = rink.selectAll(".blip")
     .data(config.entries)
     .enter()
-    .append("g")
-    .attr("class", "blip")
-    .on("mouseover", showBubble)
-    .on("mouseout", hideBubble);
+      .append("g")
+        .attr("class", "blip")
+        .on("mouseover", showBubble)
+        .on("mouseout", hideBubble);
 
   // configure each blip
-  blips.each(function (d) {
+  blips.each(function(d) {
     var blip = d3.select(this);
 
     // blip link
@@ -394,17 +384,14 @@ function radar_visualization(config) {
         .text(blip_text)
         .attr("y", 3)
         .attr("text-anchor", "middle")
-        .style("fill", "#fff")
-        .style("font-family", "Arial, Helvetica")
-        .style("font-size", function (d) { return blip_text.length > 2 ? "8" : "9"; })
-        .style("pointer-events", "none")
-        .style("user-select", "none");
+        .attr("class", "BText")
+        .style("font-size", function(d) { return blip_text.length > 2 ? "8" : "9"; })
     }
   });
 
   // make sure that blips stay inside their segment
   function ticked() {
-    blips.attr("transform", function (d) {
+    blips.attr("transform", function(d) {
       return translate(d.segment.clipx(d), d.segment.clipy(d));
     })
   }
