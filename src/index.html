@@ -23,7 +23,7 @@
   <button onClick="set('Spiders.json')">Spiders</button>
   <button onClick="set('SQLCrackers.json')">SQLCrackers</button>
   <button onClick="set('TeamUP.json')">TeamUP</button>
-  <button onClick="reset()">Clear</button>
+  <button onClick="set('clear.json')">Clear</button>
 
   <script>
     function reset() {
@@ -130,6 +130,17 @@
         $(document).ready(function () {
 
           $.getJSON("TeamUP.json", function (json) {
+
+            console.log(JSON.stringify(json));
+
+            radar_visualization(json);
+          });
+
+        });
+      } else if (choose == 'clear.json') {
+        $(document).ready(function () {
+
+          $.getJSON("clear.json", function (json) {
 
             console.log(JSON.stringify(json));
 
