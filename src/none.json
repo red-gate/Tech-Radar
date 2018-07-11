@@ -1,0 +1,27 @@
+{
+    "svg_id": "radar",
+    "width": 1890,
+    "height": 907,
+    "colors": {
+      "background": "#fff",
+      "grid": "#000",
+      "inactive": "#ddd"
+    },
+    "title": "Name of team",
+    "quadrants": [
+      { "name": "Languages" },
+      { "name": "Libraries" },
+      { "name": "Infrastructure" },
+      { "name": "Practices" }
+    ],
+    "rings": [
+      { "name": "ADOPT", "color": "#93c47d" },
+      { "name": "TRIAL", "color": "#93d2c2" },
+      { "name": "ASSESS", "color": "#fbdb84" },
+      { "name": "HOLD", "color": "#efafa9" }
+    ],
+    "print_layout": true,
+    "entries": [
+
+    ]
+  }
