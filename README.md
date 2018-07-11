@@ -1,21 +1,9 @@
-# Motivation
-
-At [Zalando](http://zalando.de), we maintain a [public Tech
-Radar](http://zalando.github.io/tech-radar/) to help our engineering teams
-align on technology choices. Is is based on the [pioneering work
-by ThoughtWorks](https://www.thoughtworks.com/radar).
-
-This repository contains the code to generate the visualization:
-[`radar.js`](/docs/radar.js) (based on [d3.js v4](https://d3js.org)).
-Feel free to use and adapt it for your own purposes.
-
 ## Usage
 
 1. include `d3.js` and `radar.js`:
 
 ```html
 <script src="https://d3js.org/d3.v4.min.js"></script>
-<script src="http://zalando.github.io/tech-radar/release/radar-0.5.js"></script>
 ```
 
 2. insert an empty `svg` tag:
@@ -65,9 +53,6 @@ radar_visualization({
 ```
 
 Entries are positioned automatically so that they don't overlap.
-
-As a working example, you can check out `docs/index.html` &mdash; the source of our [public Tech
-Radar](http://zalando.github.io/tech-radar/).
 
 ## License
 
