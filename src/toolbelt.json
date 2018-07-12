@@ -47,7 +47,7 @@
             "ring": 0,
             "label": "C#",
             "active": true,
-            "link": "http://www.google.com",
+            "link": "https://docs.microsoft.com/en-us/dotnet/csharp/",
             "moved": 0
         },
         {
@@ -55,7 +55,7 @@
             "ring": 0,
             "label": "Power Shell",
             "active": true,
-            "link": "http://www.google.com",
+            "link": "https://docs.microsoft.com/en-us/powershell/",
             "moved": 0
         },
         {
@@ -63,7 +63,7 @@
             "ring": 0,
             "label": "WPF",
             "active": true,
-            "link": "http://www.google.com",
+            "link": "https://docs.microsoft.com/en-us/dotnet/framework/wpf/",
             "moved": 1
         },
         {
@@ -71,7 +71,7 @@
             "ring": 0,
             "label": "Winforms",
             "active": true,
-            "link": "http://www.google.com",
+            "link": "https://docs.microsoft.com/en-us/dotnet/framework/winforms/",
             "moved": -1
         },
         {
@@ -79,7 +79,7 @@
             "ring": 0,
             "label": "C++",
             "active": true,
-            "link": "http://www.google.com",
+            "link": "http://www.cplusplus.com/",
             "moved": -1
         },
         {
@@ -87,7 +87,7 @@
             "ring": 0,
             "label": "Dephi",
             "active": true,
-            "link": "http://www.google.com",
+            "link": "https://www.delphi.com/",
             "moved": -1
         },
         {
@@ -95,7 +95,7 @@
             "ring": 0,
             "label": "Javascript",
             "active": true,
-            "link": "http://www.google.com",
+            "link": "hhttps://www.javascript.com/",
             "moved": -1
         },
         {
@@ -103,7 +103,7 @@
             "ring": 0,
             "label": "Java",
             "active": true,
-            "link": "http://www.google.com",
+            "link": "https://en.wikipedia.org/wiki/Java_(disambiguation)",
             "moved": 0
         },
         {
