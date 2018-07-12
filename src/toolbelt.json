@@ -111,7 +111,7 @@
             "ring": 0,
             "label": "Python",
             "active": true,
-            "link": "http://www.google.com",
+            "link": "https://www.python.org/",
             "moved": -1
         },
         {
@@ -119,7 +119,7 @@
             "ring": 0,
             "label": "Antlr",
             "active": true,
-            "link": "http://www.google.com",
+            "link": "http://www.antlr.org/",
             "moved": 0
         },
         {
@@ -143,7 +143,7 @@
             "ring": 0,
             "label": "CEF",
             "active": true,
-            "link": "http://www.google.com",
+            "link": "https://en.wikipedia.org/wiki/Chromium_Embedded_Framework",
             "moved": -1
         },
         {
@@ -151,7 +151,7 @@
             "ring": 0,
             "label": "DevExpress",
             "active": true,
-            "link": "http://www.google.com",
+            "link": "https://www.devexpress.com/",
             "moved": 0
         },
         {
@@ -159,15 +159,15 @@
             "ring": 0,
             "label": "Iron Python",
             "active": true,
-            "link": "http://www.google.com",
+            "link": "http://ironpython.net/",
             "moved": 0
         },
         {
             "quadrant": 1,
             "ring": 0,
-            "label": "Mah Apps Metro",
+            "label": "MahApps Metro",
             "active": true,
-            "link": "http://www.google.com",
+            "link": "https://mahapps.com/",
             "moved": -1
         },
         {
@@ -175,7 +175,7 @@
             "ring": 0,
             "label": "DotNet Zip",
             "active": true,
-            "link": "http://www.google.com",
+            "link": "https://archive.codeplex.com/?p=dotnetzip",
             "moved": 0
         },
         {
@@ -183,7 +183,7 @@
             "ring": 0,
             "label": "Ninject",
             "active": true,
-            "link": "http://www.google.com",
+            "link": "http://www.ninject.org/",
             "moved": 0
         },
         {
@@ -199,7 +199,7 @@
             "ring": 0,
             "label": "Wix3",
             "active": true,
-            "link": "http://www.google.com",
+            "link": "http://wixtoolset.org/",
             "moved": 0
         },
         {
@@ -215,7 +215,7 @@
             "ring": 0,
             "label": "Rhino Mocks",
             "active": true,
-            "link": "http://www.google.com",
+            "link": "https://hibernatingrhinos.com/oss/rhino-mocks",
             "moved": -1
         },
         {
@@ -223,7 +223,7 @@
             "ring": 0,
             "label": "JetBrains Annotations",
             "active": true,
-            "link": "http://www.google.com",
+            "link": "https://www.nuget.org/packages/JetBrains.Annotations",
             "moved": 0
         },
         {
@@ -231,7 +231,7 @@
             "ring": 0,
             "label": "Json.net",
             "active": true,
-            "link": "http://www.google.com",
+            "link": "https://www.newtonsoft.com/json",
             "moved": 0
         },
         {
@@ -239,7 +239,7 @@
             "ring": 0,
             "label": "WPF Toolkit",
             "active": true,
-            "link": "http://www.google.com",
+            "link": "https://www.nuget.org/packages/WPFToolkit/",
             "moved": 0
         },
         {
@@ -255,7 +255,7 @@
             "ring": 0,
             "label": "Entity Framework",
             "active": true,
-            "link": "http://www.google.com",
+            "link": "https://msdn.microsoft.com/en-us/library/aa937723(v=vs.113).aspx",
             "moved": 0
         },
         {
@@ -263,7 +263,7 @@
             "ring": 0,
             "label": "Log4Net",
             "active": true,
-            "link": "http://www.google.com",
+            "link": "https://www.nuget.org/packages/log4net/",
             "moved": 0
         },
         {
@@ -271,7 +271,7 @@
             "ring": 0,
             "label": "Nunit",
             "active": true,
-            "link": "http://www.google.com",
+            "link": "http://nunit.org/",
             "moved": 0
         },
         {
@@ -279,7 +279,7 @@
             "ring": 0,
             "label": "Fody",
             "active": true,
-            "link": "http://www.google.com",
+            "link": "https://github.com/Fody",
             "moved": -1
         },
         {
@@ -295,7 +295,7 @@
             "ring": 2,
             "label": "nSubstitute",
             "active": true,
-            "link": "http://www.google.com",
+            "link": "http://nsubstitute.github.io/",
             "moved": 0
         },
         {
@@ -303,7 +303,7 @@
             "ring": 2,
             "label": "Raygun",
             "active": true,
-            "link": "http://www.google.com",
+            "link": "https://raygun.com/?gclid=EAIaIQobChMI-KqFqsaZ3AIVk5EbCh0s6QpCEAAYASAAEgINLPD_BwE",
             "moved": 0
         },
         {
@@ -311,7 +311,7 @@
             "ring": 3,
             "label": "Homebrew installer tech",
             "active": true,
-            "link": "http://www.google.com",
+            "link": "https://brew.sh/",
             "moved": 0
         },
         {
@@ -343,7 +343,7 @@
             "ring": 0,
             "label": "Vagrant Virtual box",
             "active": true,
-            "link": "http://www.google.com",
+            "link": "https://www.vagrantup.com/docs/virtualbox/",
             "moved": 0
         },
         {
@@ -351,7 +351,7 @@
             "ring": 0,
             "label": "Virtual Machines",
             "active": true,
-            "link": "http://www.google.com",
+            "link": "https://en.wikipedia.org/wiki/Virtual_machine",
             "moved": 0
         },
         {
@@ -359,7 +359,7 @@
             "ring": 0,
             "label": "Smart assembly",
             "active": true,
-            "link": "http://www.google.com",
+            "link": "https://www.red-gate.com/products/dotnet-development/smartassembly/?gclid=EAIaIQobChMIgtuY58eZ3AIVhLsbCh0kZQlUEAAYASAAEgI81_D_BwE",
             "moved": 0
         },
         {
@@ -383,7 +383,7 @@
             "ring": 0,
             "label": "Amazon s3 storage",
             "active": true,
-            "link": "http://www.google.com",
+            "link": "https://aws.amazon.com/free/storage/?sc_channel=PS&sc_campaign=acquisition_UK&sc_publisher=google&sc_medium=s3_b&sc_content=s3_p&sc_detail=amazons3&sc_category=s3&sc_segment=278679876603&sc_matchtype=p&sc_country=UK&s_kwcid=AL!4422!3!278679876603!p!!g!!amazons3&ef_id=W0Mh8wAAAG8ftgu9:20180712122949:s",
             "moved": 0
         },
         {
@@ -391,7 +391,7 @@
             "ring": 0,
             "label": "Azure test dbs",
             "active": true,
-            "link": "http://www.google.com",
+            "link": "https://azure.microsoft.com/en-gb/services/sql-database/",
             "moved": 0
         },
         {
@@ -416,7 +416,7 @@
             "ring": 1,
             "label": "App insights",
             "active": true,
-            "link": "http://www.google.com",
+            "link": "https://azure.microsoft.com/en-gb/services/application-insights/?&OCID=AID719823_SEM_Xu6hAPkA&dclid=CKCCi9zImdwCFSikUQodp9gFxQ",
             "moved": 0
         },
         {
@@ -424,7 +424,7 @@
             "ring": 1,
             "label": "Azure blob storage",
             "active": true,
-            "link": "http://www.google.com",
+            "link": "https://azure.microsoft.com/en-gb/services/storage/blobs/?&OCID=AID719823_SEM_HHuc1kW5&dclid=CMWP9I3JmdwCFRJj0wodIXAGuw",
             "moved": 0
         },
 
@@ -473,7 +473,7 @@
             "ring": 0,
             "label": "Kanban",
             "active": true,
-            "link": "http://www.google.com",
+            "link": "https://en.wikipedia.org/wiki/Kanban_board",
             "moved": 0
         },
         {
@@ -481,7 +481,7 @@
             "ring": 0,
             "label": "Planning",
             "active": true,
-            "link": "http://www.google.com",
+            "link": "https://en.wikipedia.org/wiki/Planning",
             "moved": 0
         },
         {
@@ -489,7 +489,7 @@
             "ring": 0,
             "label": "OKR's",
             "active": true,
-            "link": "http://www.google.com",
+            "link": "https://en.wikipedia.org/wiki/OKR",
             "moved": 0
         },
         {
@@ -521,7 +521,7 @@
             "ring": 0,
             "label": "Standups",
             "active": true,
-            "link": "http://www.google.com",
+            "link": "https://en.wikipedia.org/wiki/Stand-up_meeting",
             "moved": 0
         },
         {
@@ -537,7 +537,7 @@
             "ring": 0,
             "label": "Domain investigation",
             "active": true,
-            "link": "http://www.google.com",
+            "link": "hhttps://en.wikipedia.org/wiki/Domain_analysis",
             "moved": 0
         },
         {
@@ -561,7 +561,7 @@
             "ring": 0,
             "label": "Retro",
             "active": true,
-            "link": "http://www.google.com",
+            "link": "https://en.wikipedia.org/wiki/Retrospective",
             "moved": 0
         },
         {
@@ -577,7 +577,7 @@
             "ring": 0,
             "label": "Sonar code quality",
             "active": true,
-            "link": "http://www.google.com",
+            "link": "https://en.wikipedia.org/wiki/SonarQube",
             "moved": 0
         },
 
