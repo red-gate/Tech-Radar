@@ -25,6 +25,7 @@ body {
   .LText{
     font-family: Arial, Helvetica;
     font-size: 11;
+    cursor: pointer;
   }
   .RName{
     font-family: Arial, Helvetica;
