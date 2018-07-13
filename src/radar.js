@@ -211,12 +211,12 @@ function radar_visualization(config) {
     .attr("x1", 0).attr("y1", -400)
     .attr("x2", 0).attr("y2", 400)
     .style("stroke", config.colors.grid)
-    .style("stroke-width", 1);
+    .style("stroke-width", 2.5);
   grid.append("line")
     .attr("x1", -400).attr("y1", 0)
     .attr("x2", 400).attr("y2", 0)
     .style("stroke", config.colors.grid)
-    .style("stroke-width", 1);
+    .style("stroke-width", 2.5);
 
   // draw rings
   for (var i = 0; i < rings.length; i++) {
@@ -226,7 +226,7 @@ function radar_visualization(config) {
       .attr("r", rings[i].radius)
       .style("fill", "none")
       .style("stroke", config.colors.grid)
-      .style("stroke-width", 1);
+      .style("stroke-width", 2.5);
     if (config.print_layout) {
       grid.append("text")
         .text(config.rings[i].name)
@@ -261,12 +261,6 @@ function radar_visualization(config) {
       .attr("transform", translate(title_offset.x, title_offset.y))
       .text(config.title)
       .attr("class", "Title")
-    // footer
-    radar.append("text")
-      .attr("transform", translate(footer_offset.x, footer_offset.y))
-      .attr("xml:space", "preserve")
-      .style("font-family", "Arial, Helvetica")
-      .style("font-size", "10");
 
     // legend
     var legend = radar.append("g");
