@@ -242,13 +242,13 @@ function radar_visualization(config) {
   }
 
   function legend_transform(quadrant, ring, index=null) {
-    var dx = ring < 2 ? 0 : 120;
+    var dx = ring < 2 ? 0 : 180;
     var dy = (index == null ? -16 : index * 12);
     if (ring % 2 == 1) {
       dy = dy + 36 + segmented[quadrant][ring-1].length * 12;
     }
     return translate(
-      legend_offset[quadrant].x + dx,
+      legend_offset[quadrant].x + dx - 35,
       legend_offset[quadrant].y + dy
     );
   }
