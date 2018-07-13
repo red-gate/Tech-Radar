@@ -1,34 +1,526 @@
 {
-    "svg_id": "radar",
-    "width": 1890,
-    "height": 907,
-    "colors": {
-      "background": "#fff",
-      "grid": "#000",
-      "inactive": "#ddd"
-    },
-    "title": "HighRollers",
-    "quadrants": [
-      { "name": "Languages" },
-      { "name": "Libraries" },
-      { "name": "Infrastructure" },
-      { "name": "Practices" }
-    ],
-    "rings": [
-      { "name": "ADOPT", "color": "#93c47d" },
-      { "name": "TRIAL", "color": "#93d2c2" },
-      { "name": "ASSESS", "color": "#fbdb84" },
-      { "name": "HOLD", "color": "#efafa9" }
-    ],
-    "print_layout": true,
-    "entries": [
+  "svg_id": "radar",
+  "width": 1890,
+  "height": 907,
+  "colors": {
+    "background": "#fff",
+    "grid": "#000",
+    "inactive": "#ddd"
+  },
+  "title": "HighRollers",
+  "quadrants": [
     {
-   "quadrant": 3,
-   "ring": 3,
-   "label": "Google",
-   "active": true,
-   "link": "http://www.google.com",
-   "moved": 0
+      "name": "Languages"
+    },
+    {
+      "name": "Libraries"
+    },
+    {
+      "name": "Infrastructure"
+    },
+    {
+      "name": "Practices"
     }
-    ]
-  }
+  ],
+  "rings": [
+    {
+      "name": "ADOPT",
+      "color": "#93c47d"
+    },
+    {
+      "name": "TRIAL",
+      "color": "#93d2c2"
+    },
+    {
+      "name": "ASSESS",
+      "color": "#fbdb84"
+    },
+    {
+      "name": "HOLD",
+      "color": "#efafa9"
+    }
+  ],
+  "print_layout": true,
+  "entries": [
+    {
+      "quadrant": 0,
+      "ring": 0,
+      "label": "C#",
+      "active": true,
+      "link": "http://www.google.com",
+      "moved": 0
+    },
+    {
+      "quadrant": 0,
+      "ring": 0,
+      "label": "PowerShell",
+      "active": true,
+      "link": "http://www.google.com",
+      "moved": 0
+    },
+    {
+      "quadrant": 0,
+      "ring": 0,
+      "label": "Java",
+      "active": true,
+      "link": "http://www.google.com",
+      "moved": 0
+    },
+    {
+      "quadrant": 0,
+      "ring": 0,
+      "label": "Wix",
+      "active": true,
+      "link": "http://www.google.com",
+      "moved": 0
+    },
+    {
+      "quadrant": 0,
+      "ring": 0,
+      "label": "Javascript",
+      "active": true,
+      "link": "http://www.google.com",
+      "moved": 0
+    },
+    {
+      "quadrant": 0,
+      "ring": 0,
+      "label": "WPF",
+      "active": true,
+      "link": "http://www.google.com",
+      "moved": 0
+    },
+    {
+      "quadrant": 0,
+      "ring": 0,
+      "label": "Winforms",
+      "active": true,
+      "link": "http://www.google.com",
+      "moved": 0
+    },
+    {
+      "quadrant": 1,
+      "ring": 0,
+      "label": "NUnit",
+      "active": true,
+      "link": "http://www.google.com",
+      "moved": 0
+    },
+    {
+      "quadrant": 1,
+      "ring": 0,
+      "label": "NSubsitute",
+      "active": true,
+      "link": "http://www.google.com",
+      "moved": 0
+    },
+    {
+      "quadrant": 1,
+      "ring": 0,
+      "label": "Shouldly",
+      "active": true,
+      "link": "http://www.google.com",
+      "moved": 0
+    },
+    {
+      "quadrant": 1,
+      "ring": 0,
+      "label": "SCE",
+      "active": true,
+      "link": "http://www.google.com",
+      "moved": 0
+    },
+    {
+      "quadrant": 1,
+      "ring": 0,
+      "label": "SDCE",
+      "active": true,
+      "link": "http://www.google.com",
+      "moved": 0
+    },
+    {
+      "quadrant": 1,
+      "ring": 0,
+      "label": "Serilog",
+      "active": true,
+      "link": "http://www.google.com",
+      "moved": 0
+    },
+    {
+      "quadrant": 1,
+      "ring": 0,
+      "label": "PFur",
+      "active": true,
+      "link": "http://www.google.com",
+      "moved": 0
+    },
+    {
+      "quadrant": 1,
+      "ring": 0,
+      "label": "Licencing",
+      "active": true,
+      "link": "http://www.google.com",
+      "moved": 0
+    },
+    {
+      "quadrant": 1,
+      "ring": 0,
+      "label": "CFU",
+      "active": true,
+      "link": "http://www.google.com",
+      "moved": 0
+    },
+    {
+      "quadrant": 1,
+      "ring": 0,
+      "label": "Homebrew installer",
+      "active": true,
+      "link": "http://www.google.com",
+      "moved": 0
+    },
+    {
+      "quadrant": 1,
+      "ring": 0,
+      "label": "Honeycomb",
+      "active": true,
+      "link": "http://www.google.com",
+      "moved": 0
+    },
+    {
+      "quadrant": 1,
+      "ring": 0,
+      "label": ".net framework",
+      "active": true,
+      "link": "http://www.google.com",
+      "moved": 0
+    },
+    {
+      "quadrant": 1,
+      "ring": 0,
+      "label": "Appuim",
+      "active": true,
+      "link": "http://www.google.com",
+      "moved": 0
+    },
+    {
+      "quadrant": 1,
+      "ring": 1,
+      "label": "Raygun",
+      "active": true,
+      "link": "http://www.google.com",
+      "moved": 0
+    },
+    {
+      "quadrant": 1,
+      "ring": 1,
+      "label": "Jetbrain annotations",
+      "active": true,
+      "link": "http://www.google.com",
+      "moved": 0
+    },
+    {
+      "quadrant": 1,
+      "ring": 1,
+      "label": ".net core",
+      "active": true,
+      "link": "http://www.google.com",
+      "moved": 0
+    },
+    {
+      "quadrant": 1,
+      "ring": 1,
+      "label": ".net standard",
+      "active": true,
+      "link": "http://www.google.com",
+      "moved": 0
+    },
+    {
+      "quadrant": 2,
+      "ring": 0,
+      "label": "Vagrant",
+      "active": true,
+      "link": "http://www.google.com",
+      "moved": 0
+    },
+    {
+      "quadrant": 2,
+      "ring": 0,
+      "label": "Azure SQL DB",
+      "active": true,
+      "link": "http://www.google.com",
+      "moved": 0
+    },
+    {
+      "quadrant": 2,
+      "ring": 0,
+      "label": "CFU",
+      "active": true,
+      "link": "http://www.google.com",
+      "moved": 0
+    },
+    {
+      "quadrant": 2,
+      "ring": 0,
+      "label": "PFur",
+      "active": true,
+      "link": "http://www.google.com",
+      "moved": 0
+    },
+    {
+      "quadrant": 2,
+      "ring": 0,
+      "label": "VS marketplace",
+      "active": true,
+      "link": "http://www.google.com",
+      "moved": 0
+    },
+    {
+      "quadrant": 2,
+      "ring": 0,
+      "label": "Licencing",
+      "active": true,
+      "link": "http://www.google.com",
+      "moved": 0
+    },
+    {
+      "quadrant": 2,
+      "ring": 0,
+      "label": "SQL server",
+      "active": true,
+      "link": "http://www.google.com",
+      "moved": 0
+    },
+    {
+      "quadrant": 2,
+      "ring": 0,
+      "label": "Github",
+      "active": true,
+      "link": "http://www.google.com",
+      "moved": 0
+    },
+    {
+      "quadrant": 2,
+      "ring": 0,
+      "label": "Zendesk",
+      "active": true,
+      "link": "http://www.google.com",
+      "moved": 0
+    },
+    {
+      "quadrant": 2,
+      "ring": 0,
+      "label": "Slack",
+      "active": true,
+      "link": "http://www.google.com",
+      "moved": 0
+    },
+    {
+      "quadrant": 2,
+      "ring": 2,
+      "label": "AppInsights",
+      "active": true,
+      "link": "http://www.google.com",
+      "moved": 0
+    },
+    {
+      "quadrant": 2,
+      "ring": 2,
+      "label": "VSTS",
+      "active": true,
+      "link": "http://www.google.com",
+      "moved": 0
+    },
+    {
+      "quadrant": 3,
+      "ring": 0,
+      "label": "Desk moves",
+      "active": true,
+      "link": "http://www.google.com",
+      "moved": 0
+    },
+    {
+      "quadrant": 3,
+      "ring": 0,
+      "label": "Planning",
+      "active": true,
+      "link": "http://www.google.com",
+      "moved": 0
+    },
+    {
+      "quadrant": 3,
+      "ring": 0,
+      "label": "Retros",
+      "active": true,
+      "link": "http://www.google.com",
+      "moved": 0
+    },
+    {
+      "quadrant": 3,
+      "ring": 0,
+      "label": "Sprint reviews",
+      "active": true,
+      "link": "http://www.google.com",
+      "moved": 0
+    },
+    {
+      "quadrant": 3,
+      "ring": 0,
+      "label": "Standups",
+      "active": true,
+      "link": "http://www.google.com",
+      "moved": 0
+    },
+    {
+      "quadrant": 3,
+      "ring": 0,
+      "label": "UX sessions",
+      "active": true,
+      "link": "http://www.google.com",
+      "moved": 0
+    },
+    {
+      "quadrant": 3,
+      "ring": 0,
+      "label": "Research calls",
+      "active": true,
+      "link": "http://www.google.com",
+      "moved": 0
+    },
+    {
+      "quadrant": 3,
+      "ring": 0,
+      "label": "Weekly releases",
+      "active": true,
+      "link": "http://www.google.com",
+      "moved": 0
+    },
+    {
+      "quadrant": 3,
+      "ring": 0,
+      "label": "Pain on support rota",
+      "active": true,
+      "link": "http://www.google.com",
+      "moved": 0
+    },
+    {
+      "quadrant": 3,
+      "ring": 0,
+      "label": "10% time",
+      "active": true,
+      "link": "http://www.google.com",
+      "moved": 0
+    },
+    {
+      "quadrant": 3,
+      "ring": 0,
+      "label": "Status board",
+      "active": true,
+      "link": "http://www.google.com",
+      "moved": 0
+    },
+    {
+      "quadrant": 3,
+      "ring": 0,
+      "label": "OKRs",
+      "active": true,
+      "link": "http://www.google.com",
+      "moved": 0
+    },
+    {
+      "quadrant": 3,
+      "ring": 0,
+      "label": "Build and release scripts",
+      "active": true,
+      "link": "http://www.google.com",
+      "moved": 0
+    },
+    {
+      "quadrant": 3,
+      "ring": 0,
+      "label": "SonarCube",
+      "active": true,
+      "link": "http://www.google.com",
+      "moved": 0
+    },
+    {
+      "quadrant": 3,
+      "ring": 0,
+      "label": "R# errors",
+      "active": true,
+      "link": "http://www.google.com",
+      "moved": 0
+    },
+    {
+      "quadrant": 3,
+      "ring": 0,
+      "label": "Explaratory testing",
+      "active": true,
+      "link": "http://www.google.com",
+      "moved": 0
+    },
+    {
+      "quadrant": 3,
+      "ring": 0,
+      "label": "Show and tell",
+      "active": true,
+      "link": "http://www.google.com",
+      "moved": 0
+    },
+    {
+      "quadrant": 3,
+      "ring": 0,
+      "label": "Expos",
+      "active": true,
+      "link": "http://www.google.com",
+      "moved": 0
+    },
+    {
+      "quadrant": 3,
+      "ring": 0,
+      "label": "GitHub PR review",
+      "active": true,
+      "link": "http://www.google.com",
+      "moved": 0
+    },
+    {
+      "quadrant": 3,
+      "ring": 0,
+      "label": "GitHub",
+      "active": true,
+      "link": "http://www.google.com",
+      "moved": 0
+    },
+    {
+      "quadrant": 3,
+      "ring": 0,
+      "label": "Unit interfration and GUI tests",
+      "active": true,
+      "link": "http://www.google.com",
+      "moved": 0
+    },
+    {
+      "quadrant": 3,
+      "ring": 1,
+      "label": "Stable teams",
+      "active": true,
+      "link": "http://www.google.com",
+      "moved": 0
+    },
+    {
+      "quadrant": 3,
+      "ring": 3,
+      "label": "GitHub projects",
+      "active": true,
+      "link": "http://www.google.com",
+      "moved": 0
+    },
+    {
+      "quadrant": 3,
+      "ring": 3,
+      "label": "Extensive WFH",
+      "active": true,
+      "link": "http://www.google.com",
+      "moved": 0
+    }
+  ]
+}
