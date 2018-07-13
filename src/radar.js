@@ -215,18 +215,6 @@ function radar_visualization(config) {
       .style("fill", "none")
       .style("stroke", config.colors.grid)
       .style("stroke-width", 2.5);
-    if (config.print_layout) {
-      grid.append("text")
-        .text(config.rings[i].name)
-        .attr("y", -rings[i].radius + 62)
-        .attr("text-anchor", "middle")
-        .style("fill", "#e5e5e5")
-        .style("font-family", "Arial, Header")
-        .style("font-size", 42)
-        .style("font-weight", "bold")
-        .style("pointer-events", "none")
-        .style("user-select", "none");
-    }
 
   // draw grid lines
   grid.append("line")
@@ -289,6 +277,7 @@ function radar_visualization(config) {
               .attr("transform", function(d, i) { return legend_transform(quadrant, ring, i); })
               .text(function(d, i) { return d.id + ". " + d.label; })
               .attr("class", "LText")
+              .attr("fill", config.rings[ring].color)
       }
     }
   }
