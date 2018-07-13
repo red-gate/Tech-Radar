@@ -47,7 +47,7 @@
       "ring": 0,
       "label": "C#",
       "active": true,
-      "link": "http://www.google.com",
+      "link": "https://docs.microsoft.com/en-us/dotnet/csharp/",
       "moved": 0
     },
     {
@@ -55,7 +55,7 @@
       "ring": 0,
       "label": "Power shell",
       "active": true,
-      "link": "http://www.google.com",
+      "link": "https://docs.microsoft.com/en-us/powershell/",
       "moved": 0
     },
     {
@@ -63,7 +63,7 @@
       "ring": 0,
       "label": "WPF",
       "active": true,
-      "link": "http://www.google.com",
+      "link": "https://docs.microsoft.com/en-us/dotnet/framework/wpf/",
       "moved": 1
     },
     {
@@ -71,7 +71,7 @@
       "ring": 0,
       "label": "Winforms",
       "active": true,
-      "link": "http://www.google.com",
+      "link": "https://docs.microsoft.com/en-us/dotnet/framework/winforms/",
       "moved": -1
     },
     {
@@ -79,7 +79,7 @@
       "ring": 2,
       "label": "F#",
       "active": true,
-      "link": "http://www.google.com",
+      "link": "https://fsharp.org/",
       "moved": 0
     },
     {
@@ -95,15 +95,15 @@
       "ring": 0,
       "label": "Log4Net",
       "active": true,
-      "link": "http://www.google.com",
+      "link": "https://www.nuget.org/packages/log4net/",
       "moved": 0
     },
     {
       "quadrant": 1,
       "ring": 0,
-      "label": "Document Format open XML",
+      "label": "Documentformat openXML",
       "active": true,
-      "link": "http://www.google.com",
+      "link": "https://www.nuget.org/packages/DocumentFormat.OpenXml/",
       "moved": 0
     },
     {
@@ -111,7 +111,7 @@
       "ring": 0,
       "label": "Diff Plex",
       "active": true,
-      "link": "http://www.google.com",
+      "link": "https://github.com/mmanela/diffplex",
       "moved": 0
     },
     {
@@ -119,7 +119,7 @@
       "ring": 0,
       "label": "Nunit",
       "active": true,
-      "link": "http://www.google.com",
+      "link": "http://nunit.org/",
       "moved": 0
     },
     {
@@ -127,7 +127,7 @@
       "ring": 0,
       "label": "Entity framework",
       "active": true,
-      "link": "http://www.google.com",
+      "link": "https://msdn.microsoft.com/en-us/library/aa937723(v=vs.113).aspx",
       "moved": 0
     },
     {
@@ -135,7 +135,7 @@
       "ring": 0,
       "label": "MahApps metro",
       "active": true,
-      "link": "http://www.google.com",
+      "link": "https://mahapps.com/",
       "moved": 0
     },
     {
@@ -151,7 +151,7 @@
       "ring": 0,
       "label": "Jetbrains annotations",
       "active": true,
-      "link": "http://www.google.com",
+      "link": "https://www.nuget.org/packages/JetBrains.Annotations",
       "moved": 0
     },
     {
@@ -159,7 +159,7 @@
       "ring": 0,
       "label": "Fody",
       "active": true,
-      "link": "http://www.google.com",
+      "link": "https://github.com/Fody",
       "moved": 0
     },
     {
@@ -167,7 +167,7 @@
       "ring": 0,
       "label": "WPF toolkit",
       "active": true,
-      "link": "http://www.google.com",
+      "link": "https://www.nuget.org/packages/WPFToolkit/",
       "moved": 0
     },
     {
@@ -175,7 +175,7 @@
       "ring": 0,
       "label": "DotNet zip",
       "active": true,
-      "link": "http://www.google.com",
+      "link": "https://archive.codeplex.com/?p=dotnetzip",
       "moved": 0
     },
     {
@@ -183,7 +183,7 @@
       "ring": 0,
       "label": "Ninject",
       "active": true,
-      "link": "http://www.google.com",
+      "link": "http://www.ninject.org/",
       "moved": 0
     },
     {
@@ -191,7 +191,7 @@
       "ring": 0,
       "label": "Raygun",
       "active": true,
-      "link": "http://www.google.com",
+      "link": "https://raygun.com/?gclid=EAIaIQobChMI-KqFqsaZ3AIVk5EbCh0s6QpCEAAYASAAEgINLPD_BwE",
       "moved": 0
     },
     {
@@ -199,7 +199,7 @@
       "ring": 0,
       "label": "Json.net",
       "active": true,
-      "link": "http://www.google.com",
+      "link": "https://www.newtonsoft.com/json",
       "moved": 0
     },
     {
@@ -215,7 +215,7 @@
       "ring": 0,
       "label": "Resharper",
       "active": true,
-      "link": "http://www.google.com",
+      "link": "https://www.jetbrains.com/resharper/",
       "moved": 0
     },
     {
@@ -223,7 +223,7 @@
       "ring": 0,
       "label": "Raygun",
       "active": true,
-      "link": "http://www.google.com",
+      "link": "https://raygun.com/?gclid=EAIaIQobChMI-KqFqsaZ3AIVk5EbCh0s6QpCEAAYASAAEgINLPD_BwE",
       "moved": 0
     },
     {
@@ -231,7 +231,7 @@
       "ring": 0,
       "label": "Mix panel",
       "active": true,
-      "link": "http://www.google.com",
+      "link": "https://mixpanel.com/?from=adwords_brand-exact&utm_source=google&utm_medium=cpc&utm_campaign=brand_-_exact&utm_content=mixpanel&utm_term=mix%20panel&theme=&gclid=EAIaIQobChMI_LzppN-b3AIViYXVCh0HZg7MEAAYAiAAEgLnRvD_BwE",
       "moved": 0
     },
     {
@@ -239,7 +239,7 @@
       "ring": 0,
       "label": "Virtual machines",
       "active": true,
-      "link": "http://www.google.com",
+      "link": "https://en.wikipedia.org/wiki/Virtual_machine",
       "moved": 0
     },
     {
@@ -255,7 +255,7 @@
       "ring": 2,
       "label": "App insights",
       "active": true,
-      "link": "http://www.google.com",
+      "link": "https://azure.microsoft.com/en-gb/services/application-insights/?&OCID=AID719823_SEM_Xu6hAPkA&dclid=CKCCi9zImdwCFSikUQodp9gFxQ",
       "moved": 0
     },
     {
@@ -269,9 +269,9 @@
     {
       "quadrant": 2,
       "ring": 2,
-      "label": "Smart Assemebly",
+      "label": "Smart Assembly",
       "active": true,
-      "link": "http://www.google.com",
+      "link": "https://www.red-gate.com/products/dotnet-development/smartassembly/?gclid=EAIaIQobChMIgtuY58eZ3AIVhLsbCh0kZQlUEAAYASAAEgI81_D_BwE",
       "moved": 0
     },
     {
@@ -279,7 +279,7 @@
       "ring": 0,
       "label": "Domain Investigation",
       "active": true,
-      "link": "http://www.google.com",
+      "link": "https://en.wikipedia.org/wiki/Domain_analysis",
       "moved": 0
     },
     {
@@ -287,7 +287,7 @@
       "ring": 0,
       "label": "Standups",
       "active": true,
-      "link": "http://www.google.com",
+      "link": "https://en.wikipedia.org/wiki/Stand-up_meeting",
       "moved": 0
     },
     {
@@ -303,7 +303,7 @@
       "ring": 0,
       "label": "Planning",
       "active": true,
-      "link": "http://www.google.com",
+      "link": "https://en.wikipedia.org/wiki/Planning",
       "moved": 0
     },
     {
@@ -327,7 +327,7 @@
       "ring": 0,
       "label": "Retro",
       "active": true,
-      "link": "http://www.google.com",
+      "link": "https://en.wikipedia.org/wiki/Retrospective",
       "moved": 0
     },
     {
@@ -359,7 +359,7 @@
       "ring": 0,
       "label": "Sprint",
       "active": true,
-      "link": "http://www.google.com",
+      "link": "https://www.atlassian.com/software/jira?aceid=&adposition=1t1&adgroup=61286182012&campaign=1420353321&creative=273118311351&device=c&keyword=scrum&matchtype=b&network=g&placement=&ds_kids=p33785273628&ds_e=GOOGLE&ds_eid=700000001558501&ds_e1=GOOGLE&gclid=EAIaIQobChMIv_v6y-Cb3AIV1hgbCh3mFAuMEAAYASAAEgJU_PD_BwE&gclsrc=aw.ds",
       "moved": 0
     },
     {
