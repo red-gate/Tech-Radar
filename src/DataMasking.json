@@ -266,9 +266,185 @@
             "moved": 0
         },
         {
-            "quadrant": 2,
+            "quadrant": 3,
             "ring": 0,
-            "label": "Google",
+            "label": "Merge when green",
+            "active": true,
+            "link": "http://www.google.com",
+            "moved": 0
+        },
+        {
+            "quadrant": 3,
+            "ring": 0,
+            "label": "User call analysis",
+            "active": true,
+            "link": "http://www.google.com",
+            "moved": 0
+        },
+        {
+            "quadrant": 3,
+            "ring": 0,
+            "label": "Whole team research calls",
+            "active": true,
+            "link": "http://www.google.com",
+            "moved": 0
+        },
+        {
+            "quadrant": 3,
+            "ring": 0,
+            "label": "Github PR templates",
+            "active": true,
+            "link": "http://www.google.com",
+            "moved": 0
+        },
+        {
+            "quadrant": 3,
+            "ring": 0,
+            "label": "Code review",
+            "active": true,
+            "link": "http://www.google.com",
+            "moved": 0
+        },
+        {
+            "quadrant": 3,
+            "ring": 0,
+            "label": "Master is always readable",
+            "active": true,
+            "link": "http://www.google.com",
+            "moved": 0
+        },
+        {
+            "quadrant": 3,
+            "ring": 0,
+            "label": "Remote working",
+            "active": true,
+            "link": "http://www.google.com",
+            "moved": 0
+        },
+        {
+            "quadrant": 3,
+            "ring": 0,
+            "label": "Issues in Github",
+            "active": true,
+            "link": "http://www.google.com",
+            "moved": 0
+        },
+        {
+            "quadrant": 3,
+            "ring": 0,
+            "label": "Frequent releases",
+            "active": true,
+            "link": "http://www.google.com",
+            "moved": 0
+        },
+        {
+            "quadrant": 3,
+            "ring": 0,
+            "label": "10% time",
+            "active": true,
+            "link": "http://www.google.com",
+            "moved": 0
+        },
+        {
+            "quadrant": 3,
+            "ring": 0,
+            "label": "Stand up",
+            "active": true,
+            "link": "http://www.google.com",
+            "moved": 0
+        },
+        {
+            "quadrant": 3,
+            "ring": 0,
+            "label": "Retro",
+            "active": true,
+            "link": "http://www.google.com",
+            "moved": 0
+        },
+        {
+            "quadrant": 3,
+            "ring": 1,
+            "label": "Feature flags",
+            "active": true,
+            "link": "http://www.google.com",
+            "moved": 0
+        },
+        {
+            "quadrant": 3,
+            "ring": 1,
+            "label": "Support rota",
+            "active": true,
+            "link": "http://www.google.com",
+            "moved": 0
+        },
+        {
+            "quadrant": 3,
+            "ring": 1,
+            "label": "Retro actions as experiments",
+            "active": true,
+            "link": "http://www.google.com",
+            "moved": 0
+        },
+        {
+            "quadrant": 3,
+            "ring": 1,
+            "label": "Github projects",
+            "active": true,
+            "link": "http://www.google.com",
+            "moved": 0
+        },
+        {
+            "quadrant": 3,
+            "ring": 1,
+            "label": "Occupy hand signals",
+            "active": true,
+            "link": "http://www.google.com",
+            "moved": 0
+        },
+        {
+            "quadrant": 3,
+            "ring": 2,
+            "label": "Usercalls in second week of release",
+            "active": true,
+            "link": "http://www.google.com",
+            "moved": 0
+        },
+        {
+            "quadrant": 3,
+            "ring": 2,
+            "label": "Compulsory auto update",
+            "active": true,
+            "link": "http://www.google.com",
+            "moved": 0
+        },
+        {
+            "quadrant": 3,
+            "ring": 2,
+            "label": "Dated to-do's",
+            "active": true,
+            "link": "http://www.google.com",
+            "moved": 0
+        },
+        {
+            "quadrant": 3,
+            "ring": 2,
+            "label": "Mono repo",
+            "active": true,
+            "link": "http://www.google.com",
+            "moved": 0
+        },
+        {
+            "quadrant": 3,
+            "ring": 2,
+            "label": "Team time",
+            "active": true,
+            "link": "http://www.google.com",
+            "moved": 0
+        },
+        {
+            "quadrant": 3,
+            "ring": 2,
+            "label": "Offering demos wehn release",
             "active": true,
             "link": "http://www.google.com",
             "moved": 0
