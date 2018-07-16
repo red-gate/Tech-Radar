@@ -1,94 +1,162 @@
-{
-    "svg_id": "radar",
-    "width": 1890,
-    "height": 907,
-    "colors": {
-        "background": "#fff",
-        "grid": "#000",
-        "inactive": "#ddd"
+[
+    {
+        "quadrant": 0,
+        "ring": 0,
+        "label": "C#",
+        "active": true,
+        "link": "https://docs.microsoft.com/en-us/dotnet/csharp/",
+        "moved": 0
     },
-    "title": "Data Masking",
-    "quadrants": [
-        {
-            "name": "Languages"
-        },
-        {
-            "name": "Libraries"
-        },
-        {
-            "name": "Infrastructure"
-        },
-        {
-            "name": "Practices"
-        }
-    ],
-    "rings": [
-        {
-            "name": "ADOPT",
-            "color": "#4bb71b"
-        },
-        {
-            "name": "TRIAL",
-            "color": "#53d1b1"
-        },
-        {
-            "name": "ASSESS",
-            "color": "#ffba00"
-        },
-        {
-            "name": "HOLD",
-            "color": "#e22a18"
-        }
-    ],
-    "print_layout": true,
-    "entries": [
-        {
-            "quadrant": 0,
-            "ring": 0,
-            "label": "C#",
-            "active": true,
-            "link": "https://docs.microsoft.com/en-us/dotnet/csharp/",
-            "moved": 0
-        },
-        {
-            "quadrant": 0,
-            "ring": 0,
-            "label": "Typescript",
-            "active": true,
-            "link": "https://www.typescriptlang.org/",
-            "moved": 0
-        },
-        {
-            "quadrant": 0,
-            "ring": 0,
-            "label": "Google",
-            "active": true,
-            "link": "http://www.google.com",
-            "moved": 0
-        },
-        {
-            "quadrant": 0,
-            "ring": 0,
-            "label": "PowerShell",
-            "active": true,
-            "link": "https://docs.microsoft.com/en-us/powershell/",
-            "moved": 0
-        },
-        {
-            "quadrant": 0,
-            "ring": 3,
-            "label": "JavaScript",
-            "active": true,
-            "link": "https://www.javascript.com/",
-            "moved": 0
-        },
-        {
-            "quadrant": 0,
-            "ring": 0,
-            "label": "Google",
-            "active": true,
-            "link": "http://www.google.com",
-            "moved": 0
-        }
-    ]
-}
+    {
+        "quadrant": 0,
+        "ring": 0,
+        "label": "Typescript",
+        "active": true,
+        "link": "https://www.typescriptlang.org/",
+        "moved": 0
+    },
+    {
+        "quadrant": 0,
+        "ring": 0,
+        "label": "SQL",
+        "active": true,
+        "link": "http://www.google.com",
+        "moved": 0
+    },
+    {
+        "quadrant": 0,
+        "ring": 0,
+        "label": "PowerShell",
+        "active": true,
+        "link": "https://docs.microsoft.com/en-us/powershell/",
+        "moved": 0
+    },
+    {
+        "quadrant": 0,
+        "ring": 3,
+        "label": "JavaScript",
+        "active": true,
+        "link": "https://www.javascript.com/",
+        "moved": 0
+    },
+    {
+        "quadrant": 1,
+        "ring": 0,
+        "label": "Google",
+        "active": true,
+        "link": "http://www.google.com",
+        "moved": 0
+    },
+    {
+        "quadrant": 1,
+        "ring": 0,
+        "label": "Google",
+        "active": true,
+        "link": "http://www.google.com",
+        "moved": 0
+    },
+    {
+        "quadrant": 1,
+        "ring": 0,
+        "label": "Google",
+        "active": true,
+        "link": "http://www.google.com",
+        "moved": 0
+    },
+    {
+        "quadrant": 1,
+        "ring": 0,
+        "label": "Google",
+        "active": true,
+        "link": "http://www.google.com",
+        "moved": 0
+    },
+    {
+        "quadrant": 1,
+        "ring": 0,
+        "label": "Google",
+        "active": true,
+        "link": "http://www.google.com",
+        "moved": 0
+    },
+    {
+        "quadrant": 1,
+        "ring": 0,
+        "label": "Google",
+        "active": true,
+        "link": "http://www.google.com",
+        "moved": 0
+    },
+    {
+        "quadrant": 1,
+        "ring": 0,
+        "label": "Google",
+        "active": true,
+        "link": "http://www.google.com",
+        "moved": 0
+    },
+    {
+        "quadrant": 1,
+        "ring": 0,
+        "label": "Google",
+        "active": true,
+        "link": "http://www.google.com",
+        "moved": 0
+    },
+    {
+        "quadrant": 1,
+        "ring": 0,
+        "label": "Google",
+        "active": true,
+        "link": "http://www.google.com",
+        "moved": 0
+    },
+    {
+        "quadrant": 1,
+        "ring": 0,
+        "label": "Google",
+        "active": true,
+        "link": "http://www.google.com",
+        "moved": 0
+    },
+    {
+        "quadrant": 1,
+        "ring": 0,
+        "label": "Google",
+        "active": true,
+        "link": "http://www.google.com",
+        "moved": 0
+    },
+    {
+        "quadrant": 1,
+        "ring": 0,
+        "label": "Google",
+        "active": true,
+        "link": "http://www.google.com",
+        "moved": 0
+    },
+    {
+        "quadrant": 1,
+        "ring": 0,
+        "label": "Google",
+        "active": true,
+        "link": "http://www.google.com",
+        "moved": 0
+    },
+    {
+        "quadrant": 1,
+        "ring": 0,
+        "label": "Google",
+        "active": true,
+        "link": "http://www.google.com",
+        "moved": 0
+    },
+    {
+        "quadrant": 1,
+        "ring": 0,
+        "label": "Google",
+        "active": true,
+        "link": "http://www.google.com",
+        "moved": 0
+    }
+]

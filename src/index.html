@@ -35,10 +35,15 @@
       }
     }
 
-    function choose(choice) {
+    function choose(jsonFile) {
       reset()
-      $.getJSON(choice, function (json) {
-        radar_visualization(json);
+
+      $.getJSON('radar-skeleton.json', function (json) {
+        var moo = json;
+        $.getJSON(jsonFile, function (data) {
+          moo.entries = data;
+          radar_visualization(moo);
+        });
       });
     }
   </script>
