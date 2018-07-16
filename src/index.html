@@ -39,10 +39,11 @@
       reset()
 
       $.getJSON('radar-skeleton.json', function (json) {
-        var moo = json;
+        var radar = json;
         $.getJSON(jsonFile, function (data) {
-          moo.entries = data;
-          radar_visualization(moo);
+          radar.entries = data.entries;
+          radar.title = data.TeamName;
+          radar_visualization(radar);
         });
       });
     }

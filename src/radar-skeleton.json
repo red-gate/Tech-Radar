@@ -7,7 +7,7 @@
         "grid": "#000",
         "inactive": "#ddd"
     },
-    "title": "Data Masking",
+    "title": "",
     "quadrants": [
         {
             "name": "Languages"
