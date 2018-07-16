@@ -1,4 +1,6 @@
-[
+{
+    "TeamName" : "Toolbelt",
+    "entries": [
         {
             "quadrant": 0,
             "ring": 0,
@@ -546,4 +548,4 @@
             "link": "http://www.google.com",
             "moved": 0
         }
-    ]
+    ]}
