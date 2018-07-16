@@ -44,7 +44,15 @@
         {
             "quadrant": 1,
             "ring": 0,
-            "label": "Google",
+            "label": "DotNet Standard",
+            "active": true,
+            "link": "https://blogs.msdn.microsoft.com/dotnet/2016/09/26/introducing-net-standard/",
+            "moved": 0
+        },
+        {
+            "quadrant": 1,
+            "ring": 0,
+            "label": "Web back",
             "active": true,
             "link": "http://www.google.com",
             "moved": 0
@@ -52,7 +60,7 @@
         {
             "quadrant": 1,
             "ring": 0,
-            "label": "Google",
+            "label": "React",
             "active": true,
             "link": "http://www.google.com",
             "moved": 0
@@ -60,101 +68,205 @@
         {
             "quadrant": 1,
             "ring": 0,
-            "label": "Google",
+            "label": "Redux",
             "active": true,
-            "link": "http://www.google.com",
+            "link": "https://redux.js.org/introduction",
             "moved": 0
         },
         {
             "quadrant": 1,
             "ring": 0,
-            "label": "Google",
+            "label": "SAS",
             "active": true,
-            "link": "http://www.google.com",
+            "link": "https://support.sas.com/training/us/paths/prg.html",
             "moved": 0
         },
         {
             "quadrant": 1,
             "ring": 0,
-            "label": "Google",
+            "label": "Prettier",
             "active": true,
-            "link": "http://www.google.com",
+            "link": "https://prettier.io/docs/en/why-prettier.html",
             "moved": 0
         },
         {
             "quadrant": 1,
             "ring": 0,
-            "label": "Google",
+            "label": "Auto fac",
             "active": true,
-            "link": "http://www.google.com",
+            "link": "https://autofac.org",
             "moved": 0
         },
         {
             "quadrant": 1,
             "ring": 0,
-            "label": "Google",
+            "label": "NUnit",
             "active": true,
-            "link": "http://www.google.com",
+            "link": "http://nunit.org/",
             "moved": 0
         },
         {
             "quadrant": 1,
             "ring": 0,
-            "label": "Google",
+            "label": "Honeycomb toolkit",
             "active": true,
-            "link": "http://www.google.com",
+            "link": "http://honeycomb.red-gate.com/",
             "moved": 0
         },
         {
             "quadrant": 1,
             "ring": 0,
-            "label": "Google",
+            "label": "Electron",
             "active": true,
-            "link": "http://www.google.com",
+            "link": "https://electronjs.org/",
             "moved": 0
         },
         {
             "quadrant": 1,
+            "ring": 1,
+            "label": "Electron edge",
+            "active": true,
+            "link": "https://github.com/kexplo/electron-edge",
+            "moved": 0
+        },
+        {
+            "quadrant": 1,
+            "ring": 1,
+            "label": "Honeycomb react",
+            "active": true,
+            "link": "https://github.com/red-gate/honeycomb-react",
+            "moved": 0
+        },
+        {
+            "quadrant": 1,
+            "ring": 1,
+            "label": "Jest",
+            "active": true,
+            "link": "https://jestjs.io/",
+            "moved": 0
+        },
+        {
+            "quadrant": 2,
             "ring": 0,
-            "label": "Google",
+            "label": "Join me",
             "active": true,
-            "link": "http://www.google.com",
+            "link": "https://www.join.me/offers/start/branded?wt.srch=1&utpk=join.me&originid=345708&mcomb=sPuLRMAg4|139300427424|join.me|e|i8rbbhb5l0|c&cvosrc=ppc.google.join.me&cvo_campaign={campid}&cvo_crid=139300427424&Matchtype=e&gclid=EAIaIQobChMIx9LciM-j3AIVyJrVCh0yjwGWEAAYASAAEgJ2uvD_BwE",
             "moved": 0
         },
         {
-            "quadrant": 1,
+            "quadrant": 2,
             "ring": 0,
-            "label": "Google",
+            "label": "Vagrant",
             "active": true,
-            "link": "http://www.google.com",
+            "link": "https://www.vagrantup.com/",
             "moved": 0
         },
         {
-            "quadrant": 1,
+            "quadrant": 2,
             "ring": 0,
-            "label": "Google",
+            "label": "Survey monkey",
             "active": true,
-            "link": "http://www.google.com",
+            "link": "https://www.surveymonkey.com/",
             "moved": 0
         },
         {
-            "quadrant": 1,
+            "quadrant": 2,
             "ring": 0,
-            "label": "Google",
+            "label": "Team city",
             "active": true,
-            "link": "http://www.google.com",
+            "link": "https://www.jetbrains.com/teamcity/",
             "moved": 0
         },
         {
-            "quadrant": 1,
+            "quadrant": 2,
             "ring": 0,
-            "label": "Google",
+            "label": "Slack",
+            "active": true,
+            "link": "https://slack.com/lp/two?cvosrc=ppc.google.d_ppc_google_uk_en_brand-hv&cvo_creative=257480307484&utm_medium=ppc&utm_source=google&utm_campaign=d_ppc_google_uk_en_brand-hv&utm_term=slack&cvosrc=ppc.google.slack&cvo_campaign=&cvo_crid=257480307484&Matchtype=e&utm_source=google&utm_medium=ppc&c3api=5523,257480307484,slack&gclid=EAIaIQobChMIsKu3wM-j3AIVCDPTCh2XOQNvEAAYASAAEgIGivD_BwE&gclsrc=aw.ds&dclid=CIbItcHPo9wCFY2Xdwod7H4L0g",
+            "moved": 0
+        },
+        {
+            "quadrant": 2,
+            "ring": 0,
+            "label": "Powershell local build script",
+            "active": true,
+            "link": "https://docs.microsoft.com/en-us/vsts/pipelines/scripts/powershell?view=vsts",
+            "moved": 0
+        },
+        {
+            "quadrant": 2,
+            "ring": 0,
+            "label": "Check for updates",
             "active": true,
             "link": "http://www.google.com",
             "moved": 0
         },
         {
-            "quadrant": 1,
+            "quadrant": 2,
+            "ring": 0,
+            "label": "Github",
+            "active": true,
+            "link": "https://github.com/",
+            "moved": 0
+        },
+        {
+            "quadrant": 2,
+            "ring": 0,
+            "label": "Google docs",
+            "active": true,
+            "link": "https://www.google.com/docs/about/",
+            "moved": 0
+        },
+        {
+            "quadrant": 2,
+            "ring": 0,
+            "label": "PFur",
+            "active": true,
+            "link": "http://www.google.com",
+            "moved": 0
+        },
+        {
+            "quadrant": 2,
+            "ring": 1,
+            "label": "Intercom",
+            "active": true,
+            "link": "http://www.google.com",
+            "moved": 0
+        },
+        {
+            "quadrant": 2,
+            "ring": 1,
+            "label": "Sonarqube",
+            "active": true,
+            "link": "https://www.sonarqube.org/",
+            "moved": 0
+        },
+        {
+            "quadrant": 2,
+            "ring": 2,
+            "label": "App insights",
+            "active": true,
+            "link": "https://azure.microsoft.com/en-gb/services/application-insights/?&OCID=AID719823_SEM_Xu6hAPkA&dclid=CIWs29HQo9wCFQ6LdwodVpcDRg",
+            "moved": 0
+        },
+        {
+            "quadrant": 2,
+            "ring": 2,
+            "label": "Redgate website",
+            "active": true,
+            "link": "www.red-gate.com",
+            "moved": 0
+        },
+        {
+            "quadrant": 2,
+            "ring": 2,
+            "label": "Docker",
+            "active": true,
+            "link": "https://azure.microsoft.com/en-gb/services/kubernetes-service/?&OCID=AID719823_SEM_0ZfFtDSf&dclid=CNyc-vLQo9wCFYfQdwodAkAJqQ",
+            "moved": 0
+        },
+        {
+            "quadrant": 2,
             "ring": 0,
             "label": "Google",
             "active": true,
