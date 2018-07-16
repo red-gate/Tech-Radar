@@ -25,19 +25,19 @@
     "rings": [
         {
             "name": "ADOPT",
-            "color": "#93c47d"
+            "color": "#4bb71b"
         },
         {
             "name": "TRIAL",
-            "color": "#93d2c2"
+            "color": "#53d1b1"
         },
         {
             "name": "ASSESS",
-            "color": "#fbdb84"
+            "color": "#ffba00"
         },
         {
             "name": "HOLD",
-            "color": "#efafa9"
+            "color": "#e22a18"
         }
     ],
     "print_layout": true,
