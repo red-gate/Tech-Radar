@@ -11,20 +11,20 @@
 
 <body>
   <svg id="radar"></svg>
-  <button onClick="set('toolbelt.json')">Toolbelt</button>
-  <button onClick="set('HighRollers.json')">HighRollers</button>
-  <button onClick="set('Prompt.json')">Prompt</button>
-  <button onClick="set('DataMasking.json')">DataMasking</button>
-  <button onClick="set('Hammerheads.json')">Hammerheads</button>
-  <button onClick="set('ICloneables.json')">ICloneables</button>
-  <button onClick="set('Spiders.json')">Spiders</button>
-  <button onClick="set('SQLCrackers.json')">SQLCrackers</button>
-  <button onClick="set('TeamUP.json')">TeamUP</button>
-  <button onClick="set('clear.json')">Clear</button>
+  <button onmousedown="choose('toolbelt.json')">Toolbelt</button>
+  <button onmouseup="choose('HighRollers.json')">HighRollers</button>
+  <button onmouseup="choose('Prompt.json')">Prompt</button>
+  <button onmouseup="choose('DataMasking.json')">DataMasking</button>
+  <button onmouseup="choose('Hammerheads.json')">Hammerheads</button>
+  <button onmouseup="choose('ICloneables.json')">ICloneables</button>
+  <button onmouseup="choose('Spiders.json')">Spiders</button>
+  <button onmouseup="choose('SQLCrackers.json')">SQLCrackers</button>
+  <button onmouseup="choose('TeamUP.json')">TeamUP</button>
+  <button onmouseup="choose('clear.json')">Clear</button>
 
   <script>
     $(document).ready(function () {
-      set('clear.json');
+      choose('clear.json');
     });
 
     function reset() {
@@ -34,9 +34,9 @@
       }
     }
 
-    function set(choose) {
+    function choose(choice) {
       reset()
-      $.getJSON(choose, function (json) {
+      $.getJSON(choice, function (json) {
         radar_visualization(json);
       });
     }
