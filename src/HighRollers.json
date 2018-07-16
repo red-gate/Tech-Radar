@@ -47,7 +47,7 @@
       "ring": 0,
       "label": "C#",
       "active": true,
-      "link": "http://www.google.com",
+      "link": "https://docs.microsoft.com/en-us/dotnet/csharp/",
       "moved": 0
     },
     {
@@ -55,7 +55,7 @@
       "ring": 0,
       "label": "PowerShell",
       "active": true,
-      "link": "http://www.google.com",
+      "link": "https://docs.microsoft.com/en-us/powershell/",
       "moved": 0
     },
     {
@@ -63,7 +63,7 @@
       "ring": 0,
       "label": "Java",
       "active": true,
-      "link": "http://www.google.com",
+      "link": "https://en.wikipedia.org/wiki/Java_(disambiguation)",
       "moved": 0
     },
     {
@@ -71,7 +71,7 @@
       "ring": 0,
       "label": "Wix",
       "active": true,
-      "link": "http://www.google.com",
+      "link": "http://wixtoolset.org/",
       "moved": 0
     },
     {
@@ -79,7 +79,7 @@
       "ring": 0,
       "label": "Javascript",
       "active": true,
-      "link": "http://www.google.com",
+      "link": "https://www.javascript.com/",
       "moved": 0
     },
     {
@@ -87,7 +87,7 @@
       "ring": 0,
       "label": "WPF",
       "active": true,
-      "link": "http://www.google.com",
+      "link": "https://docs.microsoft.com/en-us/dotnet/framework/wpf/",
       "moved": 0
     },
     {
@@ -95,7 +95,7 @@
       "ring": 0,
       "label": "Winforms",
       "active": true,
-      "link": "http://www.google.com",
+      "link": "https://docs.microsoft.com/en-us/dotnet/framework/winforms/",
       "moved": 0
     },
     {
@@ -103,7 +103,7 @@
       "ring": 0,
       "label": "NUnit",
       "active": true,
-      "link": "http://www.google.com",
+      "link": "http://nunit.org/",
       "moved": 0
     },
     {
@@ -111,7 +111,7 @@
       "ring": 0,
       "label": "NSubsitute",
       "active": true,
-      "link": "http://www.google.com",
+      "link": "http://nsubstitute.github.io/",
       "moved": 0
     },
     {
@@ -119,7 +119,7 @@
       "ring": 0,
       "label": "Shouldly",
       "active": true,
-      "link": "http://www.google.com",
+      "link": "https://github.com/shouldly/shouldly",
       "moved": 0
     },
     {
@@ -143,7 +143,7 @@
       "ring": 0,
       "label": "Serilog",
       "active": true,
-      "link": "http://www.google.com",
+      "link": "https://serilog.net/",
       "moved": 0
     },
     {
@@ -175,7 +175,7 @@
       "ring": 0,
       "label": "Homebrew installer",
       "active": true,
-      "link": "http://www.google.com",
+      "link": "https://brew.sh/",
       "moved": 0
     },
     {
@@ -191,7 +191,7 @@
       "ring": 0,
       "label": ".net framework",
       "active": true,
-      "link": "http://www.google.com",
+      "link": "https://docs.microsoft.com/en-us/dotnet/framework/",
       "moved": 0
     },
     {
@@ -199,7 +199,7 @@
       "ring": 0,
       "label": "Appuim",
       "active": true,
-      "link": "http://www.google.com",
+      "link": "http://appium.io/",
       "moved": 0
     },
     {
@@ -207,7 +207,7 @@
       "ring": 1,
       "label": "Raygun",
       "active": true,
-      "link": "http://www.google.com",
+      "link": "https://raygun.com/?gclid=EAIaIQobChMI-KqFqsaZ3AIVk5EbCh0s6QpCEAAYASAAEgINLPD_BwE",
       "moved": 0
     },
     {
@@ -215,7 +215,7 @@
       "ring": 1,
       "label": "Jetbrain annotations",
       "active": true,
-      "link": "http://www.google.com",
+      "link": "https://www.nuget.org/packages/JetBrains.Annotations",
       "moved": 0
     },
     {
@@ -223,7 +223,7 @@
       "ring": 1,
       "label": ".net core",
       "active": true,
-      "link": "http://www.google.com",
+      "link": "https://www.microsoft.com/net/learn/get-started/windows",
       "moved": 0
     },
     {
@@ -231,7 +231,7 @@
       "ring": 1,
       "label": ".net standard",
       "active": true,
-      "link": "http://www.google.com",
+      "link": "https://blogs.msdn.microsoft.com/dotnet/2016/09/26/introducing-net-standard/",
       "moved": 0
     },
     {
@@ -239,7 +239,7 @@
       "ring": 0,
       "label": "Vagrant",
       "active": true,
-      "link": "http://www.google.com",
+      "link": "https://www.vagrantup.com/",
       "moved": 0
     },
     {
@@ -255,7 +255,7 @@
       "ring": 0,
       "label": "CFU",
       "active": true,
-      "link": "http://www.google.com",
+      "link": "https://www.informatica.com/lp/cloud-data-warehousing-with-microsoft-azure_3373.html?gclid=EAIaIQobChMIpOD38J-j3AIVUPlRCh2_HgTSEAAYAyAAEgJDYfD_BwE&formid=4470&programName=17Q4-PPC1-GBL-EN-Cloud-New_Azure_Workbook-PT3373&cps=ppcGS&cext=search_google_17q4_cloud-data-warehousing-with-micr_emea_uk_en&kw=azure%20sql%20database&s_kwcid=AL!5237!3!251908090077!e!!g!!azure%20sql%20database&ef_id=W0Mh8wAAAG8ftgu9:20180716085637:s#fbid=4kOBuJytzJZ",
       "moved": 0
     },
     {
@@ -271,7 +271,7 @@
       "ring": 0,
       "label": "VS marketplace",
       "active": true,
-      "link": "http://www.google.com",
+      "link": "https://marketplace.visualstudio.com/",
       "moved": 0
     },
     {
@@ -287,7 +287,7 @@
       "ring": 0,
       "label": "SQL server",
       "active": true,
-      "link": "http://www.google.com",
+      "link": "https://www.microsoft.com/en-gb/sql-server/sql-server-2017",
       "moved": 0
     },
     {
@@ -295,7 +295,7 @@
       "ring": 0,
       "label": "Github",
       "active": true,
-      "link": "http://www.google.com",
+      "link": "https://github.com/",
       "moved": 0
     },
     {
@@ -303,7 +303,7 @@
       "ring": 0,
       "label": "Zendesk",
       "active": true,
-      "link": "http://www.google.com",
+      "link": "https://www.zendesk.co.uk/",
       "moved": 0
     },
     {
@@ -311,7 +311,7 @@
       "ring": 0,
       "label": "Slack",
       "active": true,
-      "link": "http://www.google.com",
+      "link": "https://slack.com/lp/two?cvosrc=ppc.google.d_ppc_google_uk_en_brand-hv&cvo_creative=257480307484&utm_medium=ppc&utm_source=google&utm_campaign=d_ppc_google_uk_en_brand-hv&utm_term=slack&cvosrc=ppc.google.slack&cvo_campaign=&cvo_crid=257480307484&Matchtype=e&utm_source=google&utm_medium=ppc&c3api=5523,257480307484,slack&gclid=EAIaIQobChMIjtSWzqCj3AIVyJrVCh0yjwGWEAAYASAAEgIiFPD_BwE&gclsrc=aw.ds&dclid=CPiZhtCgo9wCFYaJdwodtgoKdw",
       "moved": 0
     },
     {
@@ -319,7 +319,7 @@
       "ring": 2,
       "label": "AppInsights",
       "active": true,
-      "link": "http://www.google.com",
+      "link": "https://azure.microsoft.com/en-gb/services/application-insights/?&OCID=AID719823_SEM_6wQlb9RZ&gclid=EAIaIQobChMIspnm1qCj3AIVFYbVCh1j6AOAEAAYASAAEgLA4_D_BwE&dclid=CPOTiNigo9wCFcyHdwodfB4GyA",
       "moved": 0
     },
     {
@@ -327,7 +327,7 @@
       "ring": 2,
       "label": "VSTS",
       "active": true,
-      "link": "http://www.google.com",
+      "link": "https://visualstudio.microsoft.com/team-services/",
       "moved": 0
     },
     {
@@ -397,7 +397,7 @@
     {
       "quadrant": 3,
       "ring": 0,
-      "label": "Pain on support rota",
+      "label": "Pair on support rota",
       "active": true,
       "link": "http://www.google.com",
       "moved": 0
@@ -487,7 +487,7 @@
       "ring": 0,
       "label": "GitHub",
       "active": true,
-      "link": "http://www.google.com",
+      "link": "https://github.com/",
       "moved": 0
     },
     {
@@ -511,7 +511,7 @@
       "ring": 3,
       "label": "GitHub projects",
       "active": true,
-      "link": "http://www.google.com",
+      "link": "https://help.github.com/articles/about-project-boards/",
       "moved": 0
     },
     {
