@@ -1,0 +1,39 @@
+{
+    "svg_id": "radar",
+    "width": 1890,
+    "height": 907,
+    "colors": {
+      "background": "#fff",
+      "grid": "#000",
+      "inactive": "#ddd"
+    },
+    "title": "Redgate",
+    "quadrants": [
+      { "name": "Languages" },
+      { "name": "Libraries" },
+      { "name": "Infrastructure" },
+      { "name": "Practices" }
+    ],
+    "rings": [
+      {
+          "name": "ADOPT",
+          "color": "#4bb71b"
+      },
+      {
+          "name": "TRIAL",
+          "color": "#53d1b1"
+      },
+      {
+          "name": "ASSESS",
+          "color": "#ffba00"
+      },
+      {
+          "name": "HOLD",
+          "color": "#e22a18"
+      }
+  ],
+    "print_layout": true,
+    "entries": [
+
+    ]
+  }
