@@ -275,7 +275,7 @@ function radar_visualization(config) {
           .append("text")
           .attr("class", "legend" + quadrant + ring)
           .attr("transform", function (d, i) { return legend_transform(quadrant, ring, i); })
-          .text(function (d, i) { return d.id + ". " + d.label; })
+          .text(function (d, i) { return d.id + "| " + d.label; })
           .attr("class", "LText")
           .attr("fill", config.rings[ring].color)
       }
