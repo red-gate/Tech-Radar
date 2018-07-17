@@ -68,7 +68,183 @@
     {
       "quadrant": 1,
       "ring": 0,
+      "label": "Wix3",
+      "active": true,
+      "link": "http://www.google.com",
+      "moved": 0
+    },
+    {
+      "quadrant": 1,
+      "ring": 0,
+      "label": "Honeycomb toolkit",
+      "active": true,
+      "link": "http://www.google.com",
+      "moved": 0
+    },
+    {
+      "quadrant": 1,
+      "ring": 0,
+      "label": "ASP.NET WebAPI",
+      "active": true,
+      "link": "http://www.google.com",
+      "moved": 0
+    },
+    {
+      "quadrant": 1,
+      "ring": 0,
+      "label": "React",
+      "active": true,
+      "link": "http://www.google.com",
+      "moved": 0
+    },
+    {
+      "quadrant": 1,
+      "ring": 0,
+      "label": "Licencing",
+      "active": true,
+      "link": "http://www.google.com",
+      "moved": 0
+    },
+    {
+      "quadrant": 1,
+      "ring": 0,
+      "label": "NUnit",
+      "active": true,
+      "link": "http://www.google.com",
+      "moved": 0
+    },
+    {
+      "quadrant": 1,
+      "ring": 0,
+      "label": "OWIN",
+      "active": true,
+      "link": "http://www.google.com",
+      "moved": 0
+    },
+    {
+      "quadrant": 1,
+      "ring": 0,
+      "label": "Redux",
+      "active": true,
+      "link": "http://www.google.com",
+      "moved": 0
+    },
+    {
+      "quadrant": 1,
+      "ring": 0,
+      "label": "PFuR",
+      "active": true,
+      "link": "http://www.google.com",
+      "moved": 0
+    },
+    {
+      "quadrant": 1,
+      "ring": 0,
+      "label": "NSubsitiute",
+      "active": true,
+      "link": "http://www.google.com",
+      "moved": 0
+    },
+    {
+      "quadrant": 1,
+      "ring": 0,
+      "label": "EF Core",
+      "active": true,
+      "link": "http://www.google.com",
+      "moved": 0
+    },
+    {
+      "quadrant": 1,
+      "ring": 0,
+      "label": "Autofac",
+      "active": true,
+      "link": "http://www.google.com",
+      "moved": 0
+    },
+    {
+      "quadrant": 1,
+      "ring": 0,
+      "label": "Json.net",
+      "active": true,
+      "link": "http://www.google.com",
+      "moved": 0
+    },
+    {
+      "quadrant": 1,
+      "ring": 0,
+      "label": "Webpack",
+      "active": true,
+      "link": "http://www.google.com",
+      "moved": 0
+    },
+    {
+      "quadrant": 1,
+      "ring": 0,
+      "label": "SignalR",
+      "active": true,
+      "link": "http://www.google.com",
+      "moved": 0
+    },
+    {
+      "quadrant": 1,
+      "ring": 0,
+      "label": "Virtual disks",
+      "active": true,
+      "link": "http://www.google.com",
+      "moved": 0
+    },
+    {
+      "quadrant": 1,
+      "ring": 0,
+      "label": "Shadow copy service",
+      "active": true,
+      "link": "http://www.google.com",
+      "moved": 0
+    },
+    {
+      "quadrant": 1,
+      "ring": 0,
+      "label": "Raygun",
+      "active": true,
+      "link": "http://www.google.com",
+      "moved": 0
+    },
+    {
+      "quadrant": 1,
+      "ring": 1,
       "label": "Google",
+      "active": true,
+      "link": "http://www.google.com",
+      "moved": 0
+    },
+    {
+      "quadrant": 1,
+      "ring": 1,
+      "label": "Honeycomb React",
+      "active": true,
+      "link": "http://www.google.com",
+      "moved": 0
+    },
+    {
+      "quadrant": 1,
+      "ring": 1,
+      "label": "Auto/one click update",
+      "active": true,
+      "link": "http://www.google.com",
+      "moved": 0
+    },
+    {
+      "quadrant": 1,
+      "ring": 2,
+      "label": "Mosaic",
+      "active": true,
+      "link": "http://www.google.com",
+      "moved": 0
+    },
+    {
+      "quadrant": 1,
+      "ring": 2,
+      "label": ".NET Standard",
       "active": true,
       "link": "http://www.google.com",
       "moved": 0
