@@ -211,8 +211,8 @@
     },
     {
       "quadrant": 1,
-      "ring": 1,
-      "label": "Google",
+      "ring": 3,
+      "label": "Internal shared utility libraries",
       "active": true,
       "link": "http://www.google.com",
       "moved": 0
@@ -245,6 +245,350 @@
       "quadrant": 1,
       "ring": 2,
       "label": ".NET Standard",
+      "active": true,
+      "link": "http://www.google.com",
+      "moved": 0
+    },
+    {
+      "quadrant": 2,
+      "ring": 0,
+      "label": "google",
+      "active": true,
+      "link": "http://www.google.com",
+      "moved": 0
+    },
+    {
+      "quadrant": 2,
+      "ring": 0,
+      "label": "google",
+      "active": true,
+      "link": "http://www.google.com",
+      "moved": 0
+    },
+    {
+      "quadrant": 2,
+      "ring": 0,
+      "label": "google",
+      "active": true,
+      "link": "http://www.google.com",
+      "moved": 0
+    },
+    {
+      "quadrant": 2,
+      "ring": 0,
+      "label": "google",
+      "active": true,
+      "link": "http://www.google.com",
+      "moved": 0
+    },
+    {
+      "quadrant": 2,
+      "ring": 0,
+      "label": "google",
+      "active": true,
+      "link": "http://www.google.com",
+      "moved": 0
+    },
+    {
+      "quadrant": 2,
+      "ring": 0,
+      "label": "google",
+      "active": true,
+      "link": "http://www.google.com",
+      "moved": 0
+    },
+    {
+      "quadrant": 2,
+      "ring": 0,
+      "label": "google",
+      "active": true,
+      "link": "http://www.google.com",
+      "moved": 0
+    },
+    {
+      "quadrant": 2,
+      "ring": 0,
+      "label": "google",
+      "active": true,
+      "link": "http://www.google.com",
+      "moved": 0
+    },
+    {
+      "quadrant": 2,
+      "ring": 0,
+      "label": "google",
+      "active": true,
+      "link": "http://www.google.com",
+      "moved": 0
+    },
+    {
+      "quadrant": 2,
+      "ring": 0,
+      "label": "google",
+      "active": true,
+      "link": "http://www.google.com",
+      "moved": 0
+    },
+    {
+      "quadrant": 2,
+      "ring": 0,
+      "label": "google",
+      "active": true,
+      "link": "http://www.google.com",
+      "moved": 0
+    },
+    {
+      "quadrant": 2,
+      "ring": 0,
+      "label": "google",
+      "active": true,
+      "link": "http://www.google.com",
+      "moved": 0
+    },
+    {
+      "quadrant": 2,
+      "ring": 0,
+      "label": "google",
+      "active": true,
+      "link": "http://www.google.com",
+      "moved": 0
+    },
+    {
+      "quadrant": 2,
+      "ring": 0,
+      "label": "google",
+      "active": true,
+      "link": "http://www.google.com",
+      "moved": 0
+    },
+    {
+      "quadrant": 2,
+      "ring": 0,
+      "label": "google",
+      "active": true,
+      "link": "http://www.google.com",
+      "moved": 0
+    },
+    {
+      "quadrant": 2,
+      "ring": 0,
+      "label": "google",
+      "active": true,
+      "link": "http://www.google.com",
+      "moved": 0
+    },
+    {
+      "quadrant": 2,
+      "ring": 0,
+      "label": "google",
+      "active": true,
+      "link": "http://www.google.com",
+      "moved": 0
+    },
+    {
+      "quadrant": 2,
+      "ring": 1,
+      "label": "google",
+      "active": true,
+      "link": "http://www.google.com",
+      "moved": 0
+    },
+    {
+      "quadrant": 2,
+      "ring": 2,
+      "label": "google",
+      "active": true,
+      "link": "http://www.google.com",
+      "moved": 0
+    },
+    {
+      "quadrant": 2,
+      "ring": 2,
+      "label": "google",
+      "active": true,
+      "link": "http://www.google.com",
+      "moved": 0
+    },
+    {
+      "quadrant": 2,
+      "ring": 3,
+      "label": "google",
+      "active": true,
+      "link": "http://www.google.com",
+      "moved": 0
+    },
+    {
+      "quadrant": 3,
+      "ring": 0,
+      "label": "google",
+      "active": true,
+      "link": "http://www.google.com",
+      "moved": 0
+    },
+    {
+      "quadrant": 3,
+      "ring": 0,
+      "label": "google",
+      "active": true,
+      "link": "http://www.google.com",
+      "moved": 0
+    },
+    {
+      "quadrant": 3,
+      "ring": 0,
+      "label": "google",
+      "active": true,
+      "link": "http://www.google.com",
+      "moved": 0
+    },
+    {
+      "quadrant": 3,
+      "ring": 0,
+      "label": "google",
+      "active": true,
+      "link": "http://www.google.com",
+      "moved": 0
+    },
+    {
+      "quadrant": 3,
+      "ring": 0,
+      "label": "google",
+      "active": true,
+      "link": "http://www.google.com",
+      "moved": 0
+    },
+    {
+      "quadrant": 3,
+      "ring": 0,
+      "label": "google",
+      "active": true,
+      "link": "http://www.google.com",
+      "moved": 0
+    },
+    {
+      "quadrant": 3,
+      "ring": 0,
+      "label": "google",
+      "active": true,
+      "link": "http://www.google.com",
+      "moved": 0
+    },
+    {
+      "quadrant": 3,
+      "ring": 0,
+      "label": "google",
+      "active": true,
+      "link": "http://www.google.com",
+      "moved": 0
+    },
+    {
+      "quadrant": 3,
+      "ring": 0,
+      "label": "google",
+      "active": true,
+      "link": "http://www.google.com",
+      "moved": 0
+    },
+    {
+      "quadrant": 3,
+      "ring": 0,
+      "label": "google",
+      "active": true,
+      "link": "http://www.google.com",
+      "moved": 0
+    },
+    {
+      "quadrant": 3,
+      "ring": 0,
+      "label": "google",
+      "active": true,
+      "link": "http://www.google.com",
+      "moved": 0
+    },
+    {
+      "quadrant": 3,
+      "ring": 0,
+      "label": "google",
+      "active": true,
+      "link": "http://www.google.com",
+      "moved": 0
+    },
+    {
+      "quadrant": 3,
+      "ring": 0,
+      "label": "google",
+      "active": true,
+      "link": "http://www.google.com",
+      "moved": 0
+    },
+    {
+      "quadrant": 3,
+      "ring": 0,
+      "label": "google",
+      "active": true,
+      "link": "http://www.google.com",
+      "moved": 0
+    },
+    {
+      "quadrant": 3,
+      "ring": 1,
+      "label": "google",
+      "active": true,
+      "link": "http://www.google.com",
+      "moved": 0
+    },
+    {
+      "quadrant": 3,
+      "ring": 1,
+      "label": "google",
+      "active": true,
+      "link": "http://www.google.com",
+      "moved": 0
+    },
+    {
+      "quadrant": 3,
+      "ring": 1,
+      "label": "google",
+      "active": true,
+      "link": "http://www.google.com",
+      "moved": 0
+    },
+    {
+      "quadrant": 3,
+      "ring": 1,
+      "label": "google",
+      "active": true,
+      "link": "http://www.google.com",
+      "moved": 0
+    },
+    {
+      "quadrant": 3,
+      "ring": 1,
+      "label": "google",
+      "active": true,
+      "link": "http://www.google.com",
+      "moved": 0
+    },
+    {
+      "quadrant": 3,
+      "ring": 2,
+      "label": "google",
+      "active": true,
+      "link": "http://www.google.com",
+      "moved": 0
+    },
+    {
+      "quadrant": 3,
+      "ring": 3,
+      "label": "google",
+      "active": true,
+      "link": "http://www.google.com",
+      "moved": 0
+    },
+    {
+      "quadrant": 3,
+      "ring": 3,
+      "label": "google",
       "active": true,
       "link": "http://www.google.com",
       "moved": 0
