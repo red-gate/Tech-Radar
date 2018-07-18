@@ -212,7 +212,7 @@
     {
       "quadrant": 1,
       "ring": 3,
-      "label": "Internal shared utility libraries",
+      "label": "Internal utility libraries",
       "active": true,
       "link": "http://www.google.com",
       "moved": 0
@@ -260,7 +260,7 @@
     {
       "quadrant": 2,
       "ring": 0,
-      "label": "google",
+      "label": "Mural",
       "active": true,
       "link": "http://www.google.com",
       "moved": 0
@@ -268,7 +268,7 @@
     {
       "quadrant": 2,
       "ring": 0,
-      "label": "google",
+      "label": "TeamCity",
       "active": true,
       "link": "http://www.google.com",
       "moved": 0
@@ -276,7 +276,7 @@
     {
       "quadrant": 2,
       "ring": 0,
-      "label": "google",
+      "label": "Release script",
       "active": true,
       "link": "http://www.google.com",
       "moved": 0
@@ -284,7 +284,7 @@
     {
       "quadrant": 2,
       "ring": 0,
-      "label": "google",
+      "label": "Raygun",
       "active": true,
       "link": "http://www.google.com",
       "moved": 0
@@ -292,7 +292,7 @@
     {
       "quadrant": 2,
       "ring": 0,
-      "label": "google",
+      "label": "Google forms",
       "active": true,
       "link": "http://www.google.com",
       "moved": 0
@@ -300,7 +300,7 @@
     {
       "quadrant": 2,
       "ring": 0,
-      "label": "google",
+      "label": "Github",
       "active": true,
       "link": "http://www.google.com",
       "moved": 0
@@ -308,7 +308,7 @@
     {
       "quadrant": 2,
       "ring": 0,
-      "label": "google",
+      "label": "NuGet",
       "active": true,
       "link": "http://www.google.com",
       "moved": 0
@@ -316,7 +316,7 @@
     {
       "quadrant": 2,
       "ring": 0,
-      "label": "google",
+      "label": "Vagrant",
       "active": true,
       "link": "http://www.google.com",
       "moved": 0
@@ -324,7 +324,7 @@
     {
       "quadrant": 2,
       "ring": 0,
-      "label": "google",
+      "label": "Slack",
       "active": true,
       "link": "http://www.google.com",
       "moved": 0
@@ -332,7 +332,7 @@
     {
       "quadrant": 2,
       "ring": 0,
-      "label": "google",
+      "label": "Check for update",
       "active": true,
       "link": "http://www.google.com",
       "moved": 0
@@ -340,7 +340,7 @@
     {
       "quadrant": 2,
       "ring": 0,
-      "label": "google",
+      "label": "PFuR",
       "active": true,
       "link": "http://www.google.com",
       "moved": 0
@@ -348,7 +348,7 @@
     {
       "quadrant": 2,
       "ring": 0,
-      "label": "google",
+      "label": "npm",
       "active": true,
       "link": "http://www.google.com",
       "moved": 0
@@ -356,7 +356,7 @@
     {
       "quadrant": 2,
       "ring": 0,
-      "label": "google",
+      "label": "ZenDesk",
       "active": true,
       "link": "http://www.google.com",
       "moved": 0
@@ -364,7 +364,7 @@
     {
       "quadrant": 2,
       "ring": 0,
-      "label": "google",
+      "label": "JIRA",
       "active": true,
       "link": "http://www.google.com",
       "moved": 0
@@ -372,15 +372,7 @@
     {
       "quadrant": 2,
       "ring": 0,
-      "label": "google",
-      "active": true,
-      "link": "http://www.google.com",
-      "moved": 0
-    },
-    {
-      "quadrant": 2,
-      "ring": 0,
-      "label": "google",
+      "label": "VirtualBox",
       "active": true,
       "link": "http://www.google.com",
       "moved": 0
@@ -388,7 +380,7 @@
     {
       "quadrant": 2,
       "ring": 1,
-      "label": "google",
+      "label": "APP Insights",
       "active": true,
       "link": "http://www.google.com",
       "moved": 0
@@ -396,7 +388,7 @@
     {
       "quadrant": 2,
       "ring": 2,
-      "label": "google",
+      "label": "SonarQube",
       "active": true,
       "link": "http://www.google.com",
       "moved": 0
@@ -404,7 +396,7 @@
     {
       "quadrant": 2,
       "ring": 2,
-      "label": "google",
+      "label": "Teraform",
       "active": true,
       "link": "http://www.google.com",
       "moved": 0
@@ -412,7 +404,7 @@
     {
       "quadrant": 2,
       "ring": 3,
-      "label": "google",
+      "label": "MixPanel",
       "active": true,
       "link": "http://www.google.com",
       "moved": 0
@@ -420,7 +412,7 @@
     {
       "quadrant": 3,
       "ring": 0,
-      "label": "google",
+      "label": "Show and tell",
       "active": true,
       "link": "http://www.google.com",
       "moved": 0
@@ -428,7 +420,7 @@
     {
       "quadrant": 3,
       "ring": 0,
-      "label": "google",
+      "label": "Release automation",
       "active": true,
       "link": "http://www.google.com",
       "moved": 0
@@ -436,7 +428,7 @@
     {
       "quadrant": 3,
       "ring": 0,
-      "label": "google",
+      "label": "Standup",
       "active": true,
       "link": "http://www.google.com",
       "moved": 0
@@ -444,7 +436,7 @@
     {
       "quadrant": 3,
       "ring": 0,
-      "label": "google",
+      "label": "Retro",
       "active": true,
       "link": "http://www.google.com",
       "moved": 0
@@ -452,7 +444,7 @@
     {
       "quadrant": 3,
       "ring": 0,
-      "label": "google",
+      "label": "Planing metrics",
       "active": true,
       "link": "http://www.google.com",
       "moved": 0
@@ -460,7 +452,7 @@
     {
       "quadrant": 3,
       "ring": 0,
-      "label": "google",
+      "label": "Github pull requests",
       "active": true,
       "link": "http://www.google.com",
       "moved": 0
@@ -468,7 +460,7 @@
     {
       "quadrant": 3,
       "ring": 0,
-      "label": "google",
+      "label": "JIRA",
       "active": true,
       "link": "http://www.google.com",
       "moved": 0
@@ -476,7 +468,7 @@
     {
       "quadrant": 3,
       "ring": 0,
-      "label": "google",
+      "label": "Support rota",
       "active": true,
       "link": "http://www.google.com",
       "moved": 0
@@ -484,7 +476,7 @@
     {
       "quadrant": 3,
       "ring": 0,
-      "label": "google",
+      "label": "Reasearch calls",
       "active": true,
       "link": "http://www.google.com",
       "moved": 0
@@ -492,7 +484,7 @@
     {
       "quadrant": 3,
       "ring": 0,
-      "label": "google",
+      "label": "Close to Kanban",
       "active": true,
       "link": "http://www.google.com",
       "moved": 0
@@ -500,7 +492,7 @@
     {
       "quadrant": 3,
       "ring": 0,
-      "label": "google",
+      "label": "Permament remote worker",
       "active": true,
       "link": "http://www.google.com",
       "moved": 0
@@ -508,7 +500,7 @@
     {
       "quadrant": 3,
       "ring": 0,
-      "label": "google",
+      "label": "API-first design",
       "active": true,
       "link": "http://www.google.com",
       "moved": 0
@@ -516,15 +508,7 @@
     {
       "quadrant": 3,
       "ring": 0,
-      "label": "google",
-      "active": true,
-      "link": "http://www.google.com",
-      "moved": 0
-    },
-    {
-      "quadrant": 3,
-      "ring": 0,
-      "label": "google",
+      "label": "HTTP (restful) API",
       "active": true,
       "link": "http://www.google.com",
       "moved": 0
@@ -532,7 +516,7 @@
     {
       "quadrant": 3,
       "ring": 1,
-      "label": "google",
+      "label": "10% time",
       "active": true,
       "link": "http://www.google.com",
       "moved": 0
@@ -540,7 +524,7 @@
     {
       "quadrant": 3,
       "ring": 1,
-      "label": "google",
+      "label": "OKR's",
       "active": true,
       "link": "http://www.google.com",
       "moved": 0
@@ -548,7 +532,7 @@
     {
       "quadrant": 3,
       "ring": 1,
-      "label": "google",
+      "label": "Clean up friday",
       "active": true,
       "link": "http://www.google.com",
       "moved": 0
@@ -556,7 +540,7 @@
     {
       "quadrant": 3,
       "ring": 1,
-      "label": "google",
+      "label": "Incremental feature delivery",
       "active": true,
       "link": "http://www.google.com",
       "moved": 0
@@ -564,7 +548,7 @@
     {
       "quadrant": 3,
       "ring": 1,
-      "label": "google",
+      "label": "1 day a week WFH",
       "active": true,
       "link": "http://www.google.com",
       "moved": 0
@@ -572,7 +556,7 @@
     {
       "quadrant": 3,
       "ring": 2,
-      "label": "google",
+      "label": "Paring",
       "active": true,
       "link": "http://www.google.com",
       "moved": 0
@@ -580,7 +564,7 @@
     {
       "quadrant": 3,
       "ring": 3,
-      "label": "google",
+      "label": "Directly exposing objects over HTTP",
       "active": true,
       "link": "http://www.google.com",
       "moved": 0
@@ -588,7 +572,7 @@
     {
       "quadrant": 3,
       "ring": 3,
-      "label": "google",
+      "label": "RPC API",
       "active": true,
       "link": "http://www.google.com",
       "moved": 0
