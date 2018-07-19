@@ -10,8 +10,8 @@
 </head>
 
 <body>
-  <div id="file"></div>
-  <div id="quadrant"></div>
+  <div id="file" style="display: none"></div>
+  <div id="quadrant" style="display: none"></div>
 
   <svg id="radar"></svg>
   
@@ -27,11 +27,13 @@
   <button onClick="choose('clear.json', null)">Clear</button>
   <button onClick="choose('Redgate.json', null)">Redgate</button>
 
+
+  <div align="right">
   <button onClick="Zoom('2')">Infrastructure</button>
   <button onClick="Zoom('3')">Practices</button>
   <button onClick="Zoom('1')">Libraries</button>
   <button onClick="Zoom('0')">Languages</button>
-
+</div>
   <script>
     $(document).ready(function () {
       choose('clear.json', null);
