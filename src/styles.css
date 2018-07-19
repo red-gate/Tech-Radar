@@ -17,6 +17,9 @@ body {
     vertical-align: top;
     padding-right: 60px;
   }
+  a {
+    cursor: pointer;
+  }
   .QName{
     font-family: Arial, Helvetica;
     font-weight: 700;

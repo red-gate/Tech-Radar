@@ -7,15 +7,19 @@
   <script src="https://d3js.org/d3.v4.min.js"></script>
   <script src="radar.js"></script>
   <link rel="stylesheet" href="styles.css">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 
 <body>
   <div id="file" style="display: none"></div>
   <div id="quadrant" style="display: none"></div>
-
   <svg id="radar"></svg>
-  
-  <button onClick="choose('toolbelt.json', null)">Toolbelt</button>
+
+  <!-- <button onClick="choose('toolbelt.json', null)">Toolbelt</button>
   <button onClick="choose('HighRollers.json', null)">HighRollers</button>
   <button onClick="choose('Prompt.json', null)">Prompt</button>
   <button onClick="choose('DataMasking.json', null)">DataMasking</button>
@@ -25,16 +29,37 @@
   <button onClick="choose('SQLCrackers.json', null)">SQLCrackers</button>
   <button onClick="choose('TeamUP.json', null)">TeamUP</button>
   <button onClick="choose('clear.json', null)">Clear</button>
-  <button onClick="choose('Redgate.json', null)">Redgate</button>
+  <button onClick="choose('Redgate.json', null)">Redgate</button> -->
 
-
+  <div align="left" class="container">
+    <div class="dropup">
+      <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Teams
+      <span class="caret"></span></button>
+      <ul class="dropdown-menu dropup">
+        <li><a onClick="choose('toolbelt.json', null)">Toolbelt</a></li>
+        <li><a onClick="choose('HighRollers.json', null)">HighRollers</a></li>
+        <li><a onClick="choose('Prompt.json', null)">Prompt</a></li>
+        <li><a onClick="choose('DataMasking.json', null)">DataMasking</a></li>
+        <li><a onClick="choose('Hammerheads.json', null)">Hammerheads</a></li>
+        <li><a onClick="choose('ICloneables.json', null)">ICloneables</a></li>
+        <li><a onClick="choose('Spiders.json', null)">Spiders</a></li>
+        <li><a onClick="choose('SQLCrackers.json', null)">SQLCrackers</a></li>
+        <li><a onClick="choose('TeamUP.json', null)">TeamUP</a></li>
+        <li><a onClick="choose('clear.json', null)">Clear</a></li>
+        <li><a onClick="choose('Redgate.json', null)">Redgate</a></li>
+      </ul>
+    </div>
+  </div>
+  
   <div align="right">
-  <button onClick="Zoom('2')">Infrastructure</button>
-  <button onClick="Zoom('3')">Practices</button>
-  <button onClick="Zoom('1')">Libraries</button>
-  <button onClick="Zoom('0')">Languages</button>
-</div>
-  <script>
+      <button onClick="Zoom('2')">Infrastructure</button>
+      <button onClick="Zoom('3')">Practices</button>
+      <button onClick="Zoom('1')">Libraries</button>
+      <button onClick="Zoom('0')">Languages</button>
+    </div>
+
+<script>
+
     $(document).ready(function () {
       choose('clear.json', null);
     });
@@ -77,8 +102,6 @@
 
     function Zoom(quadrant) {
       var currentFile = $('#file').text();
-
-
       choose(currentFile, quadrant);
 
     }
