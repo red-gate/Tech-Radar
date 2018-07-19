@@ -10,22 +10,31 @@
 </head>
 
 <body>
+  <div id="file"></div>
+  <div id="quadrant"></div>
+
   <svg id="radar"></svg>
-  <button onClick="choose('toolbelt.json')">Toolbelt</button>
-  <button onClick="choose('HighRollers.json')">HighRollers</button>
-  <button onClick="choose('Prompt.json')">Prompt</button>
-  <button onClick="choose('DataMasking.json')">DataMasking</button>
-  <button onClick="choose('Hammerheads.json')">Hammerheads</button>
-  <button onClick="choose('ICloneables.json')">ICloneables</button>
-  <button onClick="choose('Spiders.json')">Spiders</button>
-  <button onClick="choose('SQLCrackers.json')">SQLCrackers</button>
-  <button onClick="choose('TeamUP.json')">TeamUP</button>
-  <button onClick="choose('clear.json')">Clear</button>
-  <button onClick="choose('Redgate.json')">Redgate</button>
+  
+  <button onClick="choose('toolbelt.json', null)">Toolbelt</button>
+  <button onClick="choose('HighRollers.json', null)">HighRollers</button>
+  <button onClick="choose('Prompt.json', null)">Prompt</button>
+  <button onClick="choose('DataMasking.json', null)">DataMasking</button>
+  <button onClick="choose('Hammerheads.json', null)">Hammerheads</button>
+  <button onClick="choose('ICloneables.json', null)">ICloneables</button>
+  <button onClick="choose('Spiders.json', null)">Spiders</button>
+  <button onClick="choose('SQLCrackers.json', null)">SQLCrackers</button>
+  <button onClick="choose('TeamUP.json', null)">TeamUP</button>
+  <button onClick="choose('clear.json', null)">Clear</button>
+  <button onClick="choose('Redgate.json', null)">Redgate</button>
+
+  <button onClick="Zoom('2')">Infrastructure</button>
+  <button onClick="Zoom('3')">Practices</button>
+  <button onClick="Zoom('1')">Libraries</button>
+  <button onClick="Zoom('0')">Languages</button>
 
   <script>
     $(document).ready(function () {
-      choose('clear.json');
+      choose('clear.json', null);
     });
 
     function reset() {
@@ -35,17 +44,41 @@
       }
     }
 
-    function choose(jsonFile) {
+    function choose(jsonFile, quadrant) {
+      $('#file').text(jsonFile);
+      $('#quadrant').text(quadrant);
+
       reset()
 
       $.getJSON('radar-skeleton.json', function (json) {
         var radar = json;
+
+        if (quadrant) {
+          radar.zoomed_quadrant = quadrant;
+        }
+
         $.getJSON(jsonFile, function (data) {
           radar.entries = data.entries;
           radar.title = data.TeamName;
           radar_visualization(radar);
+
+          if (quadrant) {
+            $('.RName').hide();
+            $('.LText').hide();
+            $('.QName').hide();
+            $('.Title').hide();
+            radar.zoomed_quadrant = quadrant;
+          }
         });
       });
+    }
+
+    function Zoom(quadrant) {
+      var currentFile = $('#file').text();
+
+
+      choose(currentFile, quadrant);
+
     }
   </script>
 </body>
