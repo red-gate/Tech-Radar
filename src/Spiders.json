@@ -1,5 +1,563 @@
 {
     "TeamName" : "Spiders",
     "entries": [
-    
+        {
+            "quadrant": 2,
+            "ring": 0,
+            "label": "RedGate.Build",
+            "active": true,
+            "link": "http://www.google.com",
+            "moved": 0
+          },
+          {
+            "quadrant": 2,
+            "ring": 0,
+            "label": "RedGate.Build.Installer",
+            "active": true,
+            "link": "http://www.google.com",
+            "moved": 0
+          },
+          {
+            "quadrant": 2,
+            "ring": 0,
+            "label": "PowerShell",
+            "active": true,
+            "link": "http://www.google.com",
+            "moved": 0
+          },
+          {
+            "quadrant": 2,
+            "ring": 0,
+            "label": "PowerShell Build Scripts",
+            "active": true,
+            "link": "http://www.google.com",
+            "moved": 0
+          },
+          {
+            "quadrant": 2,
+            "ring": 0,
+            "label": "Node JS",
+            "active": true,
+            "link": "http://www.google.com",
+            "moved": 0
+          },
+          {
+            "quadrant": 2,
+            "ring": 0,
+            "label": "NPM",
+            "active": true,
+            "link": "http://www.google.com",
+            "moved": 0
+          },
+          {
+            "quadrant": 2,
+            "ring": 0,
+            "label": "Paket",
+            "active": true,
+            "link": "http://www.google.com",
+            "moved": 0
+          },
+          {
+            "quadrant": 2,
+            "ring": 0,
+            "label": "NuGet",
+            "active": true,
+            "link": "http://www.google.com",
+            "moved": 0
+          },
+          {
+            "quadrant": 2,
+            "ring": 0,
+            "label": "Git",
+            "active": true,
+            "link": "http://www.google.com",
+            "moved": 0
+          },
+          {
+            "quadrant": 2,
+            "ring": 0,
+            "label": "GitHub",
+            "active": true,
+            "link": "http://www.google.com",
+            "moved": 0
+          },
+          {
+            "quadrant": 2,
+            "ring": 0,
+            "label": "GitHub web-hooks",
+            "active": true,
+            "link": "http://www.google.com",
+            "moved": 0
+          },
+          {
+            "quadrant": 2,
+            "ring": 0,
+            "label": "TeamCity",
+            "active": true,
+            "link": "http://www.google.com",
+            "moved": 0
+          },
+          {
+            "quadrant": 2,
+            "ring": 0,
+            "label": "tslint",
+            "active": true,
+            "link": "http://www.google.com",
+            "moved": 0
+          },
+          {
+            "quadrant": 2,
+            "ring": 0,
+            "label": "SonarQube",
+            "active": true,
+            "link": "http://www.google.com",
+            "moved": 0
+          },
+          {
+            "quadrant": 0,
+            "ring": 0,
+            "label": "Visual Studio project",
+            "active": true,
+            "link": "http://www.google.com",
+            "moved": 0
+          },
+          {
+            "quadrant": 2,
+            "ring": 0,
+            "label": "RedGate Signing Service",
+            "active": true,
+            "link": "http://www.google.com",
+            "moved": 0
+          },
+          {
+            "quadrant": 2,
+            "ring": 0,
+            "label": "JetBrains r#",
+            "active": true,
+            "link": "http://www.google.com",
+            "moved": 0
+          },
+          {
+            "quadrant": 2,
+            "ring": 0,
+            "label": "yarn",
+            "active": true,
+            "link": "http://www.google.com",
+            "moved": 0
+          },
+          {
+            "quadrant": 2,
+            "ring": 0,
+            "label": "bable",
+            "active": true,
+            "link": "http://www.google.com",
+            "moved": 0
+          },
+          {
+            "quadrant": 2,
+            "ring": 0,
+            "label": "webpack",
+            "active": true,
+            "link": "http://www.google.com",
+            "moved": 0
+          },
+          {
+            "quadrant": 2,
+            "ring": 0,
+            "label": "Create React App",
+            "active": true,
+            "link": "http://www.google.com",
+            "moved": 0
+          },
+          {
+            "quadrant": 2,
+            "ring": 0,
+            "label": "Intercom",
+            "active": true,
+            "link": "http://www.google.com",
+            "moved": 0
+          },
+          {
+            "quadrant": 2,
+            "ring": 0,
+            "label": "Slack",
+            "active": true,
+            "link": "http://www.google.com",
+            "moved": 0
+          },
+          {
+            "quadrant": 2,
+            "ring": 0,
+            "label": "Slack web-hooks",
+            "active": true,
+            "link": "http://www.google.com",
+            "moved": 0
+          },
+          {
+            "quadrant": 2,
+            "ring": 0,
+            "label": "PFUR",
+            "active": true,
+            "link": "http://www.google.com",
+            "moved": 0
+          },
+          {
+            "quadrant": 2,
+            "ring": 1,
+            "label": "Lite DB",
+            "active": true,
+            "link": "http://www.google.com",
+            "moved": 0
+          },
+          {
+            "quadrant": 2,
+            "ring": 1,
+            "label": "Swagger",
+            "active": true,
+            "link": "http://www.google.com",
+            "moved": 0
+          },
+          {
+            "quadrant": 2,
+            "ring": 1,
+            "label": "Docker",
+            "active": true,
+            "link": "http://www.google.com",
+            "moved": 0
+          },
+
+          {
+            "quadrant": 0,
+            "ring": 0,
+            "label": "CSS",
+            "active": true,
+            "link": "http://www.google.com",
+            "moved": 0
+          },
+          {
+            "quadrant": 0,
+            "ring": 0,
+            "label": "C#",
+            "active": true,
+            "link": "http://www.google.com",
+            "moved": 0
+          },
+          {
+            "quadrant": 0,
+            "ring": 0,
+            "label": "PowerShell",
+            "active": true,
+            "link": "http://www.google.com",
+            "moved": 0
+          },
+          {
+            "quadrant": 0,
+            "ring": 0,
+            "label": "TypeScript",
+            "active": true,
+            "link": "http://www.google.com",
+            "moved": 0
+          },
+          
+          {
+            "quadrant": 3,
+            "ring": 0,
+            "label": "Stand ups",
+            "active": true,
+            "link": "http://www.google.com",
+            "moved": 0
+          },
+          
+          {
+            "quadrant": 3,
+            "ring": 0,
+            "label": "GitHub projects",
+            "active": true,
+            "link": "http://www.google.com",
+            "moved": 0
+          },
+          
+          {
+            "quadrant": 3,
+            "ring": 0,
+            "label": "GitHub pull requests",
+            "active": true,
+            "link": "http://www.google.com",
+            "moved": 0
+          },
+          
+          {
+            "quadrant": 3,
+            "ring": 0,
+            "label": "GitHub issues",
+            "active": true,
+            "link": "http://www.google.com",
+            "moved": 0
+          },
+          
+          {
+            "quadrant": 3,
+            "ring": 0,
+            "label": "GitHub PR Templates",
+            "active": true,
+            "link": "http://www.google.com",
+            "moved": 0
+          },
+          
+          {
+            "quadrant": 3,
+            "ring": 0,
+            "label": "Code reviews",
+            "active": true,
+            "link": "http://www.google.com",
+            "moved": 0
+          },
+          
+          {
+            "quadrant": 3,
+            "ring": 0,
+            "label": "10% time",
+            "active": true,
+            "link": "http://www.google.com",
+            "moved": 0
+          },
+          
+          {
+            "quadrant": 3,
+            "ring": 0,
+            "label": "Retro",
+            "active": true,
+            "link": "http://www.google.com",
+            "moved": 0
+          },
+          
+          {
+            "quadrant": 3,
+            "ring": 0,
+            "label": "Architectural decision records",
+            "active": true,
+            "link": "http://www.google.com",
+            "moved": 0
+          },
+          
+          {
+            "quadrant": 3,
+            "ring": 0,
+            "label": "Sub-teams for different threads of work",
+            "active": true,
+            "link": "http://www.google.com",
+            "moved": 0
+          },
+          
+          {
+            "quadrant": 3,
+            "ring": 0,
+            "label": "Remote working",
+            "active": true,
+            "link": "http://www.google.com",
+            "moved": 0
+          },
+          
+          {
+            "quadrant": 3,
+            "ring": 0,
+            "label": "Project white-board",
+            "active": true,
+            "link": "http://www.google.com",
+            "moved": 0
+          },
+          
+          {
+            "quadrant": 3,
+            "ring": 0,
+            "label": "Feature flags",
+            "active": true,
+            "link": "http://www.google.com",
+            "moved": 0
+          },
+          {
+            "quadrant": 3,
+            "ring": 0,
+            "label": "Trunk-based development",
+            "active": true,
+            "link": "http://www.google.com",
+            "moved": 0
+          },
+          {
+            "quadrant": 3,
+            "ring": 1,
+            "label": "Weekly planning meetings",
+            "active": true,
+            "link": "http://www.google.com",
+            "moved": 0
+          },
+          {
+            "quadrant": 3,
+            "ring": 1,
+            "label": "Iterations",
+            "active": true,
+            "link": "http://www.google.com",
+            "moved": 0
+          },
+
+          {
+            "quadrant": 1,
+            "ring": 0,
+            "label": ".NET Framework",
+            "active": true,
+            "link": "http://www.google.com",
+            "moved": 0
+          },
+          {
+            "quadrant": 1,
+            "ring": 0,
+            "label": ".NET Standard",
+            "active": true,
+            "link": "http://www.google.com",
+            "moved": 0
+          },
+          {
+            "quadrant": 1,
+            "ring": 0,
+            "label": ".NET CORE",
+            "active": true,
+            "link": "http://www.google.com",
+            "moved": 0
+          },
+          {
+            "quadrant": 1,
+            "ring": 0,
+            "label": "ASP.NET CORE",
+            "active": true,
+            "link": "http://www.google.com",
+            "moved": 0
+          },
+          {
+            "quadrant": 1,
+            "ring": 0,
+            "label": "Windows Services",
+            "active": true,
+            "link": "http://www.google.com",
+            "moved": 0
+          },
+          {
+            "quadrant": 1,
+            "ring": 0,
+            "label": "Newtonsoft.JSON",
+            "active": true,
+            "link": "http://www.google.com",
+            "moved": 0
+          },
+          {
+            "quadrant": 1,
+            "ring": 0,
+            "label": "RedGate.Useage.Client",
+            "active": true,
+            "link": "http://www.google.com",
+            "moved": 0
+          },
+          {
+            "quadrant": 1,
+            "ring": 0,
+            "label": "Dapper",
+            "active": true,
+            "link": "http://www.google.com",
+            "moved": 0
+          },
+          {
+            "quadrant": 1,
+            "ring": 0,
+            "label": "NUnit",
+            "active": true,
+            "link": "http://www.google.com",
+            "moved": 0
+          },
+          {
+            "quadrant": 1,
+            "ring": 0,
+            "label": "Moq",
+            "active": true,
+            "link": "http://www.google.com",
+            "moved": 0
+          },
+          {
+            "quadrant": 1,
+            "ring": 0,
+            "label": "Pester",
+            "active": true,
+            "link": "http://www.google.com",
+            "moved": 0
+          },
+          {
+            "quadrant": 1,
+            "ring": 0,
+            "label": "SignalR",
+            "active": true,
+            "link": "http://www.google.com",
+            "moved": 0
+          },
+          {
+            "quadrant": 1,
+            "ring": 0,
+            "label": "Honeycomb took=lkit",
+            "active": true,
+            "link": "http://www.google.com",
+            "moved": 0
+          },
+          {
+            "quadrant": 1,
+            "ring": 0,
+            "label": "React",
+            "active": true,
+            "link": "http://www.google.com",
+            "moved": 0
+          },
+          {
+            "quadrant": 1,
+            "ring": 0,
+            "label": "Redux",
+            "active": true,
+            "link": "http://www.google.com",
+            "moved": 0
+          },
+          {
+            "quadrant": 1,
+            "ring": 0,
+            "label": "Autofac",
+            "active": true,
+            "link": "http://www.google.com",
+            "moved": 0
+          },
+          {
+            "quadrant": 1,
+            "ring": 1,
+            "label": "Serilog",
+            "active": true,
+            "link": "http://www.google.com",
+            "moved": 0
+          },
+          {
+            "quadrant": 1,
+            "ring": 2,
+            "label": "NuGet",
+            "active": true,
+            "link": "http://www.google.com",
+            "moved": 0
+          },
+          {
+            "quadrant": 1,
+            "ring": 2,
+            "label": "Optional",
+            "active": true,
+            "link": "http://www.google.com",
+            "moved": 0
+          },
+          {
+            "quadrant": 1,
+            "ring": 2,
+            "label": "Topshelf",
+            "active": true,
+            "link": "http://www.google.com",
+            "moved": 0
+          }    
 ]}
