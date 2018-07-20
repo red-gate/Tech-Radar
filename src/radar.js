@@ -256,7 +256,7 @@ function radar_visualization(config) {
     // legend
     var legend = radar.append("g");
     for (var quadrant = 0; quadrant < 4; quadrant++) {
-      legend.append("a").attr("xlink:href", "javascript:Zoom(" + quadrant +")").append("text")
+      legend.append("a").attr("xlink:href", "javascript:Zoom('" + quadrant +"')").append("text")
         .attr("transform", translate(
           legend_offset[quadrant].x,
           legend_offset[quadrant].y - 30
