@@ -676,9 +676,9 @@
         {
             "quadrant": 1,
             "ring": 1,
-            "label": "Honeycomb react",
+            "label": "Honeycomb React",
             "active": true,
-            "link": "https://github.com/red-gate/honeycomb-react",
+            "link": "https://github.com/red-gate/honeycomb-React",
             "moved": 0
         },
         {
