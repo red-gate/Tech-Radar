@@ -300,7 +300,7 @@
         {
             "quadrant": 2,
             "ring": 0,
-            "label": "Vagrant Virtual box",
+            "label": "Vagrant",
             "active": true,
             "link": "https://www.vagrantup.com/docs/virtualbox/",
             "moved": 0
