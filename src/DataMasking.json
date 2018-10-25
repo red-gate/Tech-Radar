@@ -52,7 +52,7 @@
         {
             "quadrant": 1,
             "ring": 0,
-            "label": "Web back",
+            "label": "Webpack",
             "active": true,
             "link": "http://www.google.com",
             "moved": 0
