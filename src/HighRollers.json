@@ -188,7 +188,7 @@
     {
       "quadrant": 1,
       "ring": 1,
-      "label": ".net standard",
+      "label": ".NET Standard",
       "active": true,
       "link": "https://blogs.msdn.microsoft.com/dotnet/2016/09/26/introducing-net-standard/",
       "moved": 0
