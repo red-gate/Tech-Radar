@@ -756,7 +756,7 @@
         {
             "quadrant": 2,
             "ring": 2,
-            "label": "App insights",
+            "label": "App Insights",
             "active": true,
             "link": "https://azure.microsoft.com/en-gb/services/application-insights/?&OCID=AID719823_SEM_Xu6hAPkA&dclid=CIWs29HQo9wCFQ6LdwodVpcDRg",
             "moved": 0
@@ -2146,7 +2146,7 @@
           {
             "quadrant": 2,
             "ring": 2,
-            "label": "App insights",
+            "label": "App Insights",
             "active": true,
             "link": "https://azure.microsoft.com/en-gb/services/application-insights/?&OCID=AID719823_SEM_Xu6hAPkA&dclid=CKCCi9zImdwCFSikUQodp9gFxQ",
             "moved": 0
@@ -2635,7 +2635,7 @@
         {
             "quadrant": 2,
             "ring": 1,
-            "label": "App insights",
+            "label": "App Insights",
             "active": true,
             "link": "https://azure.microsoft.com/en-gb/services/application-insights/?&OCID=AID719823_SEM_Xu6hAPkA&dclid=CKCCi9zImdwCFSikUQodp9gFxQ",
             "moved": 0
