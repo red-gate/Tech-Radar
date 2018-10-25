@@ -22,7 +22,7 @@
       "ring": 0,
       "label": "WPF",
       "active": true,
-      "link": "https://docs.microsoft.com/en-us/dotnet/framework/wpf/",
+      "link": "https://docs.microsoft.com/en-us/dotnet/Framework/wpf/",
       "moved": 1
     },
     {
@@ -30,7 +30,7 @@
       "ring": 0,
       "label": "Winforms",
       "active": true,
-      "link": "https://docs.microsoft.com/en-us/dotnet/framework/winforms/",
+      "link": "https://docs.microsoft.com/en-us/dotnet/Framework/winforms/",
       "moved": -1
     },
     {
@@ -84,7 +84,7 @@
     {
       "quadrant": 1,
       "ring": 0,
-      "label": "Entity framework",
+      "label": "Entity Framework",
       "active": true,
       "link": "https://msdn.microsoft.com/en-us/library/aa937723(v=vs.113).aspx",
       "moved": 0

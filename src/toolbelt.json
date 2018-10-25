@@ -22,7 +22,7 @@
             "ring": 0,
             "label": "WPF",
             "active": true,
-            "link": "https://docs.microsoft.com/en-us/dotnet/framework/wpf/",
+            "link": "https://docs.microsoft.com/en-us/dotnet/Framework/wpf/",
             "moved": 1
         },
         {
@@ -30,7 +30,7 @@
             "ring": 0,
             "label": "Winforms",
             "active": true,
-            "link": "https://docs.microsoft.com/en-us/dotnet/framework/winforms/",
+            "link": "https://docs.microsoft.com/en-us/dotnet/Framework/winforms/",
             "moved": -1
         },
         {
