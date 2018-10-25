@@ -1124,7 +1124,7 @@
           {
             "quadrant": 1,
             "ring": 1,
-            "label": "Jetbrain annotations",
+            "label": "JetBrains annotations",
             "active": true,
             "link": "https://www.nuget.org/packages/JetBrains.Annotations",
             "moved": 0
