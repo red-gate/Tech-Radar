@@ -12,7 +12,7 @@
         {
             "quadrant": 0,
             "ring": 0,
-            "label": "Power Shell",
+            "label": "PowerShell",
             "active": true,
             "link": "https://docs.microsoft.com/en-us/powershell/",
             "moved": 0
