@@ -332,7 +332,7 @@
     {
       "quadrant": 2,
       "ring": 0,
-      "label": "Check for update",
+      "label": "Check for updates",
       "active": true,
       "link": "http://www.google.com",
       "moved": 0
