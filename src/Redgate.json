@@ -716,7 +716,7 @@
         {
             "quadrant": 2,
             "ring": 0,
-            "label": "Team city",
+            "label": "TeamCity",
             "active": true,
             "link": "https://www.jetbrains.com/teamcity/",
             "moved": 0
