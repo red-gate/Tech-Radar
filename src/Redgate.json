@@ -60,7 +60,7 @@
           {
             "quadrant": 0,
             "ring": 3,
-            "label": "Javascript",
+            "label": "JavaScript",
             "active": true,
             "link": "https://www.javascript.com/",
             "moved": 0
@@ -996,7 +996,7 @@
           {
             "quadrant": 0,
             "ring": 0,
-            "label": "Javascript",
+            "label": "JavaScript",
             "active": true,
             "link": "https://www.javascript.com/",
             "moved": 0
@@ -2314,7 +2314,7 @@
         {
             "quadrant": 0,
             "ring": 0,
-            "label": "Javascript",
+            "label": "JavaScript",
             "active": true,
             "link": "https://www.javascript.com/",
             "moved": -1
