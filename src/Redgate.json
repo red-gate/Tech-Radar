@@ -1834,7 +1834,7 @@
           {
             "quadrant": 1,
             "ring": 0,
-            "label": "RedGate.Useage.Client",
+            "label": "RedGate.Usage.Client",
             "active": true,
             "link": "http://www.google.com",
             "moved": 0
