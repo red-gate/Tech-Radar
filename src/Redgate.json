@@ -2066,7 +2066,7 @@
           {
             "quadrant": 1,
             "ring": 0,
-            "label": "WPF toolkit",
+            "label": "WPF Toolkit",
             "active": true,
             "link": "https://www.nuget.org/packages/WPFToolkit/",
             "moved": 0
