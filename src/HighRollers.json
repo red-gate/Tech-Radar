@@ -452,7 +452,7 @@
     {
       "quadrant": 3,
       "ring": 0,
-      "label": "Unit interfration and GUI tests",
+      "label": "Unit integration and GUI tests",
       "active": true,
       "link": "http://www.google.com",
       "moved": 0
