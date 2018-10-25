@@ -204,7 +204,7 @@
         {
             "quadrant": 2,
             "ring": 0,
-            "label": "Github",
+            "label": "GitHub",
             "active": true,
             "link": "https://github.com/",
             "moved": 0
@@ -292,7 +292,7 @@
         {
             "quadrant": 3,
             "ring": 0,
-            "label": "Github PR templates",
+            "label": "GitHub PR templates",
             "active": true,
             "link": "http://www.google.com",
             "moved": 0
@@ -324,7 +324,7 @@
         {
             "quadrant": 3,
             "ring": 0,
-            "label": "Issues in Github",
+            "label": "Issues in GitHub",
             "active": true,
             "link": "http://www.google.com",
             "moved": 0
@@ -388,7 +388,7 @@
         {
             "quadrant": 3,
             "ring": 1,
-            "label": "Github projects",
+            "label": "GitHub projects",
             "active": true,
             "link": "http://www.google.com",
             "moved": 0

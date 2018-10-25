@@ -300,7 +300,7 @@
     {
       "quadrant": 2,
       "ring": 0,
-      "label": "Github",
+      "label": "GitHub",
       "active": true,
       "link": "http://www.google.com",
       "moved": 0
@@ -452,7 +452,7 @@
     {
       "quadrant": 3,
       "ring": 0,
-      "label": "Github pull requests",
+      "label": "GitHub pull requests",
       "active": true,
       "link": "http://www.google.com",
       "moved": 0
