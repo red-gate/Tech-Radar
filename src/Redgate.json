@@ -2164,7 +2164,7 @@
             "ring": 2,
             "label": "Smart Assembly",
             "active": true,
-            "link": "https://www.red-gate.com/products/dotnet-development/smartassembly/?gclid=EAIaIQobChMIgtuY58eZ3AIVhLsbCh0kZQlUEAAYASAAEgI81_D_BwE",
+            "link": "https://www.red-gate.com/products/dotnet-development/smartAssembly/?gclid=EAIaIQobChMIgtuY58eZ3AIVhLsbCh0kZQlUEAAYASAAEgI81_D_BwE",
             "moved": 0
           },
           {
@@ -2578,9 +2578,9 @@
         {
             "quadrant": 2,
             "ring": 0,
-            "label": "Smart assembly",
+            "label": "Smart Assembly",
             "active": true,
-            "link": "https://www.red-gate.com/products/dotnet-development/smartassembly/?gclid=EAIaIQobChMIgtuY58eZ3AIVhLsbCh0kZQlUEAAYASAAEgI81_D_BwE",
+            "link": "https://www.red-gate.com/products/dotnet-development/smartAssembly/?gclid=EAIaIQobChMIgtuY58eZ3AIVhLsbCh0kZQlUEAAYASAAEgI81_D_BwE",
             "moved": 0
         },
         {
