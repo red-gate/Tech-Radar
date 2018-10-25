@@ -748,7 +748,7 @@
         {
             "quadrant": 2,
             "ring": 1,
-            "label": "Sonarqube",
+            "label": "SonarQube",
             "active": true,
             "link": "https://www.sonarqube.org/",
             "moved": 0
@@ -1332,7 +1332,7 @@
           {
             "quadrant": 3,
             "ring": 0,
-            "label": "SonarCube",
+            "label": "SonarQube",
             "active": true,
             "link": "http://www.google.com",
             "moved": 0

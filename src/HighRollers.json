@@ -396,7 +396,7 @@
     {
       "quadrant": 3,
       "ring": 0,
-      "label": "SonarCube",
+      "label": "SonarQube",
       "active": true,
       "link": "http://www.google.com",
       "moved": 0

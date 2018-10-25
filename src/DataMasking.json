@@ -236,7 +236,7 @@
         {
             "quadrant": 2,
             "ring": 1,
-            "label": "Sonarqube",
+            "label": "SonarQube",
             "active": true,
             "link": "https://www.sonarqube.org/",
             "moved": 0
