@@ -1132,7 +1132,7 @@
           {
             "quadrant": 1,
             "ring": 1,
-            "label": ".net core",
+            "label": ".NET CORE",
             "active": true,
             "link": "https://www.microsoft.com/net/learn/get-started/windows",
             "moved": 0
