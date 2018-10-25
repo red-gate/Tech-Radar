@@ -3,7 +3,7 @@ Daily standups,adopt,practices,true,Having a daily standup each day helps us pre
 Pairing,adopt,practices,true,Pairing helps collaboration and knowledge transfer within the team.
 Mobbing,assess,practices,true,We've been experimenting with mob programming
 .NET Core,adopt,languages and frameworks,true,Microsoft has delivered a cross-platform future. New applications should be built with .NET Core by default
-.NET Framework,hold,languages and frameworks,true,With the advent of .NET CORE, we should not use .NET Framework to build any more products
+.NET Framework,hold,languages and frameworks,true,With the advent of .NET CORE\, we should not use .NET Framework to build any more products
 Moq,adopt,libraries,true,Moq is our default mocking framework and preferred to alternatives such as Rhino Mocks
 Rhino Mocks,hold,libraries,true,Moq is our preferred framework
 Balsamiq,adopt,services,true,Balsamiq gives us the ability to create quick low-fidelity wireframes to describe workflows
