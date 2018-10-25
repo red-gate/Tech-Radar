@@ -860,7 +860,7 @@
         {
             "quadrant": 3,
             "ring": 0,
-            "label": "Stand up",
+            "label": "Standup",
             "active": true,
             "link": "http://www.google.com",
             "moved": 0
@@ -1260,7 +1260,7 @@
           {
             "quadrant": 3,
             "ring": 0,
-            "label": "Standups",
+            "label": "Standup",
             "active": true,
             "link": "http://www.google.com",
             "moved": 0
@@ -1645,7 +1645,7 @@
           {
             "quadrant": 3,
             "ring": 0,
-            "label": "Stand ups",
+            "label": "Standup",
             "active": true,
             "link": "http://www.google.com",
             "moved": 0
@@ -2178,7 +2178,7 @@
           {
             "quadrant": 3,
             "ring": 0,
-            "label": "Standups",
+            "label": "Standup",
             "active": true,
             "link": "https://en.wikipedia.org/wiki/Stand-up_meeting",
             "moved": 0
@@ -2740,7 +2740,7 @@
         {
             "quadrant": 3,
             "ring": 0,
-            "label": "Standups",
+            "label": "Standup",
             "active": true,
             "link": "https://en.wikipedia.org/wiki/Stand-up_meeting",
             "moved": 0

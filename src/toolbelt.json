@@ -478,7 +478,7 @@
         {
             "quadrant": 3,
             "ring": 0,
-            "label": "Standups",
+            "label": "Standup",
             "active": true,
             "link": "https://en.wikipedia.org/wiki/Stand-up_meeting",
             "moved": 0
