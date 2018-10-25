@@ -148,7 +148,7 @@
     {
       "quadrant": 1,
       "ring": 0,
-      "label": ".net framework",
+      "label": ".NET Framework",
       "active": true,
       "link": "https://docs.microsoft.com/en-us/dotnet/framework/",
       "moved": 0
