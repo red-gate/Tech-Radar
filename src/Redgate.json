@@ -620,7 +620,7 @@
         {
             "quadrant": 1,
             "ring": 0,
-            "label": "SAS",
+            "label": "SASS",
             "active": true,
             "link": "https://support.sas.com/training/us/paths/prg.html",
             "moved": 0
