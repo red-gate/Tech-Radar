@@ -2,7 +2,7 @@
 
 A Tech Radar for Redgate. This helps us by recognizing the technology that:
 * We use
-* We're trialling and building experience
+* We're trialing and building experience
 * We're excited about!
 * We used to use and use no longer.
 
