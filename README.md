@@ -10,4 +10,6 @@ We use [Thoughtworks Tech Radar](https://radar.thoughtworks.com/) to generate ou
 
 You can see the [latest version online](https://radar.thoughtworks.com/?sheetId=https%3A%2F%2Fraw.githubusercontent.com%2Fred-gate%2FTech-Radar%2Fmaster%2Fradar.csv).
 
+Please note this is public!
+
 
