@@ -7,5 +7,5 @@ Mobbing,explore,practices,false,We've been experimenting with mob programming
 C#,adopt,languages and frameworks,false,We build our software using C#
 JavaScript,endure,languages and frameworks,true,Whilst JavaScript is the lingua franca of the web we prefer TypeScript for the benefits of type safety and IDE integrations
 TypeScript,adopt,languages and frameworks,true,TypeScript provides an advanced type system on top of JavaScript. We prefer this for compile errors rather than runtime.
-Moq,adopt,libraries,true,Moq is our default mocking framework and preferred to alternatives such as Rhino Mocks
+Moq,adopt,languages and frameworks,true,Moq is our default mocking framework and preferred to alternatives such as Rhino Mocks
 Balsamiq,adopt,tools,true,Balsamiq gives us the ability to create quick low-fidelity wireframes to describe workflows
