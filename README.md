@@ -25,6 +25,18 @@ The quadrants help us organize the entries on the Radar. We've adopted exactly t
 
 Like Thoughtworks we don't make a big deal out of the quadrants. It just exists as a way to break up the radar.
 
+## Rings
+
+The rings in the quadrants help us choose the technology. The rings are:
+
+* *Adopt* - This is the technology you should be choosing to solve a problem. Everything in here forms our default set of technology choices (for example, C#)
+
+* *Explore* - This has potential and is worth experimenting with in 10% time or running a trial on your team.
+
+* *Endure* - This is no longer how we do things. It is OK for this to be used in Product Development, but don't add more of it and migrate off it wherever possible.
+
+* *Retire* - Don't use this technology! If you are using it then you should be spending some time migrating away from this. Examples of this would include old libraries that aren't updated with security frameworks.
+
 
 
 
