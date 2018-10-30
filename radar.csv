@@ -5,7 +5,7 @@ Mobbing,explore,practices,true,We've been experimenting with mob programming
 .NET Core,adopt,languages and frameworks,true,Microsoft has delivered a cross-platform future. New applications should be built with .NET Core by default
 .NET Framework,endure,languages and frameworks,true,With the advent of .NET CORE we should not use .NET Framework to build any more products
 C#,adopt,languages and frameworks,true,We build our software using C#
-JavaScript,retire,languages and frameworks,true,Whilst JavaScript is the lingua franca of the web we prefer TypeScript for the benefits of type safety and IDE integrations
+JavaScript,endure,languages and frameworks,true,Whilst JavaScript is the lingua franca of the web we prefer TypeScript for the benefits of type safety and IDE integrations
 TypeScript,adopt,languages and frameworks,true,TypeScript provides an advanced type system on top of JavaScript. We prefer this for compile errors rather than runtime.
 Moq,adopt,languages and frameworks,true,Moq is our default mocking framework and preferred to alternatives such as Rhino Mocks
 Rhino Mocks,endure,languages and frameworks,true,Moq is our preferred framework
