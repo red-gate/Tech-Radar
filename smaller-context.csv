@@ -1,11 +1,11 @@
 name,ring,quadrant,isNew,description
 Daily standups,adopt,practices,true,Having a daily standup each day helps us prepare to have the best possible day
 Pairing,adopt,practices,true,Pairing helps collaboration and knowledge transfer within the team.
-Mobbing,assess,practices,false,We've been experimenting with mob programming
+Mobbing,explore,practices,false,We've been experimenting with mob programming
 .NET Core,adopt,languages and frameworks,true,Microsoft has delivered a cross-platform future. New applications should be built with .NET Core by default
-.NET Framework,hold,languages and frameworks,true,With the advent of .NET CORE we should not use .NET Framework to build any more products
+.NET Framework,endure,languages and frameworks,true,With the advent of .NET CORE we should not use .NET Framework to build any more products
 C#,adopt,languages and frameworks,false,We build our software using C#
-JavaScript,hold,languages and frameworks,true,Whilst JavaScript is the lingua franca of the web we prefer TypeScript for the benefits of type safety and IDE integrations
+JavaScript,endure,languages and frameworks,true,Whilst JavaScript is the lingua franca of the web we prefer TypeScript for the benefits of type safety and IDE integrations
 TypeScript,adopt,languages and frameworks,true,TypeScript provides an advanced type system on top of JavaScript. We prefer this for compile errors rather than runtime.
-Moq,adopt,libraries,true,Moq is our default mocking framework and preferred to alternatives such as Rhino Mocks
-Balsamiq,adopt,services,true,Balsamiq gives us the ability to create quick low-fidelity wireframes to describe workflows
+Moq,adopt,languages and frameworks,true,Moq is our default mocking framework and preferred to alternatives such as Rhino Mocks
+Balsamiq,adopt,tools,true,Balsamiq gives us the ability to create quick low-fidelity wireframes to describe workflows
