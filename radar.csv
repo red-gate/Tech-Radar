@@ -1,6 +1,7 @@
 name,ring,quadrant,isNew,description
 Daily standups,adopt,techniques,true,Having a daily standup each day helps us prepare to have the best possible day
 Pairing,adopt,techniques,true,Pairing helps collaboration and knowledge transfer within the team.
+Team Exploratory Testing Sessions,adopt,techniques,true,Team exploratory testing helps us gain deep feedback on development work.
 Mobbing,explore,techniques,true,We've been experimenting with mob programming
 .NET Core,adopt,languages and frameworks,true,Microsoft has delivered a cross-platform future. New applications should be built with .NET Core by default
 .NET Framework,endure,languages and frameworks,true,With the advent of .NET CORE we should not use .NET Framework to build any more products
@@ -10,6 +11,9 @@ TypeScript,adopt,languages and frameworks,true,TypeScript provides an advanced t
 Moq,adopt,languages and frameworks,true,Moq is our default mocking framework and preferred to alternatives such as Rhino Mocks
 Rhino Mocks,endure,languages and frameworks,true,Moq is our preferred framework
 Balsamiq,adopt,tools,true,Balsamiq gives us the ability to create quick low-fidelity wireframes to describe workflows
+Git,adopt,tools,false,Git is our defacto VCS.
 OneDrive,adopt,tools,true,"OneDrive is our default choice for storing Office documents to share within the organization. In the last three years, Microsoft have done a lot of work on OneDrive and the associated sync clients and have closed the gap on their competitors. The sync client is very stable and doesn’t contain the restrictions that it did before."
+Raygun,explore,tools,true,Raygun allows loosely-coupled error reporting to a web endpoint.
 Google Drive,retire,tools,true,"We don’t have corporate Google accounts and it doesn’t make sense to subscribe to both GSuite and Office 365, both for cost reasons and from an information management point of view. The fact that we don’t have corporate accounts means data can’t be removed from Google accounts when someone leaves the company (as we don’t own the account), so we shouldn’t be storing any personal information (such as customer data) in Google Drive."
+SmartAssembly,retire,tools,false,SmartAssembly obfuscation and error reporting becomes tightly-coupled to products and slows down builds.
 Windows,adopt,platforms,true,"Our default supported operating system is Windows. If Microsoft continues to support this as part of their default support package we continue to support running our applications on that OS. See https://support.microsoft.com/en-us/help/13853/windows-lifecycle-fact-sheet"
