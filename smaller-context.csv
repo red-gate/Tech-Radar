@@ -10,3 +10,4 @@ JavaScript,endure,languages and frameworks,true,Whilst JavaScript is the lingua 
 TypeScript,adopt,languages and frameworks,true,TypeScript provides an advanced type system on top of JavaScript. We prefer this for compile errors rather than runtime.
 Moq,adopt,languages and frameworks,true,Moq is our default mocking framework and preferred to alternatives such as Rhino Mocks
 Balsamiq,adopt,tools,true,Balsamiq gives us the ability to create quick low-fidelity wireframes to describe workflows
+SmartAssembly,retire,tools,false,SmartAssembly obfuscation and error reporting becomes tightly-coupled to products and slows down builds.
