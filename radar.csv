@@ -22,3 +22,4 @@ Firefox,adopt,platforms,true,"Firefox is Mozilla's evergreen browser. We support
 Edge,adopt,platforms,true,"Edge is Microsoft's evergreen browser. We support it by default"
 IE 11,adopt,platforms,true,"IE 11 is the default browser on Windows 10 and makes up approximately 10% of the visits to Redgate.com. We support it by default"
 IE 10 and under,retire,platforms,true,"We do not support IE10 and under"
+Raven DB,retire,tools,"We previously used Raven DB in DLM Dashboard but our experience was not positive."
