@@ -31,7 +31,7 @@ The rings in the quadrants help us choose the technology. The rings are:
 
 * *Adopt* - This is the technology you should be choosing to solve a problem. Everything in here forms our default set of technology choices (for example, C#)
 
-* *Explore* - This has potential and is worth experimenting with in 10% time or running a trial on your team.
+* *Explore* - This has potential and is worth experimenting with in 10% time or running a trial on your team. Putting something in Explore is a commitment to explore it between now and the next issue of the Tech Radar.
 
 * *Endure* - This is no longer how we do things. It is OK for this to be used in Product Development, but don't add more of it and migrate off it wherever possible.
 
