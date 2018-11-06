@@ -37,10 +37,14 @@ The rings in the quadrants help us choose the technology. The rings are:
 
 * *Retire* - Don't use this technology! If you are using it then you should be spending some time migrating away from this. Examples of this would include old libraries that aren't updated with security frameworks.
 
+## Commitment and Accountability
 
+Following the publication of the initial tech radar, we'll review this regularly every six months.
 
+At that time, we'll ask those using items in Explore to share their experience and make some decisions from there:
+* Explore -> Adopt - Technology has proven itself and should be the new default
+* Explore -> Endure - It's OK (not causing us problems) but isn't giving us any advantage over others
+* Explore -> Retire - The technology or technique isn't appropriate for us
+* Explore -> Explore - The technology or technique needs longer to prove itself
 
-
-
-
-
+We'll look at items in Retire and (hopefully) find they can be removed from the radar because they have been retired. If the cost of removing them has proved higher than we imagined, then we can reconsider moving that thing back to Endure.
