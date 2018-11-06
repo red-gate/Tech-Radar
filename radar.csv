@@ -8,7 +8,7 @@ Domain-driven Design,explore,techniques,true,"Domain-driven Design (DDD) is a de
 .NET Core,adopt,languages and frameworks,true,Microsoft has delivered a cross-platform future. New applications should be built with .NET Core by default
 .NET Framework,endure,languages and frameworks,true,With the advent of .NET CORE we should not use .NET Framework to build any more products
 C#,adopt,languages and frameworks,true,We build our software using C#
-F#,explore,languages and frameworks,true,F# has some great test and data parsing and manipulating libraries, that are worth exploring as our development becomes more data and api oriented. 
+F#,explore,languages and frameworks,true,"F# has some great test and data parsing and manipulating libraries, that are worth exploring as our development becomes more data and api oriented."
 C++,endure,languages and frameworks,true,C++ was the right tool for the job in the past
 Delphi,endure,languages and frameworks,true,SQL Backup engine is written in Delphi
 VB.Net,retire,languages and frameworks,true,There is no reason to prefer VB.Net over C#
