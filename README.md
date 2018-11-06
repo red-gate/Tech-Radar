@@ -46,5 +46,6 @@ At that time, we'll ask those using items in Explore to share their experience a
 * Explore -> Endure - It's OK (not causing us problems) but isn't giving us any advantage over others
 * Explore -> Retire - The technology or technique isn't appropriate for us
 * Explore -> Explore - The technology or technique needs longer to prove itself
+* Explore -> off ring - This technology wasn't explored and is no longer appropriate.
 
 We'll look at items in Retire and (hopefully) find they can be removed from the radar because they have been retired. If the cost of removing them has proved higher than we imagined, then we can reconsider moving that thing back to Endure.
