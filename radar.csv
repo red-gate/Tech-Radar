@@ -21,7 +21,7 @@ Git,adopt,tools,true,Git is our defacto VCS.
 OneDrive,adopt,tools,true,"OneDrive is our default choice for storing Office documents to share within the organization. In the last three years, Microsoft have done a lot of work on OneDrive and the associated sync clients and have closed the gap on their competitors. The sync client is very stable and doesn’t contain the restrictions that it did before."
 Raygun,explore,tools,true,Raygun allows loosely-coupled error reporting to a web endpoint.
 Google Drive,retire,tools,true,"We don’t have corporate Google accounts and it doesn’t make sense to subscribe to both GSuite and Office 365, both for cost reasons and from an information management point of view. The fact that we don’t have corporate accounts means data can’t be removed from Google accounts when someone leaves the company (as we don’t own the account), so we shouldn’t be storing any personal information (such as customer data) in Google Drive."
-SmartAssembly,retire,tools,true,SmartAssembly obfuscation and error reporting becomes tightly-coupled to products and slows down builds.
+SmartAssembly,retire,tools,true,"SmartAssembly obfuscation, error and usage reporting becomes tightly-coupled to products and slows down builds."
 Windows,adopt,platforms,true,"Our default supported operating system is Windows. If Microsoft continues to support this as part of their default support package we continue to support running our applications on that OS. See https://support.microsoft.com/en-us/help/13853/windows-lifecycle-fact-sheet"
 Chrome,adopt,platforms,true,"Chrome is Google's evergreen browser. We support it by default"
 Firefox,adopt,platforms,true,"Firefox is Mozilla's evergreen browser. We support it by default"
@@ -36,3 +36,9 @@ Rhino Mocks,retire,languages and frameworks,true,"Rhino Mocks is no longer activ
 Wix 3,adopt,tools,true,"Windows Installer XML Toolset (WiX, pronounced "wicks"), is a free software toolset that builds Windows Installer packages from XML. We default to Wix v3."
 Wix 2,retire,tools,true,"Windows Installer XML Toolset (WiX, pronounced "wicks"), is a free software toolset that builds Windows Installer packages from XML. We default to Wix v3."
 Inno Setup,endure,tools,true,"SQL Backup uses divergent installer technology."
+RedGate.Usage.Client,adopt,tools,true,"Redgate's standard tool for Product and Feature usage reporting"
+AppInsights,adopt,tools,true,"Microsoft's platform for data analysis"
+MixPanel,retire,tools,true,"Tool for presenting analytic data. Now superseded by AppInsights."
+Google Analytics,retire,tools,true,"Tool for presenting analytic data. Now superseded by AppInsights."
+SonarQube,adopt,tools,true,"Sonarqube provides automated code review, highlighting quality issues in changing code. This feedback is best surfaced through automated PR comments."
+
