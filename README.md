@@ -31,16 +31,21 @@ The rings in the quadrants help us choose the technology. The rings are:
 
 * *Adopt* - This is the technology you should be choosing to solve a problem. Everything in here forms our default set of technology choices (for example, C#), and will already be in-use with at least one Redgate team.
 
-* *Explore* - This has potential and is worth experimenting with in 10% time or running a trial on your team.
+* *Explore* - This has potential and is worth experimenting with in 10% time or running a trial on your team. Putting something in Explore is a commitment to explore it between now and the next issue of the Tech Radar.
 
 * *Endure* - This is no longer how we do things. It is OK for this to be used in Product Development, but don't add more of it and migrate off it wherever possible.
 
 * *Retire* - Don't use this technology! If you are using it then you should be spending some time migrating away from this. Examples of this would include old libraries that aren't updated with security frameworks.
 
+## Commitment and Accountability
 
+Following the publication of the initial tech radar, we'll review this regularly every six months.
 
+At that time, we'll ask those using items in Explore to share their experience and make some decisions from there:
+* Explore -> Adopt - Technology has proven itself and should be the new default
+* Explore -> Endure - It's OK (not causing us problems) but isn't giving us any advantage over others
+* Explore -> Retire - The technology or technique isn't appropriate for us
+* Explore -> Explore - The technology or technique needs longer to prove itself
+* Explore -> off ring - This technology wasn't explored and is no longer appropriate.
 
-
-
-
-
+We'll look at items in Retire and (hopefully) find they can be removed from the radar because they have been retired. If the cost of removing them has proved higher than we imagined, then we can reconsider moving that thing back to Endure.
