@@ -43,4 +43,3 @@ AppInsights,adopt,tools,true,"Microsoft's platform for data analysis"
 MixPanel,retire,tools,true,"Tool for presenting analytic data. Now superseded by AppInsights."
 Google Analytics,retire,tools,true,"Tool for presenting analytic data. Now superseded by AppInsights."
 SonarQube,adopt,tools,true,"Sonarqube provides automated code review, highlighting quality issues in changing code. This feedback is best surfaced through automated PR comments."
-
