@@ -29,7 +29,7 @@ Like Thoughtworks we don't make a big deal out of the quadrants. It just exists 
 
 The rings in the quadrants help us choose the technology. The rings are:
 
-* *Adopt* - This is the technology you should be choosing to solve a problem. Everything in here forms our default set of technology choices (for example, C#)
+* *Adopt* - This is the technology you should be choosing to solve a problem. Everything in here forms our default set of technology choices (for example, C#), and will already be in-use with at least one Redgate team.
 
 * *Explore* - This has potential and is worth experimenting with in 10% time or running a trial on your team.
 
