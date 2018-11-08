@@ -1,6 +1,6 @@
 # Tech-Radar
 
-A Tech Radar for Redgate. This helps us by recognizing the technology that:
+A [Tech Radar](https://radar.thoughtworks.com/?sheetId=https%3A%2F%2Fraw.githubusercontent.com%2Fred-gate%2FTech-Radar%2Fmaster%2Fradar.csv) for Redgate. This helps us by recognizing the technology that:
 * We use
 * We're trialing and building experience
 * We're excited about!
@@ -10,7 +10,7 @@ We use [Thoughtworks Tech Radar](https://radar.thoughtworks.com/) to generate ou
 
 You can see the [latest version online](https://radar.thoughtworks.com/?sheetId=https%3A%2F%2Fraw.githubusercontent.com%2Fred-gate%2FTech-Radar%2Fmaster%2Fradar.csv).
 
-We can have [multiple radars for different contexts](https://radar.thoughtworks.com/?sheetId=https%3A%2F%2Fraw.githubusercontent.com%2Fred-gate%2FTech-Radar%2Fmaster%2Fsmaller-context.csv) if they are useful. Maybe a separate radar for desktop and server-bound tools would be useful alongside a global overview?
+The audience for this is all technical development at Redgate. It's purpose is to help us to align our technical software/practices to build greater consistency at Redgate. 
 
 Please note this is public!
 
