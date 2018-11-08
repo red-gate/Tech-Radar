@@ -14,7 +14,7 @@ You can see the [latest version online](https://radar.thoughtworks.com/?sheetId=
 
 The audience for this is all technical development at Redgate. It's purpose is to help us to align our technical software/practices to build greater consistency at Redgate. 
 
-The radar is less appropriate for early stage products where we are still finding product/market fit(the concerns are less likely to be technical at this stage) though we still recommend it as a good set of default options. Our intention is that products we commit to develop/sell do adhere to the tech stack in this radar.
+The radar is less appropriate for early stage products where we are still finding product/market fit (the concerns are less likely to be technical at this stage) though we still recommend it as a good set of default options. Our intention is that products we commit to develop/sell do adhere to the tech stack in this radar.
 
 ## Quadrants
 
