@@ -54,5 +54,5 @@ Vagrant,adopt,tools,true,"Vagrant is an open-source software product for buildin
 Puppet,adopt,tools,true,"Puppet is an open-source software configuration management tool. We use Vagrant with Puppet to provision test environments and internal infrastructure."
 DevCloud,adopt,tools,true,"DevCloud is an internal platform for hosting short-lived virtual machines."
 Long-lived Virtual Machines,retire,tools,true,"We avoid using long-lived virtual machines, especially those that cannotbe trivially rebuilt on demand."
-Docker,explore,tools,true,"Docker is a tool designed to make it easier to create, deploy, and run applications by using containers"
-Kubernetes,explore,tools,true,"Kubernetes is an open-source container-orchestration system for automating deployment, scaling and management of containerized applications."
+Docker,explore,tools,true,"Docker is a tool designed to make it easier to create, deploy, and run applications by using containers. Current being explored by Whitesharks."
+Kubernetes,explore,tools,true,"Kubernetes is an open-source container-orchestration system for automating deployment, scaling and management of containerized applications. Currently being explored by Whitesharks."
