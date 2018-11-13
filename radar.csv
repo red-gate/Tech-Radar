@@ -56,3 +56,5 @@ DevCloud,adopt,tools,true,"DevCloud is an internal platform for hosting short-li
 Long-lived Virtual Machines,retire,tools,true,"We avoid using long-lived virtual machines, especially those that cannotbe trivially rebuilt on demand."
 Docker,explore,tools,true,"Docker is a tool designed to make it easier to create, deploy, and run applications by using containers. Current being explored by Whitesharks."
 Kubernetes,explore,tools,true,"Kubernetes is an open-source container-orchestration system for automating deployment, scaling and management of containerized applications. Currently being explored by Whitesharks."
+Lucidchart,explore,tools,true,"Diagramming tool that allows drawing architectural diagrams in a team environment. Also allows integration with OneDrive, Confluence, etc. Currently being explored by The Spiders team."
+draw.io,explore,tools,true,"Diagramming tool that allows drawing architectural diagrams."
