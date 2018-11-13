@@ -42,7 +42,7 @@ Wix 2,retire,tools,true,"Windows Installer XML Toolset 2 (WiX), is a free softwa
 Inno Setup,endure,tools,true,"SQL Backup uses divergent installer technology."
 RedGate.Usage.Client,adopt,tools,true,"Redgate's standard tool for Product and Feature usage reporting"
 AppInsights,adopt,tools,true,"Microsoft's platform for data analysis"
-MixPanel,endure,tools,true,"Tool for presenting analytic data. Now superseded by AppInsights."
+MixPanel,endure,tools,true,"Tool for presenting analytic data. Now superseded by AppInsights. We will review whether to retire this when Application Insights has a configurable retention period."
 Google Analytics,retire,tools,true,"Tool for presenting analytic data. Now superseded by AppInsights."
 SonarQube,adopt,tools,true,"Sonarqube provides automated code review, highlighting quality issues in changing code. This feedback is best surfaced through automated PR comments."
 RedGate.Build,adopt,tools,true,"Redgate's standardised, scripted infrastructure for building products. Based on <a href='https://github.com/red-gate/build-script-template'>build-script-templates</a>."
