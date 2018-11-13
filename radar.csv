@@ -57,4 +57,4 @@ Long-lived Virtual Machines,retire,tools,true,"We avoid using long-lived virtual
 Docker,explore,tools,true,"Docker is a tool designed to make it easier to create, deploy, and run applications by using containers. Current being explored by Whitesharks."
 Kubernetes,explore,tools,true,"Kubernetes is an open-source container-orchestration system for automating deployment, scaling and management of containerized applications. Currently being explored by Whitesharks."
 Check for Updates (CfU),endure,tools,true,"Redgate's established mechanism for distributing product upgrades. The update process is manual and intrusive for users, leading to slow version uptake and version fragmentation in production. We're keen to explore alternatives."
-User-controlled background updates,explore,tools,true,"Allowing a user to kick off a background upgrade of products, from the UI. Being explored by ICloneable<Sheep> on SQL Clone."
+User-controlled background updates,explore,tools,true,"Allowing a user to kick off a background upgrade of products, from the UI. Being explored by ICloneable&lt;Sheep&gt; on SQL Clone."
