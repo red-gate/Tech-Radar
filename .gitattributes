@@ -1,0 +1,2 @@
+# Avoid merge conflicts in radar.csv
+radar.csv    merge=union
