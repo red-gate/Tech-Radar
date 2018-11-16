@@ -78,5 +78,3 @@ Enzyme,adopt,languages and frameworks,true,"Enzyme is a JavaScript Testing utili
 Redux,adopt,languages and frameworks,true,"Redux is a predictable state container for JavaScript apps. We recommend this when state management becomes complicated with React alone."
 Knockout.js,endure,languages and frameworks,true,"Knockout is a minimilast library for binding data to web views. We prefer React now though existing usages of knockout.js are fine"
 JQuery,retire,languages and frameworks,true,"JQuery has had it's time. Modern browsers and advances in JavaScript means we don't require it any more."
-
-
