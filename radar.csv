@@ -81,4 +81,4 @@ Knockout.js,endure,languages and frameworks,true,"Knockout is a minimilast libra
 JQuery,retire,languages and frameworks,true,"JQuery has had it's time. Modern browsers and advances in JavaScript means we don't require it any more."
 Manual releases,retire,techniques,true,"A release that involves someone manually going through a whole heap of steps across different systems is bad."
 Release scripts,adopt,techniques,true,"Using a single powershell script (basic-release.ps1 or using RG.Release) to manage your entire release process is a good trade off between saving effort, and security and accountability for each release."
-Automated releases via Octopus Deploy,explore,techniques,true,"Octopus is more trustworthy than TeamCity for automating releases (via @rmc47), so teams wishing to try this should first move their release process to Octopus."
+Automated releases via Octopus Deploy,explore,techniques,true,"Octopus is more trustworthy than TeamCity for automating releases (via @rmc47), so teams wishing to try this should first move their release process to Octopus. SQL Monitor currently uses Octopus for deploying to monitor.red-gate.com"
