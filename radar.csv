@@ -27,7 +27,7 @@ NUnit 2,endure,languages and frameworks,true,"NUnit is our default framework for
 NUnit 3,adopt,languages and frameworks,true,"NUnit is our default framework for writing unit and integration tests. We use NUnit 3 by default for new projects."
 Pester,adopt,languages and frameworks,true,"Pester is our default framework for writing tests in PowerShell. We use Pester by default for new PowerShell tests."
 Balsamiq,adopt,tools,true,"Balsamiq gives us the ability to create quick low-fidelity wireframes to describe workflows."
-Git,adopt,tools,true,"Git is our defacto VCS."
+Git,adopt,tools,true,"Git is our defacto VCS, and all repositories are stored on GitHub."
 OneDrive,adopt,tools,true,"OneDrive is our default choice for storing Office documents to share within the organization. In the last three years, Microsoft have done a lot of work on OneDrive and the associated sync clients and have closed the gap on their competitors. The sync client is very stable and doesn’t contain the restrictions that it did before."
 Raygun,explore,tools,true,"Raygun allows loosely-coupled error reporting to a web endpoint. Currently being explored with SQL Prompt, SQL Clone and SQL Monitor."
 Google Drive,retire,tools,true,"We don’t have corporate Google accounts and it doesn’t make sense to subscribe to both GSuite and Office 365, both for cost reasons and from an information management point of view. The fact that we don’t have corporate accounts means data can’t be removed from Google accounts when someone leaves the company (as we don’t own the account), so we shouldn’t be storing any personal information (such as customer data) in Google Drive."
