@@ -84,7 +84,7 @@ Trello,adopt,tools,true,"Some teams use Trello for issue management and digital 
 Jira,adopt,tools,true,"Some teams use Jira for issue management and digital taskboards. The setup and administration costs are higher than other tools, but issue management capabilities are rich."
 GitHub Issues,adopt,tools,true,"Some teams use GitHub issues for issue management and digital taskboards. Setup and administration are slightly costlier than Trello, while issue management capabilties are limited. Integration with source code and repositories can be valuable, but is also complex for multi-repository projects."
 Physical whiteboards,adopt,tools,true,"Some teams use physical whiteboards for issue management and a physical taskboard. Costs are variable dependent on the setup and how the tool is used but can be minimal. Issue management and audit capabiltiies are minimal."
-".NET Framework 4.6.1",adopt,languages and frameworks,true,"We continue to build our products using the .Net framework, but should prefer .Net Standard support whenever possible."
+".NET Framework 4.6.1",adopt,languages and frameworks,true,"We continue to build our products using the .Net framework, but libraries should target .Net Standard."
 ".NET Framework 4.7.1",explore,languages and frameworks,true,"A newer version of .NET Framework, which supports .NET Standard better than previous versions. Currently being explored by the Masketeers in Figleaf."
 ".NET Standard 2.0",adopt,languages and frameworks,true,"Microsoft has delivered a cross-platform future. New applications should be built to conform to .NET Standard by default"
 ".NET Core 2.0",adopt,languages and frameworks,true,"Microsoft has delivered a cross-platform future. New applications should be built with .NET Core by default"
