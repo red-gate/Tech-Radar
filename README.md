@@ -51,3 +51,9 @@ At that time, we'll ask those using items in Explore to share their experience a
 * Explore -> off ring - This technology wasn't explored and is no longer appropriate.
 
 We'll look at items in Retire and (hopefully) find they can be removed from the radar because they have been retired. If the cost of removing them has proved higher than we imagined, then we can reconsider moving that thing back to Endure.
+
+## Frequently Asked Questions
+
+Q. Do I have to include every single npm package?
+
+A. No. That will drive you insane. If it's a "micro-library" (e.g. something with no dependencies) then it's not something that we should represent on the tech radar.
