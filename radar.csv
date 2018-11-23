@@ -1,92 +1,101 @@
 name,ring,quadrant,isNew,description
-Daily standups,adopt,techniques,true,"Having a daily standup each day helps us prepare to have the best possible day."
-Pairing,adopt,techniques,true,"Pairing helps collaboration and knowledge transfer within the team."
-Team Exploratory Testing Sessions,adopt,techniques,true,"Team exploratory testing helps us gain deep feedback on development work."
-Lightweight Architecure Decision Records,adopt,techniques,true,"Much documentation can be replaced with highly readable code and tests. In a world of evolutionary architecture, however, it's important to record certain design decisions for the benefit of future team members as well as for external oversight. Lightweight Architecture Decision Records is a technique for capturing important architectural decisions along with their context and consequences. We store these details in source control, instead of a wiki or website, as then they can provide a record that remains in sync with the code itself."
-Mobbing,explore,techniques,true,"Mobbing is a software development approach where the whole team works on the same thing, at the same time, in the same space, and at the same computer. The SQL Prompt team are exploring mobbing."
-Domain-driven Design,explore,techniques,true,"Domain-driven Design (DDD) is a development approach that deeply values the domain model and connects it to the implementation. DDD gives us the opportunity to keep ourselves honest about striving for persistence ignorance by abstrating the consistency boundaries through proper domain modeling. We are finding it easy to shape the discussions around business language and structure the codebase around the well-established DDD concepts such as Aggregate, Command, Event, etc. There is a also great deal of resource and community support behind this approach which makes it easy to acquire the knowladge. Being explored by The Spiders."
-C#,adopt,languages and frameworks,true,"We build our software using C#."
-F#,explore,languages and frameworks,true,"F# has some great test and data parsing and manipulating libraries, that are worth exploring as our development becomes more data and api oriented."
-C++,endure,languages and frameworks,true,"C++ was the right tool for the job in the past."
-Delphi,endure,languages and frameworks,true,"SQL Backup engine is written in Delphi."
-VB.Net,retire,languages and frameworks,true,"There is no reason to prefer VB.Net over C#."
-JavaScript (pre ES6),retire,languages and frameworks,true,"We don't use older versions of JavaScript. ES6 features like promises, modules and classes significantly improve the JavaScript experience, and tools like BabelJS allow us to adopt this with confidence."
-JavaScript (ES6+),adopt,languages and frameworks,true,"We use JavaScript for rapid prototyping of ideas because it allows us to go faster. In code bases where we already have significant JavaScript we will continue to use modern JavaScript."
-TypeScript,adopt,languages and frameworks,true,"TypeScript provides an advanced type system on top of JavaScript. We have a preference for TypeScript in production code because the optional type safety can help and improved tool support."
-Autofac,adopt,languages and frameworks,true,"Autofac is an Inversion of Control container for .NET Core, ASP.NET Core, .NET 4.5.1+ and our preferred IoC container choice. Autofac allows you to register components and express dependencies through its flexible module system and simple extension points."
-Ninject,endure,languages and frameworks,true,"Ninject is a dependency injector for .NET applications. However, Autofac is our preferred IoC container."
-NUnit 2,endure,languages and frameworks,true,"NUnit is our default framework for writing unit and integration tests. NUnit 2 is working well in most projects that use it, but consider upgrading to NUnit 3 for newer features."
-NUnit 3,adopt,languages and frameworks,true,"NUnit is our default framework for writing unit and integration tests. We use NUnit 3 by default for new projects."
-Pester,adopt,languages and frameworks,true,"Pester is our default framework for writing tests in PowerShell. We use Pester by default for new PowerShell tests."
-Balsamiq,adopt,tools,true,"Balsamiq gives us the ability to create quick low-fidelity wireframes to describe workflows."
-Git,adopt,tools,true,"Git is our defacto VCS, and all repositories are stored on GitHub."
-OneDrive,adopt,tools,true,"OneDrive is our default choice for storing Office documents to share within the organization. In the last three years, Microsoft have done a lot of work on OneDrive and the associated sync clients and have closed the gap on their competitors. The sync client is very stable and doesn’t contain the restrictions that it did before."
-Raygun,explore,tools,true,"Raygun allows loosely-coupled error reporting to a web endpoint. Currently being explored with SQL Prompt, SQL Clone and SQL Monitor."
-Google Drive,retire,tools,true,"We don’t have corporate Google accounts and it doesn’t make sense to subscribe to both GSuite and Office 365, both for cost reasons and from an information management point of view. The fact that we don’t have corporate accounts means data can’t be removed from Google accounts when someone leaves the company (as we don’t own the account), so we shouldn’t be storing any personal information (such as customer data) in Google Drive."
-SmartAssembly,retire,tools,true,"SmartAssembly obfuscation, error and usage reporting becomes tightly-coupled to products and slows down builds."
-Windows 7+/2008R2+,adopt,platforms,true,"Our default supported operating system is Windows. If Microsoft continues to support this as part of their default support package we continue to support running our applications on that OS. See https://support.microsoft.com/en-us/help/13853/windows-lifecycle-fact-sheet"
-Chrome,adopt,platforms,true,"Chrome is Google's evergreen browser. We support it by default."
-Firefox,adopt,platforms,true,"Firefox is Mozilla's evergreen browser. We support it by default."
-Edge,adopt,platforms,true,"Edge is Microsoft's evergreen browser. We support it by default."
-IE 11,adopt,platforms,true,"IE 11 is the default browser on Windows 10 and makes up approximately 10% of the visits to Redgate.com. We support it by default."
-IE 10 and under,retire,platforms,true,"We do not support IE10 and under."
-Raven DB,retire,tools,true,"We previously used Raven DB in DLM Dashboard but our experience was not positive."
-NSubsitute,adopt,languages and frameworks,true,"NSubstitute is our default mocking library of choice. We feel it's got less setup cost than Moq and requires fewer .Object calls."
-Moq,endure,languages and frameworks,true,"Moq is a great framework for mocking, but we prefer NSubstitute's simplicity. We see no benefit in having a common mocking framework across solutions."
-Fakes,explore,techniques,true,"We've experimented using <a href='https://github.com/testdouble/contributing-tests/wiki/Test-Double'>Fakes</a> in the Redgate Usage Client - fakes used in the test can reduce the amount of mocking is required and can make the tests simpler."
-Rhino Mocks,retire,languages and frameworks,true,"Rhino Mocks is no longer actively maintained, nor does it support .NET Core / .NET Standard."
-Wix 3,adopt,tools,true,"Windows Installer XML Toolset 3 (WiX), is a free software toolset that builds Windows Installer packages from XML. We default to Wix v3."
-Wix 2,retire,tools,true,"Windows Installer XML Toolset 2 (WiX), is a free software toolset that builds Windows Installer packages from XML. We default to Wix v3."
-Inno Setup,endure,tools,true,"SQL Backup uses divergent installer technology."
-RedGate.Usage.Client,adopt,tools,true,"Redgate's standard tool for Product and Feature usage reporting."
-AppInsights,adopt,tools,true,"Microsoft's platform for data analysis."
-MixPanel,endure,tools,true,"Tool for presenting analytic data. Now superseded by AppInsights. We will review whether to retire this when Application Insights has a configurable retention period."
-Google Analytics,retire,tools,true,"Tool for presenting analytic data. Now superseded by AppInsights."
-SonarQube,adopt,tools,true,"Sonarqube provides automated code review, highlighting quality issues in changing code. This feedback is best surfaced through automated PR comments."
-RedGate.Build,adopt,tools,true,"Redgate's standardised, scripted infrastructure for building products. Based on <a href='https://github.com/red-gate/build-script-template'>build-script-templates</a>."
-Custom build scripts,endure,tools,true,"Builds scripts that diverge from RedGate.Build. These were useful when first made, but we should move to sandard RedGate.Build when possible."
-Build magic,retire,tools,true,"Legacy build tooling, now to be deprecated in favour of RedGate.Build."
-IL weaving,retire,tools,true,"Byte weaving magic is not desirable as it adds compile time complexity that is often not visible to developers. Please note that this does not incorporate static linker tools such as ILMerge as they can still be useful to make some components more reusable by internalising a subset of their dependencies."
-Fody,retire,tools,true,"Tool for IL weaving. No longer endorsed."
-Vagrant,adopt,tools,true,"Vagrant is an open-source software product for building and maintaining portable virtual software development environments. We use Vagrant with Puppet to provision test environments and internal infrastructure."
-Puppet,adopt,tools,true,"Puppet is an open-source software configuration management tool. We use Vagrant with Puppet to provision test environments and internal infrastructure."
-DevCloud,adopt,tools,true,"DevCloud is an internal platform for hosting short-lived virtual machines."
-Long-lived Virtual Machines,retire,tools,true,"We avoid using long-lived virtual machines, especially those that cannotbe trivially rebuilt on demand."
-Docker,explore,tools,true,"Docker is a tool designed to make it easier to create, deploy, and run applications by using containers. Current being explored by Whitesharks."
-Kubernetes,explore,tools,true,"Kubernetes is an open-source container-orchestration system for automating deployment, scaling and management of containerized applications. Currently being explored by Whitesharks."
-Lucidchart,explore,tools,true,"Diagramming tool that allows drawing architectural diagrams in a team environment. Also allows integration with OneDrive, Confluence, etc. Currently being explored by The Spiders team."
-draw.io,explore,tools,true,"Simple Open source diagramming tool that allows drawing architectural diagrams. Also allows integration with <a href='https://about.draw.io/integrations'>OneDrive, Jira, Confluence, etc</a>. Currently being explored by the Prompt team (for <a href='https://info.red-gate.com/display/SP/Prompt%27s+architecture'>C4 diagrams</a>)."
-CEF,retire,languages and frameworks,true,"Chromium Embedded framework (CEF) is an open source framework for embedding a web browser engine inside other tools. This was explored, but proved unsuccessful for Redgate."
-Winforms,endure,languages and frameworks,true,"Winforms is a legacy UI library in the .NET Framework. Maybe Redgate products already use Winforms, but we prefer other tools for new development."
-WPF,adopt,languages and frameworks,true,"Windows Presentation Foundation (WPF) s a graphical subsystem provided with the .NET Framework. It's one of our prefered desktop UI technologies, especially when embedding products inside Visual Studio or SSMS."
-Electron,adopt,languages and frameworks,true,"Electron is an open-source desktop UI framework. It's developed/maintained by GitHub, and used by Microsoft for VS Code. It's one of our prefered desktop UI technologies, especially for standalone desktop tools."
-Check for Updates (CfU),endure,tools,true,"Redgate's established mechanism for distributing product upgrades. The update process is manual and intrusive for users, leading to slow version uptake and version fragmentation in production. We're keen to explore alternatives."
-User-controlled background updates,explore,tools,true,"Allowing a user to kick off a background upgrade of products, from the UI. Being explored by ICloneable&lt;Sheep&gt; on SQL Clone."
-Log4Net,endure,languages and frameworks,true,"Log4Net is no longer actively maintained. We've also had problems with our use of it by having a single static root. We don't recommend this for new applications, but can tolerate existing usages."
-SeriLog,adopt,languages and frameworks,true,"Serilog is our preferred logging framework. It's well maintained, supports structured event data and is portable between .NET platforms."
-Oracle database,explore,platforms,true,"Oracle database is a strong rival to SQL Server. Redgate has legacy tools for this suite (Oracle Compare & Source Control), and the space is under ongoing investigation by Foundry (with support from TKomp)."
-SQL Server on Linux,explore,platforms,true,"SQL Server has had growing support on Linux for some time, but Linux is not a platform that Redgate actively targets. Current windows-based tools support connecting to a SSoL database, and further value is being explored in Foundry."
-Azure DB Studio,explore,platforms,true,"Azure DB Studio is Microsoft's aspirational replacement for SSMS. Potential Redgate tooling support is being investigated by Foundry."
-SQL Change Automation,explore,tools,true,"Redgate SQL Change Automation is our commerical offering to help people manage the state of databases as part of application deployment. We should investigate if/how to use our own tools as part of our development activities. Versioning Teams to investigate this by looking at how CORE manage databases."
-React,adopt,languages and frameworks,true,"React is our web framework of choice. It's popular, it's easy to understand and it's got great tooling support."
-Honeycomb Web Toolkit,adopt,languages and frameworks,true,"Honeycomb is our design system and the web toolkit makes adopting this in your own projects easy."
-SignalR,adopt,languages and frameworks,true,"SignalR allows server code to send asynchronous notifications to client-side web applications."
-Webpack,adopt,languages and frameworks,true,"Webpack is a module bundler. It's main purpose is to bundle JavaScript files for usage in a browser."
-Babel,adopt,languages and frameworks,true,"Babel is a JavaScript compiler allowing you to confidently use the latest JavaScript features in all browsers."
-Enzyme,adopt,languages and frameworks,true,"Enzyme is a JavaScript Testing utility for React that makes it easier to assert, manipulate and traverse your React Components' output."
-Redux,adopt,languages and frameworks,true,"Redux is a predictable state container for JavaScript apps. We recommend this when state management becomes complicated with React alone."
-Knockout.js,endure,languages and frameworks,true,"Knockout is a minimilast library for binding data to web views. We prefer React now though existing usages of knockout.js are fine."
-JQuery,retire,languages and frameworks,true,"JQuery has had it's time. Modern browsers and advances in JavaScript means we don't require it any more."
-Manual releases,retire,techniques,true,"A release that involves someone manually going through a whole heap of steps across different systems is bad."
-Release scripts,adopt,techniques,true,"Using a single powershell script (basic-release.ps1 or using RG.Release) to manage your entire release process is a good trade off between saving effort, and security and accountability for each release."
-Automated releases via Octopus Deploy,explore,techniques,true,"Octopus is more trustworthy than TeamCity for automating releases (via @rmc47), so teams wishing to try this should first move their release process to Octopus. SQL Monitor currently uses Octopus for deploying to monitor.red-gate.com."
-Trello,adopt,tools,true,"Some teams use Trello for issue management and digital taskboards. Setup and administration are cheap, but issue management capabilities are limited."
-Jira,adopt,tools,true,"Some teams use Jira for issue management and digital taskboards. The setup and administration costs are higher than other tools, but issue management capabilities are rich."
-GitHub Issues,adopt,tools,true,"Some teams use GitHub issues for issue management and digital taskboards. Setup and administration are slightly costlier than Trello, while issue management capabilties are limited. Integration with source code and repositories can be valuable, but is also complex for multi-repository projects."
-Physical whiteboards,adopt,tools,true,"Some teams use physical whiteboards for issue management and a physical taskboard. Costs are variable dependent on the setup and how the tool is used but can be minimal. Issue management and audit capabiltiies are minimal."
-".NET Framework 4.6.1",adopt,languages and frameworks,true,"We continue to build our products using the .Net framework, but libraries should target .Net Standard."
-".NET Framework 4.7.1",explore,languages and frameworks,true,"A newer version of .NET Framework, which supports .NET Standard better than previous versions. Currently being explored by the Masketeers in Figleaf."
-".NET Standard 2.0",adopt,languages and frameworks,true,"Microsoft has delivered a cross-platform future. New applications should be built to conform to .NET Standard by default."
-".NET Core 2.0",adopt,languages and frameworks,true,"Microsoft has delivered a cross-platform future. New applications should be built with .NET Core by default whenever possible. .NET Core doesn't yet support WPF/Winforms applications, but we're hopeful for support in <a href='https://blogs.msdn.microsoft.com/dotnet/2018/05/07/net-core-3-and-support-for-windows-desktop-applications/'>.NET Core 3</a>."
-"SSMS 2012 and above",adopt,platforms,true,"SQL Server Management Studio 2012 and above are supported my Microsoft, so we should support them in our tools."
-"SQL Server 2008 and above",adopt,platforms,true,"SQL Server 2008 and above are supported by Microsoft, so we should support them in our tools."
+Daily standups,adopt,techniques,TRUE,Having a daily standup each day helps us prepare to have the best possible day.
+Pairing,adopt,techniques,TRUE,Pairing helps collaboration and knowledge transfer within the team.
+Team Exploratory Testing Sessions,adopt,techniques,TRUE,Team exploratory testing helps us gain deep feedback on development work.
+Lightweight Architecure Decision Records,adopt,techniques,TRUE,"Much documentation can be replaced with highly readable code and tests. In a world of evolutionary architecture, however, it's important to record certain design decisions for the benefit of future team members as well as for external oversight. Lightweight Architecture Decision Records is a technique for capturing important architectural decisions along with their context and consequences. We store these details in source control, instead of a wiki or website, as then they can provide a record that remains in sync with the code itself."
+Mobbing,explore,techniques,TRUE,"Mobbing is a software development approach where the whole team works on the same thing, at the same time, in the same space, and at the same computer. The SQL Prompt team are exploring mobbing."
+Domain-driven Design,explore,techniques,TRUE,"Domain-driven Design (DDD) is a development approach that deeply values the domain model and connects it to the implementation. DDD gives us the opportunity to keep ourselves honest about striving for persistence ignorance by abstrating the consistency boundaries through proper domain modeling. We are finding it easy to shape the discussions around business language and structure the codebase around the well-established DDD concepts such as Aggregate, Command, Event, etc. There is a also great deal of resource and community support behind this approach which makes it easy to acquire the knowladge. Being explored by The Spiders."
+C#,adopt,languages and frameworks,TRUE,We build our software using C#.
+F#,explore,languages and frameworks,TRUE,"F# has some great test and data parsing and manipulating libraries, that are worth exploring as our development becomes more data and api oriented."
+C++,endure,languages and frameworks,TRUE,C++ was the right tool for the job in the past.
+Delphi,endure,languages and frameworks,TRUE,SQL Backup engine is written in Delphi.
+VB.Net,retire,languages and frameworks,TRUE,There is no reason to prefer VB.Net over C#.
+JavaScript (pre ES6),retire,languages and frameworks,TRUE,"We don't use older versions of JavaScript. ES6 features like promises, modules and classes significantly improve the JavaScript experience, and tools like BabelJS allow us to adopt this with confidence."
+JavaScript (ES6+),adopt,languages and frameworks,TRUE,We use JavaScript for rapid prototyping of ideas because it allows us to go faster. In code bases where we already have significant JavaScript we will continue to use modern JavaScript.
+TypeScript,adopt,languages and frameworks,TRUE,TypeScript provides an advanced type system on top of JavaScript. We have a preference for TypeScript in production code because the optional type safety can help and improved tool support.
+Autofac,adopt,languages and frameworks,TRUE,"Autofac is an Inversion of Control container for .NET Core, ASP.NET Core, .NET 4.5.1+ and our preferred IoC container choice. Autofac allows you to register components and express dependencies through its flexible module system and simple extension points."
+Ninject,endure,languages and frameworks,TRUE,"Ninject is a dependency injector for .NET applications. However, Autofac is our preferred IoC container."
+NUnit 2,endure,languages and frameworks,TRUE,"NUnit is our default framework for writing unit and integration tests. NUnit 2 is working well in most projects that use it, but consider upgrading to NUnit 3 for newer features."
+NUnit 3,adopt,languages and frameworks,TRUE,NUnit is our default framework for writing unit and integration tests. We use NUnit 3 by default for new projects.
+Pester,adopt,languages and frameworks,TRUE,Pester is our default framework for writing tests in PowerShell. We use Pester by default for new PowerShell tests.
+Balsamiq,adopt,tools,TRUE,Balsamiq gives us the ability to create quick low-fidelity wireframes to describe workflows.
+Git,adopt,tools,TRUE,"Git is our defacto VCS, and all repositories are stored on GitHub."
+OneDrive,adopt,tools,TRUE,"OneDrive is our default choice for storing Office documents to share within the organization. In the last three years, Microsoft have done a lot of work on OneDrive and the associated sync clients and have closed the gap on their competitors. The sync client is very stable and doesn’t contain the restrictions that it did before."
+Raygun,explore,tools,TRUE,"Raygun allows loosely-coupled error reporting to a web endpoint. Currently being explored with SQL Prompt, SQL Clone and SQL Monitor."
+Google Drive,retire,tools,TRUE,"We don’t have corporate Google accounts and it doesn’t make sense to subscribe to both GSuite and Office 365, both for cost reasons and from an information management point of view. The fact that we don’t have corporate accounts means data can’t be removed from Google accounts when someone leaves the company (as we don’t own the account), so we shouldn’t be storing any personal information (such as customer data) in Google Drive."
+SmartAssembly,retire,tools,TRUE,"SmartAssembly obfuscation, error and usage reporting becomes tightly-coupled to products and slows down builds."
+Windows 7+/2008R2+,adopt,platforms,TRUE,Our default supported operating system is Windows. If Microsoft continues to support this as part of their default support package we continue to support running our applications on that OS. See https://support.microsoft.com/en-us/help/13853/windows-lifecycle-fact-sheet
+Chrome,adopt,platforms,TRUE,Chrome is Google's evergreen browser. We support it by default.
+Firefox,adopt,platforms,TRUE,Firefox is Mozilla's evergreen browser. We support it by default.
+Edge,adopt,platforms,TRUE,Edge is Microsoft's evergreen browser. We support it by default.
+IE 11,adopt,platforms,TRUE,IE 11 is the default browser on Windows 10 and makes up approximately 10% of the visits to Redgate.com. We support it by default.
+IE 10 and under,retire,platforms,TRUE,We do not support IE10 and under.
+Raven DB,retire,tools,TRUE,We previously used Raven DB in DLM Dashboard but our experience was not positive.
+NSubsitute,adopt,languages and frameworks,TRUE,NSubstitute is our default mocking library of choice. We feel it's got less setup cost than Moq and requires fewer .Object calls.
+Moq,endure,languages and frameworks,TRUE,"Moq is a great framework for mocking, but we prefer NSubstitute's simplicity. We see no benefit in having a common mocking framework across solutions."
+Fakes,explore,techniques,TRUE,We've experimented using <a href='https://github.com/testdouble/contributing-tests/wiki/Test-Double'>Fakes</a> in the Redgate Usage Client - fakes used in the test can reduce the amount of mocking is required and can make the tests simpler.
+Rhino Mocks,retire,languages and frameworks,TRUE,"Rhino Mocks is no longer actively maintained, nor does it support .NET Core / .NET Standard."
+Wix 3,adopt,tools,TRUE,"Windows Installer XML Toolset 3 (WiX), is a free software toolset that builds Windows Installer packages from XML. We default to Wix v3."
+Wix 2,retire,tools,TRUE,"Windows Installer XML Toolset 2 (WiX), is a free software toolset that builds Windows Installer packages from XML. We default to Wix v3."
+Inno Setup,endure,tools,TRUE,SQL Backup uses divergent installer technology.
+RedGate.Usage.Client,adopt,tools,TRUE,Redgate's standard tool for Product and Feature usage reporting.
+AppInsights,adopt,tools,TRUE,Microsoft's platform for data analysis.
+MixPanel,endure,tools,TRUE,Tool for presenting analytic data. Now superseded by AppInsights. We will review whether to retire this when Application Insights has a configurable retention period.
+Google Analytics,retire,tools,TRUE,Tool for presenting analytic data. Now superseded by AppInsights.
+SonarQube,adopt,tools,TRUE,"Sonarqube provides automated code review, highlighting quality issues in changing code. This feedback is best surfaced through automated PR comments."
+RedGate.Build,adopt,tools,TRUE,"Redgate's standardised, scripted infrastructure for building products. Based on <a href='https://github.com/red-gate/build-script-template'>build-script-templates</a>."
+Custom build scripts,endure,tools,TRUE,"Builds scripts that diverge from RedGate.Build. These were useful when first made, but we should move to sandard RedGate.Build when possible."
+Build magic,retire,tools,TRUE,"Legacy build tooling, now to be deprecated in favour of RedGate.Build."
+IL weaving,retire,tools,TRUE,Byte weaving magic is not desirable as it adds compile time complexity that is often not visible to developers. Please note that this does not incorporate static linker tools such as ILMerge as they can still be useful to make some components more reusable by internalising a subset of their dependencies.
+Fody,retire,tools,TRUE,Tool for IL weaving. No longer endorsed.
+Vagrant,adopt,tools,TRUE,Vagrant is an open-source software product for building and maintaining portable virtual software development environments. We use Vagrant with Puppet to provision test environments and internal infrastructure.
+Puppet,adopt,tools,TRUE,Puppet is an open-source software configuration management tool. We use Vagrant with Puppet to provision test environments and internal infrastructure.
+DevCloud,adopt,tools,TRUE,DevCloud is an internal platform for hosting short-lived virtual machines.
+Long-lived Virtual Machines,retire,tools,TRUE,"We avoid using long-lived virtual machines, especially those that cannotbe trivially rebuilt on demand."
+Docker,explore,tools,TRUE,"Docker is a tool designed to make it easier to create, deploy, and run applications by using containers. Current being explored by Whitesharks."
+Kubernetes,explore,tools,TRUE,"Kubernetes is an open-source container-orchestration system for automating deployment, scaling and management of containerized applications. Currently being explored by Whitesharks."
+Lucidchart,explore,tools,TRUE,"Diagramming tool that allows drawing architectural diagrams in a team environment. Also allows integration with OneDrive, Confluence, etc. Currently being explored by The Spiders team."
+draw.io,explore,tools,TRUE,"Simple Open source diagramming tool that allows drawing architectural diagrams. Also allows integration with <a href='https://about.draw.io/integrations'>OneDrive, Jira, Confluence, etc</a>. Currently being explored by the Prompt team (for <a href='https://info.red-gate.com/display/SP/Prompt%27s+architecture'>C4 diagrams</a>)."
+CEF,retire,languages and frameworks,TRUE,"Chromium Embedded framework (CEF) is an open source framework for embedding a web browser engine inside other tools. This was explored, but proved unsuccessful for Redgate."
+Winforms,endure,languages and frameworks,TRUE,"Winforms is a legacy UI library in the .NET Framework. Maybe Redgate products already use Winforms, but we prefer other tools for new development."
+WPF,adopt,languages and frameworks,TRUE,"Windows Presentation Foundation (WPF) s a graphical subsystem provided with the .NET Framework. It's one of our prefered desktop UI technologies, especially when embedding products inside Visual Studio or SSMS."
+Electron,adopt,languages and frameworks,TRUE,"Electron is an open-source desktop UI framework. It's developed/maintained by GitHub, and used by Microsoft for VS Code. It's one of our prefered desktop UI technologies, especially for standalone desktop tools."
+Check for Updates (CfU),endure,tools,TRUE,"Redgate's established mechanism for distributing product upgrades. The update process is manual and intrusive for users, leading to slow version uptake and version fragmentation in production. We're keen to explore alternatives."
+User-controlled background updates,explore,tools,TRUE,"Allowing a user to kick off a background upgrade of products, from the UI. Being explored by ICloneable&lt;Sheep&gt; on SQL Clone."
+Log4Net,endure,languages and frameworks,TRUE,"Log4Net is no longer actively maintained. We've also had problems with our use of it by having a single static root. We don't recommend this for new applications, but can tolerate existing usages."
+SeriLog,adopt,languages and frameworks,TRUE,"Serilog is our preferred logging framework. It's well maintained, supports structured event data and is portable between .NET platforms."
+Oracle database,explore,platforms,TRUE,"Oracle database is a strong rival to SQL Server. Redgate has legacy tools for this suite (Oracle Compare & Source Control), and the space is under ongoing investigation by Foundry (with support from TKomp)."
+SQL Server on Linux,explore,platforms,TRUE,"SQL Server has had growing support on Linux for some time, but Linux is not a platform that Redgate actively targets. Current windows-based tools support connecting to a SSoL database, and further value is being explored in Foundry."
+Azure DB Studio,explore,platforms,TRUE,Azure DB Studio is Microsoft's aspirational replacement for SSMS. Potential Redgate tooling support is being investigated by Foundry.
+SQL Change Automation,explore,tools,TRUE,Redgate SQL Change Automation is our commerical offering to help people manage the state of databases as part of application deployment. We should investigate if/how to use our own tools as part of our development activities. Versioning Teams to investigate this by looking at how CORE manage databases.
+React,adopt,languages and frameworks,TRUE,"React is our web framework of choice. It's popular, it's easy to understand and it's got great tooling support."
+Honeycomb Web Toolkit,adopt,languages and frameworks,TRUE,Honeycomb is our design system and the web toolkit makes adopting this in your own projects easy.
+SignalR,adopt,languages and frameworks,TRUE,SignalR allows server code to send asynchronous notifications to client-side web applications.
+Webpack,adopt,languages and frameworks,TRUE,Webpack is a module bundler. It's main purpose is to bundle JavaScript files for usage in a browser.
+Babel,adopt,languages and frameworks,TRUE,Babel is a JavaScript compiler allowing you to confidently use the latest JavaScript features in all browsers.
+Enzyme,adopt,languages and frameworks,TRUE,"Enzyme is a JavaScript Testing utility for React that makes it easier to assert, manipulate and traverse your React Components' output."
+Redux,adopt,languages and frameworks,TRUE,Redux is a predictable state container for JavaScript apps. We recommend this when state management becomes complicated with React alone.
+Knockout.js,endure,languages and frameworks,TRUE,Knockout is a minimilast library for binding data to web views. We prefer React now though existing usages of knockout.js are fine.
+JQuery,retire,languages and frameworks,TRUE,JQuery has had it's time. Modern browsers and advances in JavaScript means we don't require it any more.
+Manual releases,retire,techniques,TRUE,A release that involves someone manually going through a whole heap of steps across different systems is bad.
+Release scripts,adopt,techniques,TRUE,"Using a single powershell script (basic-release.ps1 or using RG.Release) to manage your entire release process is a good trade off between saving effort, and security and accountability for each release."
+Automated releases via Octopus Deploy,explore,techniques,TRUE,"Octopus is more trustworthy than TeamCity for automating releases (via @rmc47), so teams wishing to try this should first move their release process to Octopus. SQL Monitor currently uses Octopus for deploying to monitor.red-gate.com."
+Trello,adopt,tools,TRUE,"Some teams use Trello for issue management and digital taskboards. Setup and administration are cheap, but issue management capabilities are limited."
+Jira,adopt,tools,TRUE,"Some teams use Jira for issue management and digital taskboards. The setup and administration costs are higher than other tools, but issue management capabilities are rich."
+GitHub Issues,adopt,tools,TRUE,"Some teams use GitHub issues for issue management and digital taskboards. Setup and administration are slightly costlier than Trello, while issue management capabilties are limited. Integration with source code and repositories can be valuable, but is also complex for multi-repository projects."
+Physical whiteboards,adopt,tools,TRUE,Some teams use physical whiteboards for issue management and a physical taskboard. Costs are variable dependent on the setup and how the tool is used but can be minimal. Issue management and audit capabiltiies are minimal.
+.NET Framework 4.6.1,adopt,languages and frameworks,TRUE,"We continue to build our products using the .Net framework, but libraries should target .Net Standard."
+.NET Framework 4.7.1,explore,languages and frameworks,TRUE,"A newer version of .NET Framework, which supports .NET Standard better than previous versions. Currently being explored by the Masketeers in Figleaf."
+.NET Standard 2.0,adopt,languages and frameworks,TRUE,Microsoft has delivered a cross-platform future. New applications should be built to conform to .NET Standard by default.
+.NET Core 2.0,adopt,languages and frameworks,TRUE,"Microsoft has delivered a cross-platform future. New applications should be built with .NET Core by default whenever possible. .NET Core doesn't yet support WPF/Winforms applications, but we're hopeful for support in <a href='https://blogs.msdn.microsoft.com/dotnet/2018/05/07/net-core-3-and-support-for-windows-desktop-applications/'>.NET Core 3</a>."
+SSMS 2012 and above,adopt,platforms,TRUE,"SQL Server Management Studio 2012 and above are supported my Microsoft, so we should support them in our tools."
+SQL Server 2008 and above,adopt,platforms,TRUE,"SQL Server 2008 and above are supported by Microsoft, so we should support them in our tools."
+Chocolately,adopt,tools,TRUE,Windows Package Manager
+Our Own Tools,explore,tools,TRUE,Eat our own dogfood
+Single Click Release/Deploy,adopt,techniques,TRUE,"Manual decision, Automated pipeline process"
+Adherence to SOLID,adopt,techniques,TRUE,Good solid development principles
+Making Work Visible,adopt,techniques,TRUE,Expose work in progress
+Impact Mapping,adopt,techniques,TRUE,Ties strategy and goals to what we do day to day
+Tech Radar,adopt,tools,TRUE,This. How meta.
+RESTful APIs,adopt,techniques,TRUE,Decouple all the things.
+Sketch Noting,adopt,techniques,TRUE,Visual learning
