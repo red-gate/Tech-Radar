@@ -24,7 +24,7 @@ OneDrive,adopt,tools,true,"OneDrive is our default choice for storing Office doc
 Raygun,explore,tools,true,"Raygun allows loosely-coupled error reporting to a web endpoint. Currently being explored with SQL Prompt, SQL Clone and SQL Monitor."
 Google Drive,retire,tools,true,"We don’t have corporate Google accounts and it doesn’t make sense to subscribe to both GSuite and Office 365, both for cost reasons and from an information management point of view. The fact that we don’t have corporate accounts means data can’t be removed from Google accounts when someone leaves the company (as we don’t own the account), so we shouldn’t be storing any personal information (such as customer data) in Google Drive."
 SmartAssembly,retire,tools,true,"SmartAssembly obfuscation, error and usage reporting becomes tightly-coupled to products and slows down builds."
-Windows,adopt,platforms,true,"Our default supported operating system is Windows. If Microsoft continues to support this as part of their default support package we continue to support running our applications on that OS. See https://support.microsoft.com/en-us/help/13853/windows-lifecycle-fact-sheet"
+Windows 7+/2008R2+,adopt,platforms,true,"Our default supported operating system is Windows. If Microsoft continues to support this as part of their default support package we continue to support running our applications on that OS. See https://support.microsoft.com/en-us/help/13853/windows-lifecycle-fact-sheet"
 Chrome,adopt,platforms,true,"Chrome is Google's evergreen browser. We support it by default."
 Firefox,adopt,platforms,true,"Firefox is Mozilla's evergreen browser. We support it by default."
 Edge,adopt,platforms,true,"Edge is Microsoft's evergreen browser. We support it by default."
