@@ -1,3 +1,7 @@
+# Remember this is public!
+
+Avoid internal links and code names and don't accidentally leak any of Redgate's secrets!
+
 # Contain description in quotes
 
 Please contain all `description` strings in quotes (").
