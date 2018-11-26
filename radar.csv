@@ -90,3 +90,4 @@ Physical whiteboards,adopt,tools,true,"Some teams use physical whiteboards for i
 ".NET Core 2.0",adopt,languages and frameworks,true,"Microsoft has delivered a cross-platform future. New applications should be built with .NET Core by default whenever possible. .NET Core doesn't yet support WPF/Winforms applications, but we're hopeful for support in <a href='https://blogs.msdn.microsoft.com/dotnet/2018/05/07/net-core-3-and-support-for-windows-desktop-applications/'>.NET Core 3</a>."
 "SSMS 2012 and above",adopt,platforms,true,"SQL Server Management Studio 2012 and above are supported my Microsoft, so we should support them in our tools."
 "SQL Server 2008 and above",adopt,platforms,true,"SQL Server 2008 and above are supported by Microsoft, so we should support them in our tools."
+"Retrospectives",adopt,techniques,true,"Regular retrospectives help us gain feedback to improve our development teams"
