@@ -91,3 +91,4 @@ Physical whiteboards,adopt,tools,true,"Some teams use physical whiteboards for i
 "SSMS 2012 and above",adopt,platforms,true,"SQL Server Management Studio 2012 and above are supported my Microsoft, so we should support them in our tools."
 "SQL Server 2008 and above",adopt,platforms,true,"SQL Server 2008 and above are supported by Microsoft, so we should support them in our tools."
 "Dedicated Tech Debt time",explore,techniques,true,"Dedicated time to perform tech-debt reduction activities. Currently being trialled by the SQL Crackers / Hammerheads teams working on SQL Monitor."
+"Retrospectives",adopt,techniques,true,"Regular retrospectives help us gain feedback to improve our development teams"
