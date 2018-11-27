@@ -92,3 +92,4 @@ Physical whiteboards,adopt,tools,true,"Some teams use physical whiteboards for i
 "SSMS 2012 and above",adopt,platforms,true,"SQL Server Management Studio 2012 and above are supported my Microsoft, so we should support them in our tools."
 "SQL Server 2008 and above",adopt,platforms,true,"SQL Server 2008 and above are supported by Microsoft, so we should support them in our tools."
 "Retrospectives",adopt,techniques,true,"Regular retrospectives help us gain feedback to improve our development teams"
+"Redgate Installer",adopt,tools,true,"Redgate Installer is our standard installer which we should use in preference to other installer technologies because it allows us to ship products together, provides a consistent experience, and integrates with our release, licensing and update systems."
