@@ -93,4 +93,5 @@ Physical whiteboards,adopt,tools,true,"Some teams use physical whiteboards for i
 "SQL Server 2008 and above",adopt,platforms,true,"SQL Server 2008 and above are supported by Microsoft, so we should support them in our tools."
 "Retrospectives",adopt,techniques,true,"Regular retrospectives help us gain feedback to improve our development teams"
 "Redgate Installer",adopt,tools,true,"Redgate Installer is our standard installer which we should use in preference to other installer technologies because it allows us to ship products together, provides a consistent experience, and integrates with our release, licensing and update systems."
+"TeamCity",adopt,tools,true,"We build all of our projects on TeamCity because it's simpler to use one CI system across the company. Our use of build scripts rather than complex TeamCity configuration reduces coupling of our builds to TeamCity itself."
 "Prettier",adopt,tools,true,"Prettier automates consistent code styling for web languages by providing as few formatting options as possible."
