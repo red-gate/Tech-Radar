@@ -106,5 +106,5 @@ Physical whiteboards,adopt,tools,true,"Some teams use physical whiteboards for i
 "Registry",endure,tools,true,"We avoid storing settings in the Registry as it's Windows specific. However, it does make it easier for system administrators to apply group policy so we should bear this in mind when choosing setting locations."
 "Technical spikes",adopt,techniques,true,"Timeboxed prototype/proof-of-concept for some feature or technical implementation detail. Usually done with minimal quality (since they're never intended to be real code), implemented on a branch and then thrown away."
 "Feature flags",adopt,techniques,true,"<a href='https://martinfowler.com/articles/feature-toggles.html'>A mechanism to prevent code in master from affecting the way the product behaves</a>. There are lots of different types of flags/toggles: they might be set at compile or run time; they might be purely internal or visible to the user, and so on."
-"Scrum",adopt,techniques,true,"Iterative agile framework"
-"Kanban",explore,techniques,true,"Workflow with WIP limits agile framework"
+"Scrum",adopt,techniques,true,"Agile framework focused on time-boxed, iterative plannning. We default to this approach to encourage iterative delivery in teams and a simple process to follow."
+"Kanban",explore,techniques,true,"Flow-based agile framework the emphasises limiting work-in-progress (WIP). Typically adopted by teams who find time-boxed iterations restrictive, or need to work in a more reactive manner."
