@@ -107,4 +107,4 @@ Physical whiteboards,adopt,tools,true,"Some teams use physical whiteboards for i
 "Technical spikes",adopt,techniques,true,"Timeboxed prototype/proof-of-concept for some feature or technical implementation detail. Usually done with minimal quality (since they're never intended to be real code), implemented on a branch and then thrown away."
 "Feature flags",adopt,techniques,true,"<a href='https://martinfowler.com/articles/feature-toggles.html'>A mechanism to prevent code in master from affecting the way the product behaves</a>. There are lots of different types of flags/toggles: they might be set at compile or run time; they might be purely internal or visible to the user, and so on."
 "Scrum",adopt,techniques,true,"Iterative agile framework"
-"kanban",explore,techniques,true,"Workflow with WIP limits agile framework"
+"Kanban",explore,techniques,true,"Workflow with WIP limits agile framework"
