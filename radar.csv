@@ -101,3 +101,6 @@ Physical whiteboards,adopt,tools,true,"Some teams use physical whiteboards for i
 "PowerShell 5",adopt,"languages and frameworks",true,"For internal automation we use PowerShell 5."
 "PowerShell 3+","adopt",platforms,true,"When we are writing cmdlets for external use we target PowerShell 3."
 "PowerShell Core","explore",languages and frameworks,true,"The Figleaf team are in a position to explore PowerShell Core (the cross-platform version of PowerShell)."
+"JSON",adopt,tools,true,"For storing user information, such as settings we want to use a textual format. The choice boils down to JSON or XML. We prefer JSON because it's less verbose."
+"XML",endure,tools,true,"For storing user information we used to use XML. We'll continue to use that, but avoid it in the future because it's very verbose. We perceive the cost of migration away to be high enough for this to be Endure, rather than Retire."
+"Registry",endure,tools,true,"We avoid storing settings in the Registry as it's Windows specific. However, it does make it easier for system administrators to apply group policy so we should bear this in mind when choosing setting locations."
