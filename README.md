@@ -18,9 +18,9 @@ The radar is less appropriate for early stage products where we are still findin
 
 ## Quadrants
 
-The quadrants help us organize the entries on the Radar. We've adopted exactly the same quadrants as Thoughtworks (see their [FAQ](https://www.thoughtworks.com/radar/faq))
+The quadrants help us organize the entries on the Radar. We've adopted the same quadrants as Thoughtworks (see their [FAQ](https://www.thoughtworks.com/radar/faq))
 
-* *Programming Languages and Frameworks*. This was just languages but we rolled frameworks into here with the October 2012 Radar.
+* *Languages and Frameworks*. Languages and frameworks that we use when building products.
 * *Tools*. These can be components, such as databases, software development tools, such as versions control systems; or more generic categories of tools, such as the notion of polyglot persistence.
 * *Platforms*. Things that we build software on top of such as .NET, SQL Server, Windows (etc).
 * *Techniques*. These include elements of a software development process, such as experience design; and ways of structuring software, such as microservices.
