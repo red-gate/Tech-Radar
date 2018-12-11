@@ -132,5 +132,5 @@ Physical whiteboards,adopt,tools,true,"Some teams use physical whiteboards for i
 "Kaizen Rota",explore,techniques,true,"Dedicated time to perform Kaizen/Technical Direction activities whilst working with the Coaches. Currently being trialed by the SQL Crackers / Hammerheads teams working on SQL Monitor."
 "User Stories",explore,techniques,true,"User stories are short, simple description of a feature as described from the perspective of end users. They typically follow a simple template, As a X, I want Y to achieve Z. Both Versioning & Automation and the Prompt are using this approach."
 "Open API specification",adopt,techniques,true,"Our public web-based APIs are built according to the <a href='https://www.openapis.org/'>Open API</a> specification."
-"NSwag",explore,libraries and frameworks,true,"An implementation of the Open API specification currently being explored by the Data Catalog team."
-"Swashbuckle",explore,libraries and frameworks,true,"An implementation of the Open API specification currently being explored by the Versioning teams for providing the out-of-process APIs."
+"NSwag",explore,languages and frameworks,true,"An implementation of the Open API specification currently being explored by the Data Catalog team."
+"Swashbuckle",explore,languages and frameworks,true,"An implementation of the Open API specification currently being explored by the Versioning teams for providing the out-of-process APIs."
