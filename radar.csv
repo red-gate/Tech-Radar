@@ -136,4 +136,4 @@ Physical whiteboards,adopt,tools,true,"Some teams use physical whiteboards for i
 "NSwag",explore,languages and frameworks,true,"An implementation of the Open API specification currently being explored by the Data Catalog team."
 "Swashbuckle",explore,languages and frameworks,true,"An implementation of the Open API specification currently being explored by the Versioning teams for providing the out-of-process APIs."
 "Value Stream Mapping",explore,techniques,true,"<a href='https://en.wikipedia.org/wiki/Value_stream_mapping'>Value Stream mapping</a> is a technique to visualize the steps needed in a process. By doing so we can use a <a href='https://en.wikipedia.org/wiki/Systems_theory'>systems thinking</a> mindset to look for optimizations and perform small experiments to learn what to optimize. The Oracle/V&A teams will look at exploring this technique."
-"Automated Code Style Settings",adopt,techniques,true,"Each team automate their coding style using a team shared R# settings file."
+"Automated Code Style Settings",adopt,techniques,true,"Each team should automate their coding style using a team shared R# settings file."
