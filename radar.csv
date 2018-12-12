@@ -135,4 +135,3 @@ Physical whiteboards,adopt,tools,true,"Some teams use physical whiteboards for i
 "Open API specification",adopt,techniques,true,"Our public web-based APIs are exposed through the <a href='https://www.openapis.org/'>Open API</a> specification interface as being the description for REST APIs, which allows both humans and computers to discover and understand the capabilities of a service without requiring access to source code, additional documentation, or inspection of network traffic."
 "NSwag",explore,languages and frameworks,true,"An implementation of the Open API specification currently being explored by the Data Catalog team."
 "Swashbuckle",explore,languages and frameworks,true,"An implementation of the Open API specification currently being explored by the Versioning teams for providing the out-of-process APIs."
-
