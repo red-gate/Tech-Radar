@@ -18,6 +18,11 @@ The audience for this is all technical development at Redgate. It's purpose is t
 
 The radar is less appropriate for early stage products where we are still finding product/market fit (the concerns are less likely to be technical at this stage) though we still recommend it as a good set of default options. Our intention is that products we commit to develop/sell do adhere to the tech stack in this radar.
 
+## Tech-Radar vs Library Tech-Radar
+`radars.csv` represents the high-level technology in use at Redgate. It include techniques, platforms, languages and frameworks that we use as well as tools. It also includes libraries that have accomplish significant tasks where the cost of change is high (for example, Test frameworks, mocking libraries or user interface).
+
+`radar_libraries.csv` gives a very detailed view of the libraries we use, including our npm and NuGet dependencies. These should be libraries whose use does not cause knock-on dependencies. As a general guideline if your library contains many dependencies that enforce choice on others it should probably be in `radar.csv`
+
 ## Quadrants
 
 The quadrants help us organize the entries on the Radar. We've adopted the same quadrants as Thoughtworks (see their [FAQ](https://www.thoughtworks.com/radar/faq))
