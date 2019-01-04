@@ -19,9 +19,11 @@ The audience for this is all technical development at Redgate. It's purpose is t
 The radar is less appropriate for early stage products where we are still finding product/market fit (the concerns are less likely to be technical at this stage) though we still recommend it as a good set of default options. Our intention is that products we commit to develop/sell do adhere to the tech stack in this radar.
 
 ## Tech-Radar vs Library Tech-Radar
-`radars.csv` represents the high-level technology in use at Redgate. It include techniques, platforms, languages and frameworks that we use as well as tools. It also includes libraries that have accomplish significant tasks where the cost of change is high (for example, Test frameworks, mocking libraries or user interface).
+`radars.csv` represents the high-level technology in use at Redgate. It includes high-level techniques, platforms, languages and frameworks that we use as well as tools. It also includes libraries that have accomplish significant tasks where the cost of change is high (for example, Test frameworks, mocking libraries or user interface).
 
-`radar_libraries.csv` gives a very detailed view of the libraries we use, including our npm and NuGet dependencies. These should be libraries whose use does not cause knock-on dependencies. As a general guideline if your library contains many dependencies that enforce choice on others it should probably be in `radar.csv`
+`radar_libraries.csv` gives a more detailed view of the libraries we use, including our npm and NuGet dependencies. The purpose of this second radar is to help teams make quicker decisions about what libraries to use by avoiding spending time investigating eg "Which drag and drop library is best for React?" when another team has already done it.
+
+Use of libraries in this radar  should not cause knock-on dependencies but add some useful functionality that would not be worth re-inventing. As a general guideline if your library contains many dependencies that enforce choice on others it should probably be in `radar.csv`
 
 ## Quadrants
 
