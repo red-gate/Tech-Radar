@@ -46,8 +46,6 @@ SonarQube,adopt,tools,false,"Sonarqube provides automated code review, highlight
 RedGate.Build,adopt,tools,false,"Redgate's standardised, scripted infrastructure for building products. Based on <a href='https://github.com/red-gate/build-script-template'>build-script-templates</a>."
 Custom build scripts,endure,tools,false,"Builds scripts that diverge from RedGate.Build. These were useful when first made, but we should move to sandard RedGate.Build when possible."
 Build magic,retire,tools,false,"Legacy build tooling, now to be deprecated in favour of RedGate.Build."
-IL weaving,retire,tools,false,"Byte weaving magic is not desirable as it adds compile time complexity that is often not visible to developers. Please note that this does not incorporate static linker tools such as ILMerge as they can still be useful to make some components more reusable by internalising a subset of their dependencies."
-Fody,retire,tools,false,"Tool for IL weaving. No longer endorsed."
 Vagrant,adopt,tools,false,"Vagrant is an open-source software product for building and maintaining portable virtual software development environments. We use Vagrant with Puppet to provision test environments and internal infrastructure."
 Puppet,adopt,tools,false,"Puppet is an open-source software configuration management tool. We use Vagrant with Puppet to provision test environments and internal infrastructure."
 DevCloud,adopt,tools,false,"DevCloud is an internal platform for hosting short-lived virtual machines."
