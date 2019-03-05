@@ -66,7 +66,7 @@ Oracle database,explore,platforms,false,"Oracle database is a strong rival to SQ
 SQL Server on Linux,explore,platforms,false,"SQL Server has had growing support on Linux for some time, but Linux is not a platform that Redgate actively targets. Current windows-based tools support connecting to a SSoL database, and further value is being explored in Foundry."
 Azure DB Studio,explore,platforms,false,"Azure DB Studio is Microsoft's aspirational replacement for SSMS. Potential Redgate tooling support is being investigated by Foundry."
 SQL Change Automation,explore,tools,false,"Redgate SQL Change Automation is our commerical offering to help people manage the state of databases as part of application deployment. We should investigate if/how to use our own tools as part of our development activities. Versioning Teams to investigate this by looking at how CORE manage databases."
-React,adopt,languages and frameworks,false,"React is our web framework of choice. It's popular, it's easy to understand and it's got great tooling support."
+React,adopt,languages and frameworks,true,"React is our web framework of choice. It's popular, it's easy to understand and it's got great tooling support. We favour writing React components using functions and hooks rather than classes."
 Honeycomb Web Toolkit,adopt,languages and frameworks,false,"Honeycomb is our design system and the web toolkit makes adopting this in your own projects easy."
 SignalR,adopt,languages and frameworks,false,"SignalR allows server code to send asynchronous notifications to client-side web applications."
 Webpack,adopt,languages and frameworks,false,"Webpack is a module bundler. It's main purpose is to bundle JavaScript files for usage in a browser."
