@@ -8,6 +8,6 @@ name,ring,quadrant,isNew,description
 "jscookie",adopt,NPM Packages,true,"<a href='https://github.com/js-cookie/js-cookie'>Jscookie</a> is a lightweight JavaScript API for handling browser cookies."
 "fetch",adopt,NPM Packages,true,"<a href='https://github.com/github/fetch'>Fetch</a> enables use of the <a href='https://fetch.spec.whatwg.org/'>fetch standard</a> for request/response inside a web browser."
 "axios",endure,NPM Packages,true,"<a href='https://github.com/axios/axios'>Axios</a> is a promise-based HTTP client. We only use this when there is a requirement to support IE9/10."
-"An placeholder",explore,Public NuGet,true,"An placeholder so we have 4 quadrants"
-"An placeholder",explore,Redgate NuGet,true,"An placeholder so we have 4 quadrants"
+"CommandLineParser",explore,Public NuGet,true,"CommandLineParser is a more modern commandline parser, which makes it easy to split a commandline up into multiple 'verbs'. Currently being explored by Team Orca."
+"RedGate.Legacy.CommandLine",endure,Redgate NuGet,true,"RedGate.Legacy.CommandLine is the old commandline parsing logic split out of Shared Utils. It's still used by a few products, but better libraries should be used for new development"
 "An placeholder",explore,other,true,"An placeholder so we have 4 quadrants"
