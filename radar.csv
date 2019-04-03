@@ -17,6 +17,7 @@ Autofac,adopt,languages and frameworks,false,"Autofac is an Inversion of Control
 Ninject,endure,languages and frameworks,false,"Ninject is a dependency injector for .NET applications. However, Autofac is our preferred IoC container."
 NUnit 2,endure,languages and frameworks,false,"NUnit is our default framework for writing unit and integration tests. NUnit 2 is working well in most projects that use it, but consider upgrading to NUnit 3 for newer features."
 NUnit 3,adopt,languages and frameworks,false,"NUnit is our default framework for writing unit and integration tests. We use NUnit 3 by default for new projects."
+FsCheck,explore,languages and frameworks,true,"FsCheck is a framework for property-based testing."
 Pester,adopt,languages and frameworks,false,"Pester is our default framework for writing tests in PowerShell. We use Pester by default for new PowerShell tests."
 Balsamiq,adopt,tools,false,"Balsamiq gives us the ability to create quick low-fidelity wireframes to describe workflows."
 Git,adopt,tools,false,"Git is our defacto VCS, and all repositories are stored on GitHub."
