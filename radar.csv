@@ -96,7 +96,7 @@ Physical whiteboards,adopt,tools,false,"Some teams use physical whiteboards for 
 "RedGate.Legacy.*",endure,languages and frameworks,false,"We have a collection of old technologies in the 'RedGate.Legacy' packages, as the name suggests these are old and should not be adopted. But moving away from them can be expensive so we don't think its worth the cost."
 "Dogfooding",adopt,techniques,false,"As a general principle we should use our own tools to solve problems. This process is known as <a href='https://en.wikipedia.org/wiki/Eating_your_own_dog_food'>dog-fooding</a>. We should do this even if we feel our products don't solve our own problems perfectly because doing so is the best way to learn how to improve our products."
 "Java",endure,languages and frameworks,false,"Typically we don't use Java, but we will when necessary. Examples include the SQL Change Automation plugins for TeamCity, Bamboo and Jenkins."
-"PowerShell Core 6",adopt,languages and frameworks,false,"For internal automation we use PowerShell Core 6."
+"PowerShell Core 6",adopt,languages and frameworks,true,"For internal automation we use PowerShell Core 6."
 "PowerShell 3+","adopt",platforms,false,"When we are writing cmdlets for external use we target PowerShell 3."
 "JSON",adopt,tools,false,"For storing user information, such as settings we want to use a textual format. The choice boils down to JSON or XML. We prefer JSON because it's less verbose."
 "XML",endure,tools,false,"For storing user information we used to use XML. We'll continue to use that, but avoid it in the future because it's very verbose. We perceive the cost of migration away to be high enough for this to be Endure, rather than Retire."
