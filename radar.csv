@@ -30,7 +30,7 @@ Windows 7+/2008R2+,adopt,platforms,false,"Our default supported operating system
 Chrome,adopt,platforms,false,"Chrome is Google's evergreen browser. We support it by default."
 Firefox,adopt,platforms,false,"Firefox is Mozilla's evergreen browser. We support it by default."
 Edge,adopt,platforms,false,"Edge is Microsoft's evergreen browser. We support it by default."
-IE 11,adopt,platforms,false,"IE 11 is the default browser on Windows 10 and makes up approximately 10% of the visits to Redgate.com. We support it by default."
+IE 11,endure,platforms,true,"IE 11 is the default browser on Windows 10 and makes up approximately 8% of the visits to Redgate.com. It is also the only browser available by default on the server versions of Windows (including Windows Server 2019). Even though, for new products, it does not need to be supported. For products that are supporting IE 11 and feeling the pain, the next major version is the point you can drop the support (when confirmed with the Product Owner). Consider supporting IE 11 for admin interfaces or initial setup that is supposed to be done directly on the server."
 IE 10 and under,endure,platforms,true,"We do not support IE10 and under. Any implementation to support IE10 can be removed, but there is no strong drive to do so across our codebase."
 Raven DB,retire,tools,false,"We previously used Raven DB in DLM Dashboard but our experience was not positive."
 NSubsitute,adopt,languages and frameworks,false,"NSubstitute is our default mocking library of choice. We feel it's got less setup cost than Moq and requires fewer .Object calls."
