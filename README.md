@@ -12,6 +12,8 @@ We use [Thoughtworks Tech Radar](https://radar.thoughtworks.com/) to generate ou
 
 You can see the latest version at [techradar.red-gate.com](http://techradar.red-gate.com).
 
+We also have a [Library Tech Radar](https://radar.thoughtworks.com/?sheetId=https%3A%2F%2Fraw.githubusercontent.com%2Fred-gate%2FTech-Radar%2Fmaster%2Fradar_libraries.csv) to give a more detailed view of specific libraries we use.
+
 The audience for this is all technical development at Redgate. It's purpose is to help us to align our technical software/practices to build greater consistency at Redgate. 
 
 The radar is less appropriate for early stage products where we are still finding product/market fit (the concerns are less likely to be technical at this stage) though we still recommend it as a good set of default options. Our intention is that products we commit to develop/sell do adhere to the tech stack in this radar.
