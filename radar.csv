@@ -101,7 +101,7 @@ Physical whiteboards,adopt,tools,false,"Some teams use physical whiteboards for 
 "Java",endure,languages and frameworks,false,"Typically we don't use Java, but we will when necessary. Examples include the SQL Change Automation plugins for TeamCity, Bamboo and Jenkins."
 "PowerShell Core 6",adopt,languages and frameworks,true,"For internal automation we use PowerShell Core 6."
 "PowerShell 3+","adopt",platforms,false,"When we are writing cmdlets for external use we target PowerShell 3."
-"JSON",adopt,tools,false,"For storing user information, such as settings we want to use a textual format. The choice boils down to JSON or XML. We prefer JSON because it's less verbose."
+"JSON",adopt,languages and frameworks,false,"For storing user information, such as settings we want to use a textual format. The choice boils down to JSON or XML. We prefer JSON because it's less verbose."
 "XML",endure,tools,false,"For storing user information we used to use XML. We'll continue to use that, but avoid it in the future because it's very verbose. We perceive the cost of migration away to be high enough for this to be Endure, rather than Retire."
 "Registry",endure,tools,false,"We avoid storing settings in the Registry as it's Windows specific. However, it does make it easier for system administrators to apply group policy so we should bear this in mind when choosing setting locations."
 "Technical spikes",adopt,techniques,false,"Timeboxed prototype/proof-of-concept for some feature or technical implementation detail. Usually done with minimal quality (since they're never intended to be real code), implemented on a branch and then thrown away."
