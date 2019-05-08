@@ -59,6 +59,7 @@ Q. Do I have to include every single npm package?
 A. No. That will drive you insane. If it's a "micro-library" (e.g. something with no dependencies) then it's not something that we should represent on the tech radar, if it's something you think another team might find useful eg, if you invested time spiking and investigating several alternatives, consider adding it to the Library Tech Radar.
 
 Q. What's the difference between the Tech-Radar and Library Tech-Radar
+
 A. `radars.csv` represents the high-level technology in use at Redgate. It includes high-level techniques, platforms, languages and frameworks that we use as well as tools. It also includes libraries that have accomplish significant tasks where the cost of change is high (for example, Test frameworks, mocking libraries or user interface).
 
 `radar_libraries.csv` gives a more detailed view of the libraries we use, including our npm and NuGet dependencies. The purpose of this second radar is to help teams make quicker decisions about what libraries to use by avoiding spending time investigating eg "Which drag and drop library is best for React?" when another team has already done it.
