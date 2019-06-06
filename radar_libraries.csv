@@ -15,3 +15,4 @@ name,ring,quadrant,isNew,description
 "Hangfire",explore,Public NuGet,true,"<a href='https://www.hangfire.io/'>Hangfire</a> is a library to perform background processing in .NET and .NET Core applications."
 "Autofac",adopt,Public NuGet,true,"Autofac is an Inversion of Control container for .NET Core, ASP.NET Core, .NET 4.5.1+ and our preferred IoC container choice. Autofac allows you to register components and express dependencies through its flexible module system and simple extension points."
 "Ninject",adopt,Public NuGet,true,"Ninject is a dependency injector for .NET applications. However, Autofac is our preferred IoC container."
+"FsCheck",adopt,Public NuGet,true,"<a href='https://fscheck.github.io/FsCheck/'>FsCheck</a> is a framework for property-based testing."
