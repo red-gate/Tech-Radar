@@ -31,7 +31,6 @@ IE 11,endure,platforms,true,"IE 11 is the default browser on Windows 10 and make
 IE 10 and under,endure,platforms,true,"We do not support IE10 and under. Any implementation to support IE10 can be removed, but there is no strong drive to do so across our codebase."
 Raven DB,retire,tools,false,"We previously used Raven DB in DLM Dashboard but our experience was not positive."
 Fakes,explore,techniques,false,"We've experimented using <a href='https://github.com/testdouble/contributing-tests/wiki/Test-Double'>Fakes</a> in the Redgate Usage Client - fakes used in the test can reduce the amount of mocking is required and can make the tests simpler."
-Rhino Mocks,endure,languages and frameworks,true,"Rhino Mocks is no longer actively maintained, nor does it support .NET Core / .NET Standard. We have some tests that use RhinoMocks. While we shouldn't write any more, we have no plans to actively replace these uses."
 Wix 3,adopt,tools,false,"Windows Installer XML Toolset 3 (WiX), is a free software toolset that builds Windows Installer packages from XML. We only use Wix v3."
 Inno Setup,endure,tools,false,"SQL Backup uses divergent installer technology."
 RedGate.Usage.Client,adopt,tools,false,"Redgate's standard tool for Product and Feature usage reporting."
