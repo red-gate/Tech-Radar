@@ -26,3 +26,4 @@ name,ring,quadrant,isNew,description
 "DotNetZip",retire,Public NuGet,true,"<a href='https://github.com/haf/DotNetZip.Semverd'>DotNetZip</a> is an opensource .NET library for handling ZIP files. We prefer the capabilities provided by the .Net framework in System.IO.Compression."
 "7Zip",endure,Public NuGet,true,"<a href='https://www.7-zip.org/'>7Zip</a> is an open source file archiver and compression tool. We prefer the capabilities provided by the .Net framework in System.IO.Compression."
 "System.IO.Compression",adopt,Public NuGet,true,"System.IO.Compression is the .Net Framework/Core provided set of compression and decompression services for streams."
+"NSwag",explore,Public NuGet,true,"An implementation of the Open API specification currently being explored by the Data Catalog team."
