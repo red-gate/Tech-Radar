@@ -22,3 +22,4 @@ name,ring,quadrant,isNew,description
 "SignalR",adopt,Public NuGet,true,"SignalR allows server code to send asynchronous notifications to client-side web applications."
 "Knockout.js",endure,Public NuGet,true,"Knockout is a minimilast library for binding data to web views. We prefer React now though existing usages of knockout.js are fine."
 "JQuery",endure,Public NuGet,true,"Modern browsers and advances in JavaScript means we don't get value by using jQuery any more."
+"RedGate.Legacy.*",endure,Redgate NuGet,true,"We have a collection of old technologies in the 'RedGate.Legacy' packages, as the name suggests these are old and should not be adopted. But moving away from them can be expensive so we don't think its worth the cost."
