@@ -17,3 +17,4 @@ name,ring,quadrant,isNew,description
 "Ninject",adopt,Public NuGet,true,"Ninject is a dependency injector for .NET applications. However, Autofac is our preferred IoC container."
 "FsCheck",adopt,Public NuGet,true,"<a href='https://fscheck.github.io/FsCheck/'>FsCheck</a> is a framework for property-based testing."
 "NSubsitute",adopt,Public NuGet,true,"NSubstitute is our default mocking library of choice. We feel it's got less setup cost than Moq and requires fewer .Object calls."
+"Moq",endure,Public NuGet,true,"Moq is a great framework for mocking, but we prefer NSubstitute's simplicity. We see no benefit in having a common mocking framework across solutions."
