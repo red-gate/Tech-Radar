@@ -28,3 +28,4 @@ name,ring,quadrant,isNew,description
 "System.IO.Compression",adopt,Public NuGet,true,"System.IO.Compression is the .Net Framework/Core provided set of compression and decompression services for streams."
 "NSwag",explore,Public NuGet,true,"An implementation of the Open API specification currently being explored by the Data Catalog team."
 "Swashbuckle",explore,Public NuGet,true,"An implementation of the Open API specification currently being explored by the Versioning teams for providing the out-of-process APIs."
+"FluentAssertions",adopt,Public NuGet,true,"<a href='https://fluentassertions.com'>FluentAssertions</a> is an assertion framework that allow you to more naturally specify the expected outcome of a TDD or BDD-style unit tests. Much more readable than Assert.That()."
