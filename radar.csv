@@ -67,7 +67,6 @@ Azure DB Studio,explore,platforms,false,"Azure DB Studio is Microsoft's aspirati
 SQL Change Automation,explore,tools,false,"Redgate SQL Change Automation is our commerical offering to help people manage the state of databases as part of application deployment. We should investigate if/how to use our own tools as part of our development activities. Versioning Teams to investigate this by looking at how CORE manage databases."
 React,adopt,languages and frameworks,false,"React is our web framework of choice. It's popular, it's easy to understand and it's got great tooling support."
 Honeycomb Web Toolkit,adopt,languages and frameworks,false,"Honeycomb is our design system and the web toolkit makes adopting this in your own projects easy."
-SignalR,adopt,languages and frameworks,false,"SignalR allows server code to send asynchronous notifications to client-side web applications."
 Webpack,adopt,languages and frameworks,false,"Webpack is a module bundler. It's main purpose is to bundle JavaScript files for usage in a browser."
 Babel,adopt,languages and frameworks,false,"Babel is a JavaScript compiler allowing you to confidently use the latest JavaScript features in all browsers."
 Enzyme,adopt,languages and frameworks,false,"Enzyme is a JavaScript Testing utility for React that makes it easier to assert, manipulate and traverse your React Components' output."

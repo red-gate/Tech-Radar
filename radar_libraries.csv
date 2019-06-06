@@ -19,3 +19,4 @@ name,ring,quadrant,isNew,description
 "NSubsitute",adopt,Public NuGet,true,"NSubstitute is our default mocking library of choice. We feel it's got less setup cost than Moq and requires fewer .Object calls."
 "Moq",endure,Public NuGet,true,"Moq is a great framework for mocking, but we prefer NSubstitute's simplicity. We see no benefit in having a common mocking framework across solutions."
 "SeriLog",adopt,Public NuGet,true,"Serilog is our preferred logging framework. It's well maintained, supports structured event data and is portable between .NET platforms."
+"SignalR",adopt,Public NuGet,true,"SignalR allows server code to send asynchronous notifications to client-side web applications."
