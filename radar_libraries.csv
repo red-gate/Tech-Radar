@@ -21,3 +21,4 @@ name,ring,quadrant,isNew,description
 "SeriLog",adopt,Public NuGet,true,"Serilog is our preferred logging framework. It's well maintained, supports structured event data and is portable between .NET platforms."
 "SignalR",adopt,Public NuGet,true,"SignalR allows server code to send asynchronous notifications to client-side web applications."
 "Knockout.js",endure,Public NuGet,true,"Knockout is a minimilast library for binding data to web views. We prefer React now though existing usages of knockout.js are fine."
+"JQuery",endure,Public NuGet,true,"Modern browsers and advances in JavaScript means we don't get value by using jQuery any more."
