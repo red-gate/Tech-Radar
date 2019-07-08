@@ -12,3 +12,4 @@ name,ring,quadrant,isNew,description
 "RedGate.Legacy.CommandLine",endure,Redgate NuGet,true,"RedGate.Legacy.CommandLine is the old commandline parsing logic split out of Shared Utils. It's still used by a few products, but better libraries should be used for new development"
 "An placeholder",explore,other,true,"An placeholder so we have 4 quadrants"
 "Dapper",adopt,Public NuGet,true,"<a href='https://github.com/StackExchange/Dapper'>Dapper</a> is a .Net object mapper that extends IDbConnection. It has no database-specific implementation details."
+"Hangfire",explore,Public NuGet,true,"<a href='https://www.hangfire.io/'>Hangfire</a> is a library to perform background processing in .NET and .NET Core applications."
