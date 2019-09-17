@@ -5,6 +5,7 @@ name,ring,quadrant,isNew,description
 "highcharts",adopt,NPM Packages,false,"<a href='https://www.highcharts.com/'>Highcharts</a> is a commercial Javascript charting library, used heavily in SQL Monitor."
 "underscore",endure,NPM Packages,false,"<a href='https://github.com/jashkenas/underscore'>Underscore</a> is a multi-purpose utility library for Javascript. We prefer lodash."
 "day.js",explore,NPM Packages,false,"<a href='https://github.com/iamkun/dayjs'>Day.js</a> is a trivially-small date library, and an alternative to moment.js. Being explored by CoreDev."
+"Monaco Editor",explore,NPM Packages,true,"<a href='https://microsoft.github.io/monaco-editor/'>Monaco</a> is the editor behind VS Code, available as a library for applications. It provides a code editor with completion/highlighting and a diff viewer. Currently being explored by Team Orca for editing/viewing migration scripts."
 "jscookie",adopt,NPM Packages,false,"<a href='https://github.com/js-cookie/js-cookie'>Jscookie</a> is a lightweight JavaScript API for handling browser cookies."
 "fetch",adopt,NPM Packages,false,"<a href='https://github.com/github/fetch'>Fetch</a> enables use of the <a href='https://fetch.spec.whatwg.org/'>fetch standard</a> for request/response inside a web browser."
 "axios",endure,NPM Packages,false,"<a href='https://github.com/axios/axios'>Axios</a> is a promise-based HTTP client. We only use this when there is a requirement to support IE9/10."
