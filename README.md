@@ -56,6 +56,13 @@ We'll look at items in Retire and (hopefully) find they can be removed from the 
 
 ## Frequently Asked Questions
 
+Q. It won't display properly. Help!
+
+A. Common causes of this happening are:
+* Leaving blank lines at the bottom (make sure these are removed)
+* Forgetting to add a column (verify this by viewing it in GitHub's CSV display)
+* Bad escaping
+
 Q. Do I have to include every single npm package?
 
 A. No. That will drive you insane. If it's a "micro-library" (e.g. something with no dependencies) then it's not something that we should represent on the tech radar, if it's something you think another team might find useful eg, if you invested time spiking and investigating several alternatives, consider adding it to the Library Tech Radar.
