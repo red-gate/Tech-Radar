@@ -13,7 +13,7 @@ Items are placed into one of four categories.
 
 For each item, we position it in one of four states:
 
-* Adopt – This technology should be adopted by your project.
+* Adopt – This technology should be the default choice in a technology area
 * Explore – Technology we’re interested in but need to evaluate before recommending as the default choice. Items in this category should have a team willing to sponsor the exploration.
 * Endure – We’ve used this technology in the past, but it’s no longer recommended.
 * Retire - This technology is holding us back and should be actively removed. Items in this category should have a desired removal date.
