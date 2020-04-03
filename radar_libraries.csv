@@ -11,7 +11,7 @@ name,ring,quadrant,isNew,description
 "axios",endure,NPM Packages,false,"<a href='https://github.com/axios/axios'>Axios</a> is a promise-based HTTP client. We only use this when there is a requirement to support IE9/10."
 "CommandLineParser",explore,Public NuGet,false,"CommandLineParser is a more modern commandline parser, which makes it easy to split a commandline up into multiple 'verbs'. Currently being explored by Team Orca."
 "RedGate.Legacy.CommandLine",endure,Redgate NuGet,false,"RedGate.Legacy.CommandLine is the old commandline parsing logic split out of Shared Utils. It's still used by a few products, but better libraries should be used for new development"
-"An placeholder",explore,other,false,"An placeholder so we have 4 quadrants"
+"A placeholder",explore,other,false,"A placeholder so we have 4 quadrants"
 "Dapper",adopt,Public NuGet,false,"<a href='https://github.com/StackExchange/Dapper'>Dapper</a> is a .Net object mapper that extends IDbConnection. It has no database-specific implementation details."
 "Hangfire",explore,Public NuGet,false,"<a href='https://www.hangfire.io/'>Hangfire</a> is a library to perform background processing in .NET and .NET Core applications."
 "Autofac",adopt,Public NuGet,false,"Autofac is an Inversion of Control container for .NET Core, ASP.NET Core, .NET 4.5.1+ and our preferred IoC container choice. Autofac allows you to register components and express dependencies through its flexible module system and simple extension points."
