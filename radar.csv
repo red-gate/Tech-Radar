@@ -30,7 +30,6 @@ Raven DB,retire,tools,false,"We previously used Raven DB in DLM Dashboard but ou
 Fakes,explore,techniques,false,"We've experimented using <a href='https://github.com/testdouble/contributing-tests/wiki/Test-Double'>Fakes</a> in the Redgate Usage Client - fakes used in the test can reduce the amount of mocking is required and can make the tests simpler."
 Wix 3,adopt,tools,false,"Windows Installer XML Toolset 3 (WiX), is a free software toolset that builds Windows Installer packages from XML. We only use Wix v3."
 Inno Setup,endure,tools,false,"SQL Backup uses divergent installer technology."
-RedGate.Usage.Client,adopt,tools,false,"Redgate's standard tool for Product and Feature usage reporting."
 AppInsights,adopt,tools,false,"Microsoft's platform for data analysis."
 MixPanel,endure,tools,false,"Tool for presenting analytic data. Now superseded by AppInsights. We will review whether to retire this when Application Insights has a configurable retention period."
 Google Analytics,retire,tools,false,"Tool for presenting analytic data. Now superseded by AppInsights."
