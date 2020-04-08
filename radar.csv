@@ -111,5 +111,4 @@ Loki,explore,tools,true,"'Loki is a logging backend, optimized for users running
 "Mural",adopt,tools,true,"<a href='https://mural.co/'>MURAL</a> is a Digital Whiteboard Tool that allows you to Collaborate with Remote Teammates"
 "SurveyMonkey",adopt,tools,true,"SurveyMonkey is an online survey development cloud-based software as a service"
 "Axure RP",endure,tools,true,"All-in-one software design tool for functional prototypes, diagrams, & specifications"
-"Gotomeeting",endure,tools,true,"Online meeting and web conferencing tool that enables businesses to collaborate with customers, clients or colleagues via the Internet in real time."
 "Common code style with nightly reformatting",adopt,techniques,true,"Consistent code style has multiple benefits. Reformatting the code nightly ensures that the formatting is applied without the need for any manual actions. We're using JetBrains CleanupCode for C# and Prettier for JS/TS. The formatting rules are stored in .editorconfig file."
