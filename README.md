@@ -4,7 +4,7 @@ The [Tech Radar](https://radar.thoughtworks.com/?sheetId=https%3A%2F%2Fraw.githu
 
 Items on the tech radar are only captured if the cost of change is high, or the benefits of standardizing are for the good of Redgate or our customers.
 
-Policy is not captured on the radar, instead please refer to our ]internal wiki](https://info.red-gate.com/display/PD/Development+policies).
+Policy is not captured on the radar, instead please refer to our [internal wiki](https://info.red-gate.com/display/PD/Development+policies).
 
 Items are placed into one of four categories.
 
