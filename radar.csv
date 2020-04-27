@@ -11,7 +11,6 @@ TypeScript,adopt,languages and frameworks,false,"TypeScript provides an advanced
 Git,adopt,tools,false,"Git is our defacto VCS, and all repositories are stored on GitHub."
 Raygun error reporting,adopt,tools,false,"Raygun allows loosely-coupled error reporting to a web endpoint. Raygun offers other capabilities too, but we only use the error reporting. Ideally our choice of error provider would be a server-side decision, but RedGate.Usage.Client doesn't currently support error reporting"
 SmartAssembly,retire,tools,false,"SmartAssembly obfuscation, error and usage reporting becomes tightly-coupled to products and slows down builds."
-Raven DB,retire,tools,false,"We previously used Raven DB in DLM Dashboard but our experience was not positive."
 Fakes,explore,techniques,false,"We've experimented using <a href='https://github.com/testdouble/contributing-tests/wiki/Test-Double'>Fakes</a> in the Redgate Usage Client - fakes used in the test can reduce the amount of mocking is required and can make the tests simpler."
 Wix 3,adopt,tools,false,"Windows Installer XML Toolset 3 (WiX), is a free software toolset that builds Windows Installer packages from XML. We only use Wix v3."
 AppInsights,adopt,tools,false,"Microsoft's platform for data analysis."
