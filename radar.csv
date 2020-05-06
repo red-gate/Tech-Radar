@@ -38,7 +38,7 @@ React,adopt,languages and frameworks,false,"React is our web framework of choice
 Honeycomb Web Toolkit,adopt,languages and frameworks,false,"Honeycomb is our design system and the web toolkit makes adopting this in your own projects easy."
 Webpack,adopt,languages and frameworks,false,"Webpack is a module bundler. It's main purpose is to bundle JavaScript files for usage in a browser."
 Babel,adopt,languages and frameworks,false,"Babel is a JavaScript compiler allowing you to confidently use the latest JavaScript features in all browsers."
-"Octopus Deploy (internal deployments)",adopt,techniques,false,"Octopus Deploy is used for deploying software within Redgate. Whenever we deploy something running on Redgate's infrastructure, it should be deployed through Octopus. This can be configured with ITOps."
+"Octopus Deploy (internal deployments)",adopt,tools,false,"Octopus Deploy is used for deploying software within Redgate. Whenever we deploy something running on Redgate's infrastructure, it should be deployed through Octopus. This can be configured with ITOps."
 ".NET Core",adopt,languages and frameworks,true,"Microsoft has delivered a cross-platform future. New applications should be built with .NET Core by default whenever possible."
 "SQL Server",adopt,platforms,true,"SQL Server is our default choice for storing relational data."
 "Redgate Installer",adopt,tools,false,"Redgate Installer is our standard installer which we should use in preference to other installer technologies because it allows us to ship products together, provides a consistent experience, and integrates with our release, licensing and update systems."
