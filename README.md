@@ -24,6 +24,12 @@ The radar only applies to all actively developed products at Redgate.
 
 Items in the [primary Tech Radar](https://radar.thoughtworks.com/?sheetId=https%3A%2F%2Fraw.githubusercontent.com%2Fred-gate%2FTech-Radar%2Fmaster%2Fradar.csv) have an expectation that it should be followed (where appropriate) for all teams at Redgate. For example, if C# X arrives then we get most benefit from adopting it wholesale across the organization, whereas a particular date/time library is a local choice for a development team. The  [Library Tech Radar](https://radar.thoughtworks.com/?sheetId=https%3A%2F%2Fraw.githubusercontent.com%2Fred-gate%2FTech-Radar%2Fmaster%2Fradar_libraries.csv) aims to support teams with local decisions by sharing experience from other teams.
 
+## Who builds the radar?
+
+The radar is open for anyone within Redgate to contribute.
+
+Contributions are reviewed by Redgate’s Technical Advisory Board (TAB). The TAB consists of a group of senior technology leaders within Redgate (Lead Software Engineers, Head of IT, Head of CORE, Head of Product Engineering) and is led by the CTO.
+
 ## How is the radar built?
 
 We use [Thoughtworks Tech Radar](https://radar.thoughtworks.com/) to generate our Tech Radar. The radar is backed by a single CSV file (that should nicely [render](https://help.github.com/articles/rendering-csv-and-tsv-data/)). CSV files are parsed using `d3.js` so please see their [documentation](https://d3-wiki.readthedocs.io/zh_CN/master/CSV/) for escaping rules. All changes to the Tech Radar should be completed via a PR and merged by someone else.
@@ -35,12 +41,6 @@ We also have a [Library Tech Radar](https://radar.thoughtworks.com/?sheetId=http
 The audience for this is all technical development at Redgate. It's purpose is to help us to align our technical software/practices to build greater consistency at Redgate. 
 
 The radar is less appropriate for early stage products where we are still finding product/market fit (the concerns are less likely to be technical at this stage) though we still recommend it as a good set of default options. Our intention is that products we commit to develop/sell adhere to the tech stack in this radar.
-
-## Who builds the radar?
-
-The radar is open for anyone within Redgate to contribute.
-
-Contributions are reviewed by Redgate’s Technical Advisory Board (TAB).  The TAB consists of a group of senior technology leaders within Redgate (Lead Software Engineers, Head of IT, Head of CORE, Head of Product Engineering) and is led by the CTO.
 
 ## Frequently Asked Questions
 
