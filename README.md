@@ -28,7 +28,7 @@ Items in the [primary Tech Radar](https://radar.thoughtworks.com/?sheetId=https%
 
 The radar is open for anyone within Redgate to contribute.
 
-Contributions are reviewed by Redgate’s Technical Advisory Board (TAB). The TAB consists of a group of senior technology leaders within Redgate (Lead Software Engineers, Head of IT, Head of CORE, Head of Product Engineering) and is led by the CTO.
+Contributions are reviewed by Redgate’s Technical Advisory Board (TAB). The TAB consists of a group of senior technology leaders within Redgate (Lead Software Engineers, Head of IT, Head of Product Engineering) and is led by the CTO.
 
 ## How is the radar built?
 
