@@ -22,7 +22,17 @@ For each item, we position it in one of four states:
 
 The radar only applies to all actively developed products at Redgate. 
 
-Items in the [primary Tech Radar](https://radar.thoughtworks.com/?sheetId=https%3A%2F%2Fraw.githubusercontent.com%2Fred-gate%2FTech-Radar%2Fmain%2Fradar.csv) have an expectation that it should be followed (where appropriate) for all teams at Redgate. For example, if C# X arrives then we get most benefit from adopting it wholesale across the organization, whereas a particular date/time library is a local choice for a development team. The  [Library Tech Radar](https://radar.thoughtworks.com/?sheetId=https%3A%2F%2Fraw.githubusercontent.com%2Fred-gate%2FTech-Radar%2Fmain%2Fradar_libraries.csv) aims to support teams with local decisions by sharing experience from other teams.
+Items in the [primary Tech Radar](https://radar.thoughtworks.com/?sheetId=https%3A%2F%2Fraw.githubusercontent.com%2Fred-gate%2FTech-Radar%2Fmain%2Fradar.csv) have an expectation that it should be followed (where appropriate) for all teams at Redgate. For example, if C# X arrives then we get most benefit from adopting it wholesale across the organization, whereas a particular date/time library is a local choice for a development team.
+
+## Libraries
+
+The [Library Tech Radar](https://radar.thoughtworks.com/?sheetId=https%3A%2F%2Fraw.githubusercontent.com%2Fred-gate%2FTech-Radar%2Fmain%2Fradar_libraries.csv) aims to support teams with local decisions by sharing experience from other teams.
+
+Libraries are placed into one of four categories:
+* Npm packages
+* Public NuGet packages
+* Redgate NuGet packages
+* Automated Testing
 
 ## Who builds the radar?
 
