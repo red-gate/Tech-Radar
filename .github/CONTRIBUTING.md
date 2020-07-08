@@ -10,8 +10,8 @@ If you need to use quotes inside a description, use single quotes (').
 
 # Testing a change
 
-To make sure a change is OK to marge:
-* View `radar.csv` on Github. It should display as a formatted table, with no errors or warnings.
+To make sure a change is OK to merge:
+* View `radar.csv` on GitHub. It should display as a formatted table, with no errors or warnings.
 * Check the preview of the updated radar looks as you'd expect.
 
 # Preview your radar updates
@@ -23,4 +23,4 @@ To preview your radar updates:
 
 # Opening a PR
 
-Please include a link to any relevant Github issue and to a preview of the updated tech radar.
+Please include a link to any relevant GitHub issue and to a preview of the updated Tech Radar.
