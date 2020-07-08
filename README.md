@@ -42,7 +42,9 @@ Before contributing please read the [Contributing Guidelines](.github/CONTRIBUTI
 
 The recommended way to propose a change or spark a discussion is to open a PR.
 
-Contributions are reviewed by Redgate’s Technical Advisory Board (TAB). The TAB consists of a group of senior technology leaders within Redgate (Lead Software Engineers, Head of IT, Head of Product Engineering) and is led by the CTO.
+Contributions are reviewed by Redgate’s Technical Advisory Board (TAB). The TAB consists of a group of senior technology leaders within Redgate (Lead Software Engineers (LSEs), Head of IT, Head of Product Engineering) and is led by the CTO. LSEs take responsibility for reviewing proposed changes within a week.
+
+Comments from all other interested parties are more than welcomed.
 
 ## How is the radar built?
 
