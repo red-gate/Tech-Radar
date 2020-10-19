@@ -14,7 +14,6 @@ SmartAssembly,retire,tools,false,"SmartAssembly obfuscation, error and usage rep
 Fakes,explore,techniques,false,"We've experimented using <a href='https://github.com/testdouble/contributing-tests/wiki/Test-Double'>Fakes</a> in the Redgate Usage Client - fakes used in the test can reduce the amount of mocking is required and can make the tests simpler."
 Wix 3,adopt,tools,false,"Windows Installer XML Toolset 3 (WiX), is a free software toolset that builds Windows Installer packages from XML. We only use Wix v3."
 AppInsights,adopt,tools,false,"Microsoft's platform for data analysis."
-SonarQube,adopt,tools,false,"Sonarqube provides automated code review, highlighting quality issues in changing code. This feedback is best surfaced through automated PR comments."
 RedGate.Build,adopt,tools,false,"Redgate's standardised, scripted infrastructure for building products. Based on <a href='https://github.com/red-gate/build-script-template'>build-script-templates</a>."
 Custom build scripts,endure,tools,false,"Builds scripts that diverge from RedGate.Build. These were useful when first made, but we should move to sandard RedGate.Build when possible."
 Build magic,retire,tools,false,"Legacy build tooling, now to be deprecated in favour of RedGate.Build."
