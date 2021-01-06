@@ -9,7 +9,7 @@ name,ring,quadrant,isNew,description
 "jscookie",adopt,NPM Packages,false,"<a href='https://github.com/js-cookie/js-cookie'>Jscookie</a> is a lightweight JavaScript API for handling browser cookies."
 "fetch",adopt,NPM Packages,false,"<a href='https://github.com/github/fetch'>Fetch</a> enables use of the <a href='https://fetch.spec.whatwg.org/'>fetch standard</a> for request/response inside a web browser."
 "axios",endure,NPM Packages,false,"<a href='https://github.com/axios/axios'>Axios</a> is a promise-based HTTP client. We only use this when there is a requirement to support IE9/10."
-"CommandLineParser",explore,Public NuGet,false,"CommandLineParser is a more modern commandline parser, which makes it easy to split a commandline up into multiple 'verbs'. Currently being explored by Team Orca."
+"System.Commandline",adopt,Public NuGet,true,"<A href='https://github.com/dotnet/command-line-api'>System.Commandline</a> is a Microsoft library for command line parsing. It's well supported and our default choice for new projects."
 "RedGate.Legacy.CommandLine",endure,Redgate NuGet,false,"RedGate.Legacy.CommandLine is the old commandline parsing logic split out of Shared Utils. It's still used by a few products, but better libraries should be used for new development"
 "Dapper",adopt,Public NuGet,false,"<a href='https://github.com/StackExchange/Dapper'>Dapper</a> is a .Net object mapper that extends IDbConnection. It has no database-specific implementation details."
 "Hangfire",explore,Public NuGet,false,"<a href='https://www.hangfire.io/'>Hangfire</a> is a library to perform background processing in .NET and .NET Core applications."
