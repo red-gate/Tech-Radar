@@ -10,7 +10,6 @@ JavaScript (ES6+),adopt,languages and frameworks,false,"We use JavaScript for ra
 TypeScript,adopt,languages and frameworks,false,"TypeScript provides an advanced type system on top of JavaScript. We have a preference for TypeScript in production code because the optional type safety can help and improved tool support."
 Git,adopt,tools,false,"Git is our defacto VCS, and all repositories are stored on GitHub."
 Raygun error reporting,retire,tools,true,"Raygun should be retired, in favour of using Application Insights for all developer telemetry"
-SmartAssembly,retire,tools,false,"SmartAssembly obfuscation, error and usage reporting becomes tightly-coupled to products and slows down builds."
 Fakes,explore,techniques,false,"We've experimented using <a href='https://github.com/testdouble/contributing-tests/wiki/Test-Double'>Fakes</a> in the Redgate Usage Client - fakes used in the test can reduce the amount of mocking is required and can make the tests simpler."
 Wix 3,adopt,tools,false,"Windows Installer XML Toolset 3 (WiX), is a free software toolset that builds Windows Installer packages from XML. We only use Wix v3."
 AppInsights,adopt,tools,false,"Microsoft's platform for data analysis."
