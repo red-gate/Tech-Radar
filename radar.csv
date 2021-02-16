@@ -49,7 +49,6 @@
 "Windows",adopt,"Platforms",true,""
 "Mac OSx",adopt,"Platforms",true,""
 "PostgreSQL",trial,"Platforms",true,""
-"<placeholder>",assess,"Platforms",true,""
 "Virtual Machines",hold,"Platforms",true,""
 "Infrastructure as code",adopt,"Techniques",true,""
 "Static code analysis",adopt,"Techniques",true,""
@@ -60,4 +59,3 @@
 "Continuous delivery",adopt,"Techniques",true,"product can be released at any time."
 "Build inside Docker containers",trial,"Techniques",true,""
 "Continuous Deployment",assess,"Techniques",true,"ship every commit"
-"<placeholder2>",hold,"Techniques",true,""
