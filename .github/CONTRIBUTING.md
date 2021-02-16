@@ -4,9 +4,7 @@ Avoid internal links and code names and don't accidentally leak any of Redgate's
 
 # Contain description in quotes
 
-Please contain all `description` strings in quotes (").
-
-If you need to use quotes inside a description, use single quotes (').
+Please contain all `description` strings in quotes ("). If you need to use quotes inside a description, use single quotes (').
 
 # Testing a change
 
