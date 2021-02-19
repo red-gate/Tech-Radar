@@ -47,7 +47,7 @@
 "Redgate Platfrom",adopt,"Platforms",true,"All new applications should be built on the Redgate Platform"
 "Linux x-64 (.NET supported versions)",adopt,"Platforms",true,""
 "Windows",adopt,"Platforms",true,""
-"Mac OSx",adopt,"Platforms",true,""
+"macOS",adopt,"Platforms",true,""
 "PostgreSQL",trial,"Platforms",true,""
 "Virtual Machines",hold,"Platforms",true,""
 "Infrastructure as code",adopt,"Techniques",true,""
