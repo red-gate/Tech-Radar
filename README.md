@@ -12,7 +12,8 @@ The [Tech Radar](https://techradar.red-gate.com) describes the technology landsc
 * Platforms. Things that we build software on top of such as .NET, SQL Server, Windows (etc).
 * Techniques. These include elements of a software development process, such as experience design; and structuring software, such as microservices.
 
-Items on the Tech Radar should only be captured if the cost of change is high or the benefits of standardizing outweigh are for the good of Redgate or our customers.
+Items on the Tech Radar should only be captured if the cost of change is high or the benefits of standardizing outweigh the drawbacks. Each item on the tech radar should be there for the the good of Redgate or our customers.
+
 Each technology choice is positioned in one of four areas.
 * Adopt – We feel strongly that Redgate should be adopting these items. It’s the default choice.
 * Trial – Worth pursuing. It’s important to understand how to build up this capability. Redgate teams can try this technology on a project that can support the risk.
