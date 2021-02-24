@@ -27,6 +27,8 @@ We're following Thoughtworks approach. For discussion on the quadrants, please s
 ## What isn’t on the Tech Radar?
 We only use the Tech Radar to capture decisions relevant to our growth products (those that we are investing in for the future). We don’t use the Tech Radar to capture historical decisions that are no longer relevant. For example, we’d prefer to say the technology we use going forward rather than listing all failed attempts in the past.
 
+We don't include libraries on the radar. For example, it's of negligible benefit to have a standardized library for dealing with date/time or for retrieving from a URL. However, it is beneficial to standardize libraries for sharing information between services. For example, if we produce a CSV file and two libraries have different escaping conventions; that might be a problem (obviously you'd hope the spec would cover it!). Similarly, if the choice of a library makes adoption of a recommend item harder then we'll try and signpost that (for example using `Rhino.Mocks` blocks moving to `.NET 5`). We'll capture these libraries as recommendations on the internal wiki.
+
 Examples of things that probably SHOULD NOT be on the tech radar
 * RavenDB – it’s not a choice anyone is going to hit in the future
 * Inno Setup – Backup isn’t a growth product
@@ -56,6 +58,9 @@ The audience for this is all technical development at Redgate. It's purpose is t
 The radar is less appropriate for early stage products where we are still finding product/market fit (the concerns are less likely to be technical at this stage) though we still recommend it as a good set of default options. Our intention is that products we commit to develop/sell adhere to the tech stack in this radar.
 
 ## Frequently Asked Questions
+
+### How do I contribute?
+Make a PR and it'll start a conversation in #prod-lead-software-engineers channel!
 
 ### It won't display properly. Help!
 
