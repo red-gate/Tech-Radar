@@ -59,3 +59,4 @@
 "Continuous delivery",adopt,"Techniques",true,"Products should be ready for release at any time."
 "Continuous Deployment",assess,"Techniques",true,"We'd like to evaluate technology that increases our deployment frequency, with a view to getting value into the hands of our users as quickly as possible."
 "Build inside Docker containers",trial,"Techniques",true,"We should reduce build dependencies by building and testing our products inside containers."
+"AI/ML",assess,"Techniques",true,"AI/ML are becoming commoditized. Off-the-shelf software is available for predictive modelling, text analysis, anomaly detection and much more."
