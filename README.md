@@ -1,6 +1,6 @@
 # Redgate's Tech Radar
 
-The [Tech Radar] describes the technology landscape through a Redgate lens. We've made this repo public partly because it helps us use the technology that generates the radar, and partly because it's interesting to see the technology we use at Redgate.
+The [Tech Radar](https://techradar.red-gate.com) describes the technology landscape through a Redgate lens. We've made this repo public partly because it helps us use the technology that generates the radar, and partly because it's interesting to see the technology we use at Redgate.
 
 Policy is not captured on the radar, instead please refer to our [internal wiki](https://info.red-gate.com/display/PD/Development+policies).
 
