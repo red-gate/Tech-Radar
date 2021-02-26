@@ -39,7 +39,7 @@
 "Earthly",assess,"Tools",true,"<a href='https://earthly.dev/'>Earthly</a> is a syntax for defining your build leading to repeatable and understable builds. "
 "Feature Flagging vendors (Launch Darkly?)",assess,"Tools",true,"If your usage of feature flagging becomes sufficiently complicated then it's time to investigate third-party vendors."
 "Virtualbox based Vagrant boxes",hold,"Tools",true,"Use Docker instead where possible. UI and manual testing may still use Virtualbox."
-"Redgate Platfrom",adopt,"Platforms",true,"All new applications should be built on the Redgate Platform."
+"Redgate Platform",adopt,"Platforms",true,"All new applications should be built on the Redgate Platform."
 "Kubernetes",adopt,"Platforms",true,"<a href='https://kubernetes.io/'>K8S</a> is the undeniable winner of orchestration tools."
 "SQL Server as backing store",adopt,"Platforms",true,"When a product needs to store more complex data than it can fit in a flat file, we ask the customer for a SQL DB."
 "PostgreSQL as backing store",trial,"Platforms",true,"If there's a very good reason to use a lightweight/free database engine, we should choose Postgres."
