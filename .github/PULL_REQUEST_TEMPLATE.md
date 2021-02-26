@@ -1,5 +1,4 @@
 - [ ] Are you happy for the content of this change to be publicly visible?
 - [ ] Are all new or updated entries marked as `isNew` = `true`?
-- [ ] Do `radar.csv` and `radar_libraries` render correctly when viewed on Github?
+- [ ] Does `radar.csv` render correctly when viewed on Github?
 - [ ] Does the updated [tech radar](https://radar.thoughtworks.com/?sheetId=https%3A%2F%2Fraw.githubusercontent.com%2Fred-gate%2FTech-Radar%2F +++ ADD YOUR BRANCH NAME HERE +++  %2Fradar.csv) display as you expect?
-- [ ] Does the updated [libraries tech radar](https://radar.thoughtworks.com/?sheetId=https%3A%2F%2Fraw.githubusercontent.com%2Fred-gate%2FTech-Radar%2F +++ ADD YOUR BRANCH NAME HERE +++  %2Fradar_libraries.csv) display as you expect?
