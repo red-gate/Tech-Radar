@@ -39,6 +39,7 @@
 "Earthly",assess,"Tools",true,"<a href='https://earthly.dev/'>Earthly</a> is a syntax for defining your build leading to repeatable and understable builds. "
 "Feature Flagging vendors (Launch Darkly?)",assess,"Tools",true,"If your usage of feature flagging becomes sufficiently complicated then it's time to investigate third-party vendors."
 "Virtualbox based Vagrant boxes",hold,"Tools",true,"Use Docker instead where possible. UI and manual testing may still use Virtualbox."
+"Flux 2",trial,"Tools",true,"<a href='https://fluxcd.io/'>Flux</a> is a set of tools for keeping a kubernetes cluster in sync with a git repository"
 "Redgate Platform",adopt,"Platforms",true,"All new applications should be built on the Redgate Platform."
 "Kubernetes",adopt,"Platforms",true,"<a href='https://kubernetes.io/'>K8S</a> is the undeniable winner of orchestration tools."
 "SQL Server as backing store",adopt,"Platforms",true,"When a product needs to store more complex data than it can fit in a flat file, we ask the customer for a SQL DB."
@@ -61,3 +62,4 @@
 "Build inside Docker containers",trial,"Techniques",true,"We should reduce build dependencies by building and testing our products inside containers."
 "AI/ML",assess,"Techniques",true,"AI/ML are becoming commoditized. Off-the-shelf software is available for predictive modelling, text analysis, anomaly detection and much more."
 "Automation/Low-code solutions",assess,"Techniques",true,"Remote is driving a digital transformation across industries. Low-code solutions, such as Power Apps, allow organizations to modernize these processes."
+"Git Ops",trial,"Techniques",true,"The core idea of GitOps is having a Git repository that always contains declarative descriptions of the infrastructure currently desired in the production environment and an automated process to make the production environment match the described state in the repository. If you want to deploy a new application or update an existing one, you only need to update the repository - the automated process handles everything else. It’s like having cruise control for managing your applications in production. <a href='https://www.gitops.tech/'>Read more</a>"
