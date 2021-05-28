@@ -31,7 +31,7 @@
 "Keepass files in GitHub",hold,"Tools",true,"Use a password manager (or Vault) instead."
 "Docker",adopt,"Tools",true,"Docker should be used as the default containerisation technology. Used for building, testing and deployment."
 "gRPC",trial,"Tools",true,"<a href='https://grpc.io/'>gRPC</a> is a high-performance RPC framework which we may investigate for high-volume data collection (for example, SQL Monitor)."
-"WhiteSource (vulnerability scanning)",trial,"Tools",true,"We currently use WhiteSource for vulnerability scanning. This is currently under review."
+"Snyk",adopt,"Tools",true,"We use Snyk to scan for known vulnerabilities in our products' dependencies."
 "DocFx",trial,"Tools",true,"<a href='https://dotnet.github.io/docfx/'>DocFX</a> is an extensible and scalable static documentation generator. We're experimenting with it for the <a href='https://progression.red-gate.com'>web version of the progression framework</a>. Could this be a future solution to host our documentation too?"
 "Makefiles",assess,"Tools",true,"Should we fall back to using Makefiles as part of a simpler build process? Again, this is part of our desire to simplify our build process."
 "Cake",assess,"Tools",true,"<a href='https://cakebuild.net/'>Cake</a> is a free and OSS cross-platform build automation system with a C# DSL."
