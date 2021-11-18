@@ -5,6 +5,7 @@
 "Java",trial,"Languages and Frameworks",true,"Redgate purchased Flyway, written in <a href='https://www.oracle.com/java/'>Java</a>. Java is a plausible choice for new products (due to its rich ecosystem), but we default to C#."
 "Bash",adopt,"Languages and Frameworks",true,"<a href='https://www.gnu.org/software/bash/'>Bash</a> is our default choice for scripting internal tools. Everyone should be familiar with the Bash toolkit."
 "PowerShell",hold,"Languages and Frameworks",true,"Don't use PowerShell for new projects - prefer Bash."
+".NET 6",adopt,"Languages and Frameworks",true,"<a href='https://dotnet.microsoft.com/'>.NET 6</a> is in Long Term Support (LTS). It is cross-platform and a great choice for desktop, web and cloud-based applications."
 ".NET 5",adopt,"Languages and Frameworks",true,"<a href='https://dotnet.microsoft.com/'>.NET 5</a> is now cross-platform and a great choice for desktop, web and cloud-based applications."
 ".NET Core",hold,"Languages and Frameworks",true,"Don't use .NET Core - we've moved on to .NET 5."
 "ASP.NET Core",adopt,"Languages and Frameworks",true,"<a href='https://dotnet.microsoft.com/apps/aspnet'>ASP.NET</a>."
