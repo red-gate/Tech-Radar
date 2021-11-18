@@ -27,7 +27,7 @@ We're following Thoughtworks approach. For discussion on the quadrants, please s
 ## What isn’t on the Tech Radar?
 We only use the Tech Radar to capture decisions relevant to our growth products (those that we are investing in for the future). We don’t use the Tech Radar to capture historical decisions that are no longer relevant. For example, we’d prefer to say the technology we use going forward rather than listing all failed attempts in the past.
 
-We don't include libraries on the radar. For example, it's of negligible benefit to have a standardized library for dealing with date/time or for retrieving from a URL. However, it is beneficial to standardize libraries for sharing information between services. For example, if we produce a CSV file and two libraries have different escaping conventions; that might be a problem (obviously you'd hope the spec would cover it!). Similarly, if the choice of a library makes adoption of a recommend item harder then we'll try and signpost that (for example using `Rhino.Mocks` blocks moving to `.NET 5`). We'll capture these libraries as recommendations on the internal wiki.
+We don't include libraries on the radar. For example, it's of negligible benefit to have a standardized library for dealing with date/time or for retrieving from a URL. However, it is beneficial to standardize libraries for sharing information between services. For example, if we produce a CSV file and two libraries have different escaping conventions; that might be a problem (obviously you'd hope the spec would cover it!). Similarly, if the choice of a library makes adoption of a recommend item harder then we'll try and signpost that (for example using `Rhino.Mocks` blocks moving to `.NET 6`). We'll capture these libraries as recommendations on the internal wiki.
 
 Examples of things that probably SHOULD NOT be on the tech radar
 * RavenDB – it’s not a choice anyone is going to hit in the future
@@ -35,7 +35,7 @@ Examples of things that probably SHOULD NOT be on the tech radar
 * Agile techniques – again, we don’t believe in one correct way and capturing a list of techniques that do/do not work isn’t worth it
 
 Examples of things that probably SHOULD be on the tech radar
-* .NET 5 (makes our products more aligned)
+* .NET 6 (makes our products more aligned)
 * ASP.NET Core (specific version)
 * Platform technologies (it’s what we should be aligning towards)
 * More opinionated UI technology (React)
