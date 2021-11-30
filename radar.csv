@@ -11,6 +11,7 @@
 "Electron",adopt,"Platforms",true,"Electron has proved itself for developing web-based desktop products. It's our default choice for new desktop-based applications."
 "WinForms",hold,"Languages and Frameworks",true,"Don't use WinForms for new projects - prefer Electron."
 "WPF",hold,"Languages and Frameworks",true,"Don't use WPF for new projects - prefer Electron."
+"Object–relational mappers (ORMs)",hold,"Languages and Frameworks",true,"Unless working with a large number of simply entities, prefer writing SQL directly or using a lightweight object mapper such as <a href='https://github.com/DapperLib/Dapper'>Dapper</a>."
 "Blazor.Net",assess,"Languages and Frameworks",true,"<a href='https://dotnet.microsoft.com/apps/aspnet/web-apps/blazor'>Blazor</a> is super exciting. It means we might get to leverage our existing C# skills in the browser. It's too early for Redgate to commit to using this in production, so it's in assess so we can keep a good understanding of developments in this area."
 "Visual Studio",adopt,"Tools",true,"Visual Studio is our default IDE for developing in C#. We get the Enterprise edition via our MSDN subscription."
 "Rider",adopt,"Tools",true,"Many teams use Rider instead of Visual Studio for their development. We have licenses for it."
