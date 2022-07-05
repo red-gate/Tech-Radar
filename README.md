@@ -12,12 +12,19 @@ The [Tech Radar](https://techradar.red-gate.com) describes the technology landsc
 * Platforms. Things that we build software on top of such as .NET, SQL Server, Windows (etc).
 * Techniques. These include elements of a software development process, such as experience design; and structuring software, such as microservices.
 
-Items on the Tech Radar should only be captured if the cost of change is high or the benefits of standardizing outweigh the drawbacks. Each item on the tech radar should be there for the the good of Redgate or our customers.
+Items on the Tech Radar should only be captured if the cost of change is high or the benefits of standardizing outweigh the drawbacks. Each item on the tech radar should be there for the the good of Redgate or our customers. We are not producing a tech radar for the general tech community to consume, the tech radar is to guide our teams to build better software, so favour things that are going to be actioned over theoretical "this could be useful".
 
 Each technology choice is positioned in one of four areas.
 * Adopt – We feel strongly that Redgate should be adopting these items. It’s the default choice.
-* Trial – Worth pursuing. It’s important to understand how to build up this capability. Redgate teams can try this technology on a project that can support the risk.
-* Assess – Worth exploring with the goal of understanding how it will affect Redgate
+  * The PR could link to existing work in the _trial_ and _assess_ phases for the technology to build a case for why this should be generally adopted and to connect people to teams who have experience. 
+* Trial – Worth pursuing. It’s important to understand how to build up this capability. 
+  * Redgate teams that want to try this technology on a project that can support the risk
+  * We could look at trialing this with some internal tooling, e.g. upgrading https://rota.red-gate.com
+  * If this is moving out of _assess_, then the PR should link to the learnings from the assessment. 
+  * Ideally, there would already be ideas about where we want to trial this technology within the next 3 months. 
+* Assess – Worth exploring with the goal of understanding how it will affect Redgate. The PR should have a compelling reason to assess the technology, and be to answer the following before it can be merged:
+  * How are we going to assess it in the next 3 months? If we cannot answer this, then it becomes something that is stale on the radar
+  * What would make us decide to push this into "trial" or what would remove it from the radar?
 * Hold - Proceed with caution
 
 The items in the Tech Radar apply to all products in the Growth category. The Tech Radar doesn’t provide all the answers, but it should give strong direction in those areas where choice makes a difference. For example, should we be favouring containers over Virtual Machines? What technology (Hyper-V vs VMWare)? Are we adopting TypeScript?
