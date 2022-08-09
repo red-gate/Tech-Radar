@@ -18,15 +18,15 @@ We are not producing a tech radar for the general tech community to consume, the
 
 Each technology choice is positioned in one of four areas.
 * **Adopt** – The technology/technique is recommended for use by the majority of teams. Consider it the default choice for new work.
-  * What resources have we built to help guide people to adopting this?
-  * Guidance on migration from existing technology.
+  * People have the resources they need to adopt this. 
+  * Where applicable, guidance is available on how to migrate from an existing technology.
 * **Trial** – The technology/technique has been assessed and has clear benefits. To move something into "Trial": 
   * At least one team has plans to adopt this on a project that can support the risk.
   * Answer: "What would make us move this to Adopt?"
 * **Assess** – The technology/technique has the potential to be valuable. To get something into "Assess":
   * Provide a compelling reason to assess the technology
   * Ideally, have plans for how to evaluate it in a reasonable time frame. 
-  * Answer: "What would make us decide to move this to assess?"
+  * Answer: "What would make us decide to move this to trial?"
 * **Hold** - We don't want to invest effort in this technology:
   * New projects should not use this technology.
   * Currently maintained projects need to evaluate migrating to a better solution (it is accepted that this may not be feasible).
