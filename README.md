@@ -12,13 +12,24 @@ The [Tech Radar](https://techradar.red-gate.com) describes the technology landsc
 * Platforms. Things that we build software on top of such as .NET, SQL Server, Windows (etc).
 * Techniques. These include elements of a software development process, such as experience design; and structuring software, such as microservices.
 
-Items on the Tech Radar should only be captured if the cost of change is high or the benefits of standardizing outweigh the drawbacks. Each item on the tech radar should be there for the the good of Redgate or our customers.
+Items on the Tech Radar should only be captured if the cost of change is high or the benefits of standardizing outweigh the drawbacks. Each item on the tech radar should be there for the the good of Redgate or our customers. 
+
+We are not producing a tech radar for the general tech community to consume, the tech radar is to guide our teams to build better software, so favour things that are going to be actioned over theoretical "this could be useful".
 
 Each technology choice is positioned in one of four areas.
-* Adopt – We feel strongly that Redgate should be adopting these items. It’s the default choice.
-* Trial – Worth pursuing. It’s important to understand how to build up this capability. Redgate teams can try this technology on a project that can support the risk.
-* Assess – Worth exploring with the goal of understanding how it will affect Redgate
-* Hold - Proceed with caution
+* **Adopt** – The technology/technique is recommended for use by the majority of teams. Consider it the default choice for new work.
+  * People have the resources they need to adopt this. 
+  * Where applicable, guidance is available on how to migrate from an existing technology.
+* **Trial** – The technology/technique has been assessed and has clear benefits. To move something into "Trial": 
+  * At least one team has plans to adopt this on a project that can support the risk.
+  * Answer: "What would make us move this to Adopt?"
+* **Assess** – The technology/technique has the potential to be valuable. To get something into "Assess":
+  * Provide a compelling reason to assess the technology
+  * Ideally, have plans for how to evaluate it in a reasonable time frame. 
+  * Answer: "What would make us decide to move this to trial?"
+* **Hold** - We don't want to invest effort in this technology:
+  * New projects should not use this technology.
+  * Currently maintained projects need to evaluate migrating to a better solution (it is accepted that this may not be feasible).
 
 The items in the Tech Radar apply to all products in the Growth category. The Tech Radar doesn’t provide all the answers, but it should give strong direction in those areas where choice makes a difference. For example, should we be favouring containers over Virtual Machines? What technology (Hyper-V vs VMWare)? Are we adopting TypeScript?
 
