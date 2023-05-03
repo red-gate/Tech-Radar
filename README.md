@@ -1,12 +1,12 @@
 # Redgate's Tech Radar
 
-The [Tech Radar](https://techradar.red-gate.com) describes the technology landscape through a Redgate lens. We've made this repo public partly because it helps us use the technology that generates the radar, and partly because it's interesting to see the technology we use at Redgate.
+The [Tech Radar](https://radar.thoughtworks.com/?documentId=https%3A%2F%2Fraw.githubusercontent.com%2Fred-gate%2FTech-Radar%2Fmain%2Fradar.csv) describes the technology landscape through a Redgate lens. We've made this repo public partly because it helps us use the technology that generates the radar, and partly because it's interesting to see the technology we use at Redgate.
 
 Policy is not captured on the radar, instead please refer to our [internal wiki](https://info.red-gate.com/display/PD/Policies).
 
 If you're going to build a new product, the Tech Radar gives you an idea of our default favoured stack. It is intended to apply to Redgate's actively developed products. We're not making any statements about retiring any technology (though teams are encouraged to regularly have these discussions!).
 
-The [Tech Radar](https://techradar.red-gate.com) describes the technology landscape through a Redgate lens.  We capture technology in one of four categories:
+The [Tech Radar](https://radar.thoughtworks.com/?documentId=https%3A%2F%2Fraw.githubusercontent.com%2Fred-gate%2FTech-Radar%2Fmain%2Fradar.csv) describes the technology landscape through a Redgate lens.  We capture technology in one of four categories:
 * Languages and Frameworks. Languages and frameworks that we use when building products.
 * Tools. These can be components, such as databases, software development tools, such as versions control systems; or more generic categories of tools, such as the notion of polyglot persistence.
 * Platforms. Things that we build software on top of such as .NET, SQL Server, Windows (etc).
