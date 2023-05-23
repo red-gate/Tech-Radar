@@ -71,7 +71,7 @@ The radar is less appropriate for early stage products where we are still findin
 ## Frequently Asked Questions
 
 ### How do I contribute?
-Make a PR and it'll start a conversation in #prod-lead-software-engineers channel!
+Make a PR and it'll start a conversation in [#peergroup-lse](https://redgate.slack.com/archives/CN39BHZUK) channel!
 
 ### It won't display properly. Help!
 
