@@ -26,7 +26,7 @@ name,ring,quadrant,isNew,description
 "IntelliJ",adopt,"Tools",true,"An IDE for Java with a wide range of tools and plugins avalible. We have licenses for it."
 "GitHub",adopt,"Tools",true,"All development should use GitHub."
 "TeamCity",adopt,"Tools",true,"TeamCity is our default build system."
-"Circle CI",trial,"Tools",true,"Teams can use more of a self-serve model for build infrastructure. We looked at a number of cloud CI providers, and Circle CI offers what we need."
+"Circle CI",adopt,"Tools",true,"Teams can use more of a self-serve model for build infrastructure. We looked at a number of cloud CI providers, and Circle CI offers what we need."
 "Azure DevOps",hold,"Tools",true,"We expect Microsoft will prioritize GitHub Actions over Azure DevOps for future development, so Azure DevOps is not recommended for new projects."
 "GitHub Actions",assess,"Tools",true,"GitHub Actions has been assessed as not a suitable replacement for CI, but is being adopted for releases, and may be useful for automating team processes."
 "Redgate.Build",hold,"Tools",true,"Redgate.Build is our own PowerShell based build scripts. Over time it's become complicated and we wouldn't recommend it for new projects."
