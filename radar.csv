@@ -1,7 +1,7 @@
 name,ring,quadrant,isNew,description
 "C#",adopt,"Languages and Frameworks",true,"<a href='https://docs.microsoft.com/en-us/dotnet/csharp/'>C#</a> is our language of choice. It's strongly-typed, blends functional and object-oriented programming and works on all the OS we need to support."
 "TypeScript",adopt,"Languages and Frameworks",true,"<a href='https://www.typescriptlang.org/'>TypeScript</a> is our default choice for running code in the browser. It's strongly-typed and smoothes out the rough bits of JavaScript."
-"Go",hold,"Languages and Frameworks",true,"<a href='https://golang.org/'>Go</a> is the natural language to use when writing cloud native software. But it is now possible to achieve good results in C# anyway"
+"Go",hold,"Languages and Frameworks",true,"<a href='https://golang.org/'>Go</a> is the natural language to use when writing cloud native software. But it is now possible to achieve good results in C# anyway."
 "Java 8",adopt,"Languages and Frameworks",true,"Redgate purchased Flyway, written in <a href='https://www.oracle.com/java/'>Java</a>. Java is a plausible choice for new products (due to its rich ecosystem), but we default to C#."
 "Bash",adopt,"Languages and Frameworks",true,"<a href='https://www.gnu.org/software/bash/'>Bash</a> is our default choice for scripting internal tools. Everyone should be familiar with the Bash toolkit."
 "Python",trial,"Languages and Frameworks",true,"<a href='https://www.python.org/'>Python</a> provides a powerful language for gluing components together. We encourage trialling Python when the alternative would be a large Bash script (caveated by why isn't it easy to write a Bash script?)."
