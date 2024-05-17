@@ -32,6 +32,7 @@ name,ring,quadrant,isNew,description
 "Redgate.Build",hold,"Tools",true,"Redgate.Build is our own PowerShell based build scripts. Over time it's become complicated and we wouldn't recommend it for new projects."
 "Terraform",adopt,"Tools",true,"Used for automating infrastructure provisioning."
 "Application Insights",adopt,"Tools",true,"All applications should use Application Insights as the default developer telemetry platform (incl. feature usage and error reporting)."
+"OpenTelemetry",adopt,"Languages and Frameworks",true,"The industry has converged on this as the framework of choice for telemetry, all major vendors, including Application Insights, support the OpenTelemetry Protocol (OTLP). We should migrate away from the native AppInsights SDK."
 "JDBC",adopt,"Tools",true,"Database connectivity for Java."
 "JAVONET",assess,"Tools",true,"<a href=""https://www.javonet.com/"">Javonet</a> allows for the use of C# dlls from Java and vis versa"
 "Flyway",adopt,"Tools",true,"Our default tool for migrating database schemas."
