@@ -42,7 +42,6 @@ name,ring,quadrant,isNew,description
 "gRPC",trial,"Tools",true,"<a href='https://grpc.io/'>gRPC</a> is a high-performance RPC framework which we may investigate for high-volume data collection (for example, SQL Monitor)."
 "Snyk",adopt,"Tools",true,"We use Snyk to scan for known vulnerabilities in our products' dependencies."
 "Makefiles",assess,"Tools",true,"Should we fall back to using Makefiles as part of a simpler build process? Again, this is part of our desire to simplify our build process."
-"Feature Flagging vendors (Launch Darkly?)",assess,"Tools",true,"If your usage of feature flagging becomes sufficiently complicated then it's time to investigate third-party vendors."
 "Virtualbox based Vagrant boxes",hold,"Tools",true,"Use Docker instead where possible. UI and manual testing may still use Virtualbox."
 "Flux 2",trial,"Tools",true,"<a href='https://fluxcd.io/'>Flux</a> is an implementation of GitOps for Kubernetes, currently being trialled for Platform Hosted. It makes a cluster look like a git repository. It can also update the repository when it notices new docker images"
 "Redgate Platform",hold,"Platforms",true,"All new applications should be built on the Redgate Platform."
