@@ -46,7 +46,7 @@ Examples of things that probably SHOULD NOT be on the tech radar
 * Agile techniques – again, we don’t believe in one correct way and capturing a list of techniques that do/do not work isn’t worth it
 
 Examples of things that probably SHOULD be on the tech radar
-* .NET 6 (makes our products more aligned)
+* .NET 8 (makes our products more aligned)
 * ASP.NET Core (specific version)
 * Platform technologies (it’s what we should be aligning towards)
 * More opinionated UI technology (React)
@@ -71,7 +71,7 @@ The radar is less appropriate for early stage products where we are still findin
 ## Frequently Asked Questions
 
 ### How do I contribute?
-Make a PR and it'll start a conversation in #prod-lead-software-engineers channel!
+Make a PR and it'll start a conversation in [#peergroup-lse](https://redgate.slack.com/archives/CN39BHZUK) channel!
 
 ### It won't display properly. Help!
 
