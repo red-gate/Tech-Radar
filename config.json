@@ -1,0 +1,103 @@
+{
+  "basePath": "/techradar",
+  "baseUrl": "https://techradar.red-gate.com",
+  "logoFile": "logo.svg",
+  "toggles": {
+    "showSearch": true,
+    "showChart": true,
+    "showTagFilter": true,
+    "showQuadrantList": true,
+    "showEmptyRings": false
+  },
+  "sections": ["radar", "tags", "list"],
+  "quadrants": [
+    {
+      "id": "languages-and-frameworks",
+      "title": "Languages and Frameworks",
+      "description": "Programming languages, frameworks, and libraries",
+      "color": "#10aded"
+    },
+    {
+      "id": "platforms",
+      "title": "Platforms",
+      "description": "Platform technologies including cloud, containers, and databases",
+      "color": "#86b782"
+    },
+    {
+      "id": "tools",
+      "title": "Tools",
+      "description": "Development tools, IDEs, and CI/CD systems",
+      "color": "#f38a3e"
+    },
+    {
+      "id": "techniques",
+      "title": "Techniques",
+      "description": "Development techniques, patterns, and practices",
+      "color": "#e91e63"
+    }
+  ],
+  "rings": [
+    {
+      "id": "adopt",
+      "title": "Adopt",
+      "description": "Technologies we have high confidence in to serve our purpose",
+      "color": "#5ba300",
+      "radius": 0.5,
+      "strokeWidth": 3
+    },
+    {
+      "id": "trial",
+      "title": "Trial",
+      "description": "Technologies that we are currently trialing",
+      "color": "#009eb0",
+      "radius": 0.69,
+      "strokeWidth": 3
+    },
+    {
+      "id": "assess",
+      "title": "Assess",
+      "description": "Technologies worth exploring with the goal of understanding",
+      "color": "#ff9900",
+      "radius": 0.85,
+      "strokeWidth": 3
+    },
+    {
+      "id": "hold",
+      "title": "Hold",
+      "description": "Technologies not recommended for new projects",
+      "color": "#e85858",
+      "radius": 1,
+      "strokeWidth": 3
+    }
+  ],
+  "flags": {
+    "new": {
+      "color": "#f38a3e",
+      "title": "New",
+      "titleShort": "N",
+      "description": "New in this version"
+    },
+    "changed": {
+      "color": "#86b782",
+      "title": "Changed",
+      "titleShort": "C",
+      "description": "Changed in this version"
+    },
+    "default": {
+      "color": "#E6E6E6",
+      "title": "Default",
+      "titleShort": "",
+      "description": "Default"
+    }
+  },
+  "social": [
+    {
+      "href": "https://github.com/red-gate/Tech-Radar",
+      "icon": "github"
+    }
+  ],
+  "imprint": "https://www.red-gate.com/legal",
+  "labels": {
+    "pageAbout": "About Redgate Tech Radar"
+  }
+} 

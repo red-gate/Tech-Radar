@@ -1,0 +1,26 @@
+{
+  "name": "tech-radar",
+  "version": "1.0.0",
+  "description": "The Tech Radar describes the technology landscape through a Redgate lens. We've made this repo public partly because it helps us use the technology that generates the radar, and partly because it's interesting to see the technology we use at Redgate.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "techradar build",
+    "serve": "techradar serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/red-gate/Tech-Radar.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/red-gate/Tech-Radar/issues"
+  },
+  "homepage": "https://github.com/red-gate/Tech-Radar#readme",
+  "devDependencies": {
+    "aoe_technology_radar": "^4.6.1"
+  }
+}

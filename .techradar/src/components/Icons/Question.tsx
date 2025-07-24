@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const SvgQuestion = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 22" {...props}><path d="M11 22C4.9 22 0 17 0 11S4.9 0 11 0c6 0 11 4.9 11 11s-5 11-11 11m0-20.5c-5.2 0-9.5 4.2-9.5 9.5s4.2 9.5 9.5 9.5 9.5-4.2 9.5-9.5-4.3-9.5-9.5-9.5" /><path fillRule="evenodd" d="M11 16.65c-.7 0-1.2-.5-1.2-1.2s.6-1.2 1.2-1.2 1.2.6 1.2 1.2-.5 1.2-1.2 1.2m2.8-6.9c-.1.2-.3.4-.4.5l-.4.4c-.2.1-.3.3-.4.4l-.3.3c-.2.3-.3.6-.3 1v.7h-1.8v-1c0-.3 0-.6.2-.9s.4-.6.7-.8l1.1-1.1c.2-.3.4-.6.4-1s-.1-.7-.4-.9-.6-.4-1-.4-.7.1-1 .4-.4.6-.5 1h-2c.1-.8.5-1.6 1.1-2.2.7-.5 1.5-.8 2.3-.8s1.6.2 2.3.8q.9.75.9 2.1c0 .5-.2 1-.5 1.5" /></svg>;
+export default SvgQuestion;

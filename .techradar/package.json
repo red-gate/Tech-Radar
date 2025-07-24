@@ -1,0 +1,47 @@
+{
+  "name": "aoe_technology_radar",
+  "version": "4.6.1",
+  "bin": {
+    "techradar": "bin/techradar.js"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build:icons": "npx @svgr/cli --typescript --no-dimensions --no-prettier --out-dir src/components/Icons -- src/icons",
+    "build:data": "tsx scripts/buildData.ts",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "fix": "prettier . --write",
+    "prepare": "husky",
+    "postinstall": "npm run build:icons"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^19.8.0",
+    "@commitlint/config-conventional": "^19.8.0",
+    "@trivago/prettier-plugin-sort-imports": "^5.2.2",
+    "@types/node": "^22",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "clsx": "^2.1.1",
+    "eslint": "^9.23.0",
+    "eslint-config-next": "15.2.4",
+    "fuse.js": "^7.1.0",
+    "gray-matter": "^4.0.3",
+    "highlight.js": "^11.11.1",
+    "husky": "^9.1.7",
+    "lint-staged": "^15.5.0",
+    "marked": "^15.0.7",
+    "marked-highlight": "^2.2.1",
+    "next": "15.2.4",
+    "postcss-nested": "^7.0.2",
+    "postcss-preset-env": "^10.1.5",
+    "prettier": "^3.5.3",
+    "react": "^19",
+    "react-dom": "^19",
+    "tsx": "^4.19.3",
+    "typescript": "^5"
+  },
+  "lint-staged": {
+    "**/*": "prettier --write --ignore-unknown"
+  }
+}
