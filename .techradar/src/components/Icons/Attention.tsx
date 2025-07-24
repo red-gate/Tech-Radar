@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const SvgAttention = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" {...props}><path d="M12.846 5.211a1 1 0 0 0-1.691 0L2.783 18.466A1 1 0 0 0 3.63 20H20.37a1 1 0 0 0 .846-1.534zM9.464 4.143c1.177-1.864 3.895-1.864 5.073 0l8.37 13.255C24.17 19.396 22.735 22 20.372 22H3.63c-2.363 0-3.798-2.604-2.537-4.602zM13 17a1 1 0 1 1-2 0 1 1 0 0 1 2 0m-2.306-6.836.724 4.343a.59.59 0 0 0 1.164 0l.724-4.343A1 1 0 0 0 12.32 9h-.64a1 1 0 0 0-.986 1.164" clipRule="evenodd" /></svg>;
+export default SvgAttention;

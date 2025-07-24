@@ -1,2 +1,27 @@
 .DS_Store
 .idea/
+node_modules/
+
+# Build output
+build/
+.next/
+
+# Data files generated during build
+data/
+
+# Environment files
+.env
+.env.local
+.env.production.local
+.env.development.local
+
+# npm debug logs
+npm-debug.log*
+
+# Temporary files
+*.tmp
+*.swp
+*~
+
+# Custom CSS (generated on first build)
+custom.css
