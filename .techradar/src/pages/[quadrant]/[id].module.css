@@ -1,0 +1,24 @@
+.content {
+  margin-bottom: 60px;
+}
+
+.ringAndQuadrant {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 20px;
+  border-bottom: 1px solid var(--border);
+}
+
+@media (min-width: 1024px) {
+  .layout {
+    display: flex;
+  }
+  .sidebar {
+    width: 360px;
+    padding: 110px 0 0 60px;
+  }
+  .content {
+    flex: 1;
+  }
+}

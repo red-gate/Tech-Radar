@@ -1,0 +1,54 @@
+.branding {
+  padding: 20px 0;
+  border-top: 1px solid var(--border);
+}
+
+.logo {
+  display: block;
+  margin: 0 auto 20px;
+  width: 150px;
+}
+
+.description {
+  font-size: 12px;
+  margin: 0 0 30px;
+}
+
+.imprint {
+  opacity: 0.7;
+  display: block;
+  font-size: 12px;
+  text-decoration: underline;
+  text-align: center;
+
+  &:hover {
+    opacity: 1;
+  }
+}
+
+@media (min-width: 768px) {
+  .branding {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .logo {
+    margin: 0;
+  }
+
+  .description {
+    margin: 0 50px 0;
+  }
+
+  .imprint {
+    text-align: right;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .socialLinks {
+    flex-wrap: wrap;
+    min-width: 150px;
+  }
+}
