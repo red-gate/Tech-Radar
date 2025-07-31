@@ -1,3 +1,5 @@
+Edit July 2025 - This repository will shortly be archived. Since introducing the Software Architect role, the Tech Radar has fallen into disuse. Rather than have stale data, we've decided to archive it.
+
 # Redgate's Tech Radar
 
 The [Tech Radar](https://techradar.red-gate.com) describes the technology landscape through a Redgate lens. We've made this repo public partly because it helps us use the technology that generates the radar, and partly because it's interesting to see the technology we use at Redgate.
